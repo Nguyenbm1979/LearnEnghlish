@@ -68,6 +68,10 @@
   .cal-day{aspect-ratio:1;border-radius:6px;background:var(--card2);}
   .cal-day.done{background:var(--accent2);}
   textarea{width:100%;background:var(--card2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:8px;font-size:.85rem;min-height:60px;}
+  #accountBox{display:none;align-items:center;gap:8px;}
+  .auth-gate{display:none;position:fixed;inset:0;background:rgba(6,10,16,.88);z-index:1000;align-items:center;justify-content:center;padding:20px;}
+  .auth-gate .card{max-width:380px;text-align:center;}
+  .auth-gate button.google{background:#fff;color:#1f1f1f;border:1px solid var(--border);padding:11px 18px;border-radius:10px;font-weight:600;cursor:pointer;font-size:.92rem;display:inline-flex;align-items:center;gap:8px;margin-top:14px;}
 </style>
 </head>
 <body>
@@ -77,8 +81,19 @@
       <h1>🇺🇸 Luyện Nghe &amp; Đọc Tiếng Anh Mỹ</h1>
       <div class="sub">Hội thoại đời thường thay đổi mỗi ngày — nghe ~15 phút, đọc ~15-20 phút</div>
     </div>
-    <div class="streak" id="streakBox">🔥 0 ngày liên tiếp</div>
+    <div class="row">
+      <div id="accountBox"></div>
+      <div class="streak" id="streakBox">🔥 0 ngày liên tiếp</div>
+    </div>
   </header>
+
+  <div id="authGate" class="auth-gate">
+    <div class="card">
+      <h2>👋 Chào mừng bạn!</h2>
+      <p class="muted">Đăng nhập để lưu tiến độ học của bạn và đồng bộ trên mọi thiết bị.</p>
+      <button class="google" id="googleSignInBtn">🔵 Đăng nhập bằng Google</button>
+    </div>
+  </div>
 
   <div class="tabs">
     <button class="tab active" data-tab="today">Hôm nay</button>
@@ -102,6 +117,8 @@
 </div>
 
 <script src="dialogues.js"></script>
+<script src="firebase-config.js"></script>
+<script type="module" src="auth.js"></script>
 <script>
 const LS = {
   streak: "eng_streak_v1",
@@ -128,6 +145,7 @@ function markDone(kind){
   localStorage.setItem(LS.history, JSON.stringify(h));
   updateStreak();
   renderProgress();
+  if(window.__pushProgressToCloud) window.__pushProgressToCloud();
 }
 function updateStreak(){
   const h = getHistory();
@@ -613,6 +631,8 @@ document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>swit
 renderToday();
 updateStreak();
 if('speechSynthesis' in window){ speechSynthesis.onvoiceschanged = ()=>{}; }
+const googleBtn = document.getElementById("googleSignInBtn");
+if(googleBtn) googleBtn.onclick = ()=>{ if(window.__signInGoogle) window.__signInGoogle(); };
 </script>
 </body>
 </html>
