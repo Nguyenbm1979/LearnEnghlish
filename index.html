@@ -511,20 +511,46 @@ async function renderNews(){
 }
 function renderNewsList(){
   const box = document.getElementById("newsProgramsBox");
-  const programsHtml = (voaNewsData.programs||[]).map(prog=>{
+  const programsHtml = (voaNewsData.programs||[]).map((prog,pi)=>{
     if(!prog.items || !prog.items.length) return "";
-    const itemsHtml = prog.items.map(it=>`
+    const itemsHtml = prog.items.map((it,ii)=>{
+      const uid = `${pi}-${ii}`;
+      let playerHtml = "";
+      if(it.embed){
+        playerHtml = `<iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay" src="${it.embed}"></iframe>`;
+      } else if(it.audio){
+        playerHtml = `
+          <audio id="news-audio-${uid}" controls preload="metadata" src="${it.audio}" data-prog="${pi}" data-item="${ii}"></audio>
+          <div id="news-fallback-${uid}" class="muted" style="display:none;margin-top:6px">
+            ⚠️ Audio gốc không tải được (có thể do mạng chặn nguồn quốc tế này).
+            <button class="ghost" style="padding:4px 10px;font-size:.78rem;margin-left:4px" onclick="speakNewsFallback(${pi},${ii})">🔊 Nghe bằng giọng đọc trình duyệt</button>
+          </div>`;
+      }
+      return `
       <div class="news-item">
         <h4><a href="${it.link}" target="_blank" rel="noopener">${it.title}</a></h4>
         ${showNewsVi && it.title_vi ? `<div class="muted" style="margin-top:-2px">${it.title_vi}</div>` : ""}
         <div class="news-meta">${formatPubDate(it.pubDate)}${it.duration?` · ${it.duration}`:""}</div>
         ${it.summary?`<div class="news-summary">${it.summary}</div>`:""}
         ${showNewsVi && it.summary_vi ? `<div class="news-summary" style="font-style:italic">${it.summary_vi}</div>` : ""}
-        ${it.audio?`<audio controls preload="none" src="${it.audio}"></audio>`:""}
-      </div>`).join("");
+        ${playerHtml}
+      </div>`;
+    }).join("");
     return `<div class="news-program"><h3>${prog.name}</h3>${itemsHtml}</div>`;
   }).join("");
   box.innerHTML = programsHtml || `<p class="muted">Chưa có dữ liệu.</p>`;
+  box.querySelectorAll("audio[data-prog]").forEach(a=>{
+    a.addEventListener("error", ()=>{
+      a.style.display = "none";
+      const fb = document.getElementById(`news-fallback-${a.dataset.prog}-${a.dataset.item}`);
+      if(fb) fb.style.display = "block";
+    });
+  });
+}
+function speakNewsFallback(pi, ii){
+  const it = voaNewsData.programs[pi]?.items[ii];
+  if(!it) return;
+  speak(`${it.title}. ${it.summary||""}`);
 }
 
 // ---------- PROGRESS ----------

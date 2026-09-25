@@ -52,8 +52,26 @@ OTHER_FEEDS = [
         "source_url": "https://www.newsinlevels.com/",
         "require_audio": False,
         "strip_wp_boilerplate": True,
+        "fetch_soundcloud_embed": True,
     },
 ]
+
+SOUNDCLOUD_IFRAME_RE = re.compile(r'<iframe[^>]*\bsrc="(https://w\.soundcloud\.com/player/\?[^"]+)"[^>]*>')
+
+
+def extract_soundcloud_embed(article_url):
+    """News in Levels articles embed real audio via a SoundCloud widget
+    (not exposed in their RSS enclosure) — scrape it from the article page.
+    Unlike VOA/Breaking News English's direct mp3 links, SoundCloud's own
+    CDN isn't blocked on Vietnamese networks, so this is the one audio
+    source that reliably plays there."""
+    try:
+        page_html = fetch(article_url).decode("utf-8", "replace")
+        m = SOUNDCLOUD_IFRAME_RE.search(page_html)
+        return html.unescape(m.group(1)) if m else ""
+    except Exception as e:
+        print(f"WARN: soundcloud embed lookup failed for {article_url}: {e}", file=sys.stderr)
+        return ""
 
 ITEMS_PER_PROGRAM = 8
 TIMEOUT = 20
@@ -104,7 +122,7 @@ def translate_to_vi(text):
         return ""
 
 
-def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False):
+def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False, fetch_soundcloud=False):
     root = ET.fromstring(xml_bytes)
     channel = root.find("channel")
     if channel is None:
@@ -124,6 +142,7 @@ def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False):
         duration = item.findtext(f"{ns_itunes}duration", "")
         if not title or (require_audio and not audio_url):
             continue
+        embed_url = extract_soundcloud_embed(link) if (fetch_soundcloud and link) else ""
         items.append({
             "title": title,
             "title_vi": translate_to_vi(title),
@@ -132,14 +151,15 @@ def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False):
             "summary": description,
             "summary_vi": translate_to_vi(description),
             "audio": audio_url or "",
+            "embed": embed_url,
             "duration": duration.strip() if duration else "",
         })
     return items
 
 
-def fetch_program(url, require_audio, strip_wp_boilerplate=False):
+def fetch_program(url, require_audio, strip_wp_boilerplate=False, fetch_soundcloud=False):
     xml_bytes = fetch(url)
-    return parse_feed(xml_bytes, require_audio, strip_wp_boilerplate)
+    return parse_feed(xml_bytes, require_audio, strip_wp_boilerplate, fetch_soundcloud)
 
 
 def main():
@@ -168,6 +188,7 @@ def main():
                 feed["url"],
                 require_audio=feed["require_audio"],
                 strip_wp_boilerplate=feed["strip_wp_boilerplate"],
+                fetch_soundcloud=feed.get("fetch_soundcloud_embed", False),
             )
         except (urllib.error.URLError, ET.ParseError, TimeoutError, OSError) as e:
             print(f"WARN: failed to fetch/parse {feed['id']} ({feed['url']}): {e}", file=sys.stderr)
