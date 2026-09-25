@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Probe images + candidate sources
-        run: python3 scripts/_diag8.py > diagnostic-output.txt 2>&1
+        run: python3 scripts/_diag9.py > diagnostic-output.txt 2>&1
       - name: Commit output
         if: always()
         run: |
