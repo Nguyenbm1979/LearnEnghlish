@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
-      - name: Probe News in Levels audio embed
-        run: python3 scripts/_diag6.py > diagnostic-output.txt 2>&1
+          node-version: "20"
+      - run: npm install playwright@1.47 && npx playwright install --with-deps chromium
+      - name: Test mirrored audio on live site
+        run: node scripts/_diag7.mjs > diagnostic-output.txt 2>&1
       - name: Commit output
         if: always()
         run: |
