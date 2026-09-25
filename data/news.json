@@ -1,5 +1,432 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-09-25T11:14:24Z",
   "source": "VOA Learning English, Breaking News English, News in Levels",
-  "programs": []
+  "programs": [
+    {
+      "id": "voa-news",
+      "name": "VOA: Tin tức & Chuyện đời sống Mỹ",
+      "source_url": "https://learningenglish.voanews.com/podcast/?zoneId=1689",
+      "items": [
+        {
+          "title": "Learning English Podcast - March 31, 2025",
+          "link": "https://learningenglish.voanews.com/a/8011955.html",
+          "pubDate": "Mon, 31 Mar 2025 00:30:03 +0000",
+          "summary": "Learning English uses a limited vocabulary and are read at a slower pace than VOA's other English broadcasts. Previously known as Special English.",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/31/20250331-003003-vle122-program_hq.mp3",
+          "duration": "00:29:56"
+        },
+        {
+          "title": "Learning English Podcast - March 30, 2025",
+          "link": "https://learningenglish.voanews.com/a/8011766.html",
+          "pubDate": "Sun, 30 Mar 2025 00:30:03 +0000",
+          "summary": "Learning English use a limited vocabulary and are read at a slower pace than VOA's other English broadcasts. Previously known as Special English.",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/30/20250330-003003-vle122-program_hq.mp3",
+          "duration": "00:29:56"
+        },
+        {
+          "title": "Learning English Podcast - March 29, 2025",
+          "link": "https://learningenglish.voanews.com/a/8011291.html",
+          "pubDate": "Sat, 29 Mar 2025 00:30:03 +0000",
+          "summary": "Learning English use a limited vocabulary and are read at a slower pace than VOA's other English broadcasts. Previously known as Special English.",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/29/20250329-003003-vle122-program_hq.mp3",
+          "duration": "00:29:56"
+        },
+        {
+          "title": "Learning English Podcast - March 28, 2025",
+          "link": "https://learningenglish.voanews.com/a/8010124.html",
+          "pubDate": "Fri, 28 Mar 2025 00:30:03 +0000",
+          "summary": "Learning English use a limited vocabulary and are read at a slower pace than VOA's other English broadcasts. Previously known as Special English.",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/28/20250328-003003-vle122-program_hq.mp3",
+          "duration": "00:29:56"
+        },
+        {
+          "title": "Learning English Podcast - March 27, 2025",
+          "link": "https://learningenglish.voanews.com/a/8008768.html",
+          "pubDate": "Thu, 27 Mar 2025 00:30:03 +0000",
+          "summary": "Learning English use a limited vocabulary and are read at a slower pace than VOA's other English broadcasts. Previously known as Special English.",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/27/20250327-003003-vle122-program_hq.mp3",
+          "duration": "00:29:56"
+        },
+        {
+          "title": "Learning English Podcast - March 26, 2025",
+          "link": "https://learningenglish.voanews.com/a/8007423.html",
+          "pubDate": "Wed, 26 Mar 2025 00:30:03 +0000",
+          "summary": "Learning English use a limited vocabulary and are read at a slower pace than VOA's other English broadcasts. Previously known as Special English.",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/26/20250326-003003-vle122-program_hq.mp3",
+          "duration": "00:29:57"
+        },
+        {
+          "title": "Learning English Podcast - March 25, 2025",
+          "link": "https://learningenglish.voanews.com/a/8005986.html",
+          "pubDate": "Tue, 25 Mar 2025 00:30:03 +0000",
+          "summary": "Learning English use a limited vocabulary and are read at a slower pace than VOA's other English broadcasts. Previously known as Special English.",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/25/20250325-003003-vle122-program_hq.mp3",
+          "duration": "00:29:56"
+        },
+        {
+          "title": "Learning English Podcast - March 24, 2025",
+          "link": "https://learningenglish.voanews.com/a/8004565.html",
+          "pubDate": "Mon, 24 Mar 2025 00:30:03 +0000",
+          "summary": "Learning English uses a limited vocabulary and are read at a slower pace than VOA's other English broadcasts. Previously known as Special English.",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/24/20250324-003003-vle122-program_hq.mp3",
+          "duration": "00:29:56"
+        }
+      ]
+    },
+    {
+      "id": "everyday-grammar",
+      "name": "VOA: Everyday Grammar (Ngữ pháp)",
+      "source_url": "https://learningenglish.voanews.com/podcast/?zoneId=4456",
+      "items": [
+        {
+          "title": "Words Come and Go in English - March 12, 2025",
+          "link": "https://learningenglish.voanews.com/a/8008295.html",
+          "pubDate": "Wed, 12 Mar 2025 17:08:14 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/12/8c84c8e5-a3ba-4d8f-0d65-08dd5c8d307c_original.mp3",
+          "duration": "00:05:47"
+        },
+        {
+          "title": "Reviewing Your Birthday Message - February 25, 2025",
+          "link": "https://learningenglish.voanews.com/a/7987362.html",
+          "pubDate": "Tue, 25 Feb 2025 15:34:34 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/02/25/3ce9d953-52b0-43b1-8d9a-08dd4a843460_hq.mp3",
+          "duration": "00:05:56"
+        },
+        {
+          "title": "Describing Your Birthday - February 18, 2025",
+          "link": "https://learningenglish.voanews.com/a/7979758.html",
+          "pubDate": "Tue, 18 Feb 2025 23:14:45 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/02/18/6d166e7e-fd33-41da-e389-08dd4a81f35f_hq.mp3",
+          "duration": "00:07:01"
+        },
+        {
+          "title": "Academic Writing: Common Sentence Patterns, Part Three - February 04, 2025",
+          "link": "https://learningenglish.voanews.com/a/7961555.html",
+          "pubDate": "Tue, 04 Feb 2025 14:46:39 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/02/03/cffaf36c-88dc-44cb-9486-aa96bb6f1dc9_hq.mp3",
+          "duration": "00:08:04"
+        },
+        {
+          "title": "Studying Sentence Patterns to Improve Your Writing, Part Two - January 02, 2025",
+          "link": "https://learningenglish.voanews.com/a/7919940.html",
+          "pubDate": "Thu, 02 Jan 2025 20:28:54 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2024/12/31/d536dd32-3bdf-4cea-8ad3-875a3171745f_hq.mp3",
+          "duration": "00:09:17"
+        },
+        {
+          "title": "Studying Sentence Patterns to Improve Your Writing, Part One - January 02, 2025",
+          "link": "https://learningenglish.voanews.com/a/7921270.html",
+          "pubDate": "Thu, 02 Jan 2025 14:30:54 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/01/01/63df8fd3-3afb-44d5-a491-670ccd91e50b_original.mp3",
+          "duration": "00:09:00"
+        },
+        {
+          "title": "Fun with Future Tenses - December 12, 2024",
+          "link": "https://learningenglish.voanews.com/a/7899331.html",
+          "pubDate": "Thu, 12 Dec 2024 20:10:22 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2024/12/12/1161757a-bc63-4b29-beef-3410eecbc65b_original.mp3",
+          "duration": "00:06:14"
+        },
+        {
+          "title": "Simple Past and Present Perfect - December 05, 2024",
+          "link": "https://learningenglish.voanews.com/a/7861481.html",
+          "pubDate": "Thu, 05 Dec 2024 01:57:44 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2024/11/12/7ae0376d-3f6d-4b39-b5d3-1025c7520257_hq.mp3",
+          "duration": "00:04:11"
+        }
+      ]
+    },
+    {
+      "id": "words-stories",
+      "name": "VOA: Words and Their Stories (Thành ngữ)",
+      "source_url": "https://learningenglish.voanews.com/podcast/?zoneId=987",
+      "items": [
+        {
+          "title": "What Does It Mean 'To Mushroom'? - March 13, 2025",
+          "link": "https://learningenglish.voanews.com/a/8008674.html",
+          "pubDate": "Thu, 13 Mar 2025 11:11:48 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/12/1ce9321a-3e1c-461d-073b-08dd5c8b1668_hq.mp3",
+          "duration": "00:03:23"
+        },
+        {
+          "title": "'Watching the Grass Grow' Is Not Fun - March 11, 2025",
+          "link": "https://learningenglish.voanews.com/a/8006750.html",
+          "pubDate": "Tue, 11 Mar 2025 15:14:12 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/11/08bbcb88-2304-42bd-0531-08dd5c8b1668_hq.mp3",
+          "duration": "00:03:19"
+        },
+        {
+          "title": "Green Means Spring and Other Things - March 07, 2025",
+          "link": "https://learningenglish.voanews.com/a/8001669.html",
+          "pubDate": "Fri, 07 Mar 2025 15:40:50 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/06/323d1873-affa-4fac-2d98-08dd5c897904_hq.mp3",
+          "duration": "00:05:14"
+        },
+        {
+          "title": "How to 'Dish Up' Something Good - February 27, 2025",
+          "link": "https://learningenglish.voanews.com/a/7990601.html",
+          "pubDate": "Thu, 27 Feb 2025 20:33:14 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/02/27/88d03fae-92b2-4f86-902b-08dd4a843460_original.mp3",
+          "duration": "00:03:41"
+        },
+        {
+          "title": "The Importance of Being ‘Dialed In’ - February 20, 2025",
+          "link": "https://learningenglish.voanews.com/a/7982443.html",
+          "pubDate": "Thu, 20 Feb 2025 21:30:01 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/02/20/57f1d743-7f93-4e15-fd51-08dd4a817620_hq.mp3",
+          "duration": "00:04:01"
+        },
+        {
+          "title": "Don't Miss a Thing With 'Eagle Eyes' - February 13, 2025",
+          "link": "https://learningenglish.voanews.com/a/7973671.html",
+          "pubDate": "Thu, 13 Feb 2025 16:08:42 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/02/13/28e1d0dd-e5a5-4e8e-832a-08dd4a843460_original.mp3",
+          "duration": "00:05:50"
+        },
+        {
+          "title": "What Does It Take to Be a 'Power Couple'? - February 05, 2025",
+          "link": "https://learningenglish.voanews.com/a/7964022.html",
+          "pubDate": "Wed, 05 Feb 2025 19:45:21 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/02/05/4af9e49f-7172-43af-aed0-394526fde29b_hq.mp3",
+          "duration": "00:04:34"
+        },
+        {
+          "title": "Protecting Apple Trees from Climate Change - January 31, 2025",
+          "link": "https://learningenglish.voanews.com/a/7957843.html",
+          "pubDate": "Fri, 31 Jan 2025 14:13:01 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/01/31/e94393ba-9185-4aa5-98af-2dd226736f3a_hq.mp3",
+          "duration": "00:06:13"
+        }
+      ]
+    },
+    {
+      "id": "as-it-is",
+      "name": "VOA: As It Is (Thời sự)",
+      "source_url": "https://learningenglish.voanews.com/podcast/?zoneId=3521",
+      "items": [
+        {
+          "title": "The Brooklyn Bridge: A Symbol of New York City - March 14, 2025",
+          "link": "https://learningenglish.voanews.com/a/8010609.html",
+          "pubDate": "Fri, 14 Mar 2025 13:19:43 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/14/2fdbd895-2bc9-4610-08d8-08dd5c8b1668_hq.mp3",
+          "duration": "00:03:39"
+        },
+        {
+          "title": "The U.S. Bullion Depository at Fort Knox Holds America’s Gold - March 13, 2025",
+          "link": "https://learningenglish.voanews.com/a/8010033.html",
+          "pubDate": "Thu, 13 Mar 2025 22:11:02 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/13/09226d41-24ab-40ca-3489-08dd5c897904_hq.mp3",
+          "duration": "00:04:52"
+        },
+        {
+          "title": "Japanese Barber, Age 108, Wins Guinness World Record - March 10, 2025",
+          "link": "https://learningenglish.voanews.com/a/8005705.html",
+          "pubDate": "Mon, 10 Mar 2025 19:15:35 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/10/4864dee6-ad3f-40f7-0466-08dd5c8b1668_hq.mp3",
+          "duration": "00:02:33"
+        },
+        {
+          "title": "British House of Lords Votes to Protect the Pint Measurement - March 10, 2025",
+          "link": "https://learningenglish.voanews.com/a/8005202.html",
+          "pubDate": "Mon, 10 Mar 2025 14:31:41 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/10/1e835d8c-9b4c-4742-03e1-08dd5c8b1668_hq.mp3",
+          "duration": "00:02:46"
+        },
+        {
+          "title": "American Steve Fossett Set Flying and Sailing Records - March 07, 2025",
+          "link": "https://learningenglish.voanews.com/a/8002933.html",
+          "pubDate": "Fri, 07 Mar 2025 20:27:25 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/07/3540b33c-1053-4a04-0258-08dd5c8b1668_original.mp3",
+          "duration": "00:04:06"
+        },
+        {
+          "title": "Australian Navy Rescues Rower Crossing Pacific from California - March 07, 2025",
+          "link": "https://learningenglish.voanews.com/a/8002696.html",
+          "pubDate": "Fri, 07 Mar 2025 18:54:34 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/07/bb7a5958-58f5-401d-2e48-08dd5c897904_hq.mp3",
+          "duration": "00:03:42"
+        },
+        {
+          "title": "Buckminster Fuller: Designer and Thinker - March 05, 2025",
+          "link": "https://learningenglish.voanews.com/a/7999225.html",
+          "pubDate": "Wed, 05 Mar 2025 21:02:09 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/05/069465b9-680a-4d1a-906d-08dd5b02d8d7_hq.mp3",
+          "duration": "00:04:14"
+        },
+        {
+          "title": "Hoover Dam: Controlling Water and Providing Power - March 05, 2025",
+          "link": "https://learningenglish.voanews.com/a/7999102.html",
+          "pubDate": "Wed, 05 Mar 2025 19:47:29 +0000",
+          "summary": "",
+          "audio": "https://voa-audio.voanews.eu/vle/2025/03/05/ca2bbea4-dc28-485a-dff0-08dd5b028e57_original.mp3",
+          "duration": "00:03:47"
+        }
+      ]
+    },
+    {
+      "id": "breaking-news-english",
+      "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
+      "source_url": "https://breakingnewsenglish.com/",
+      "items": [
+        {
+          "title": "Toys R Us to open 120 new stores in USA",
+          "link": "https://breakingnewsenglish.com/2609/260924-toys-r-us.html",
+          "pubDate": "Thu, 24 Sep 2026 00:30:00 GMT",
+          "summary": "Sep 24, 2026. Toys R Us is planning to open 120 new stores in the USA in the near future.",
+          "audio": "https://breakingnewsenglish.com/2609/260924-toys-r-us.mp3",
+          "duration": ""
+        },
+        {
+          "title": "Sustainable Development Goals not on track, says UN",
+          "link": "https://breakingnewsenglish.com/2609/260921-sustainable-development-goals-sdgs.html",
+          "pubDate": "Mon, 21 Sep 2026 00:30:00 GMT",
+          "summary": "Sep 21, 2026. The United Nations has warned that the world is not on track to achieve its SDGs by 2030.",
+          "audio": "https://breakingnewsenglish.com/2609/260921-sustainable-development-goals-sdgs.mp3",
+          "duration": ""
+        },
+        {
+          "title": "Sleeping with a light on could damage the heart",
+          "link": "https://breakingnewsenglish.com/2609/260917-sleeping-with-a-light-on.html",
+          "pubDate": "Thu, 17 Sep 2026 00:30:00 GMT",
+          "summary": "Sep 17, 2026. Researchers say sleeping with a light on could be bad for you.",
+          "audio": "https://breakingnewsenglish.com/2609/260917-sleeping-with-a-light-on.mp3",
+          "duration": ""
+        },
+        {
+          "title": "CEO loses case to get back gifts from ex-girlfriend",
+          "link": "https://breakingnewsenglish.com/2609/260914-lavish-gifts.html",
+          "pubDate": "Mon, 14 Sep 2026 00:30:00 GMT",
+          "summary": "Sep 14, 2026. A man in Singapore has lost a court case to get back hundreds of thousands of dollars of gifts that he had showered on his ex-girlfriend.",
+          "audio": "https://breakingnewsenglish.com/2609/260914-lavish-gifts.mp3",
+          "duration": ""
+        },
+        {
+          "title": "Traffic noise may be making birdsong less calming",
+          "link": "https://breakingnewsenglish.com/2609/260910-birdsong-and-traffic-noise.html",
+          "pubDate": "Thu, 10 Aug 2026 00:30:00 GMT",
+          "summary": "Aug 10, 2026. The noise from traffic may reduce the positive effects of birdsong on our mood.",
+          "audio": "https://breakingnewsenglish.com/2609/260910-birdsong-and-traffic-noise.mp3",
+          "duration": ""
+        },
+        {
+          "title": "Australia bans AI songs from official music charts",
+          "link": "https://breakingnewsenglish.com/2609/260907-ban-on-ai-songs.html",
+          "pubDate": "Mon, 07 Sep 2026 00:30:00 GMT",
+          "summary": "Sep 07, 2026. Australia has banned songs that have been \"wholly AI generated\" from entering the country's official music charts.",
+          "audio": "https://breakingnewsenglish.com/2609/260907-ban-on-ai-songs.mp3",
+          "duration": ""
+        },
+        {
+          "title": "France and Saudi Arabia agree to manga theme park",
+          "link": "https://breakingnewsenglish.com/2609/260903-manga-theme-park.html",
+          "pubDate": "Thu, 03 Sep 2026 00:30:00 GMT",
+          "summary": "Sep 03, 2026. Saudi Arabia and France are planning a new attraction based on the series Dragon Ball Z.",
+          "audio": "https://breakingnewsenglish.com/2609/260903-manga-theme-park.mp3",
+          "duration": ""
+        },
+        {
+          "title": "Companies destroying books to train AI models",
+          "link": "https://breakingnewsenglish.com/2608/260831-destroying-rare-books.html",
+          "pubDate": "Mon, 31 Aug 2026 00:30:00 GMT",
+          "summary": "Aug 31, 2026. AI companies are being investigated for allegedly using and then destroying rare books to train LLMs.",
+          "audio": "https://breakingnewsenglish.com/2608/260831-destroying-rare-books.mp3",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": "news-in-levels",
+      "name": "News in Levels (tin hằng ngày, 3 cấp độ đọc)",
+      "source_url": "https://www.newsinlevels.com/",
+      "items": [
+        {
+          "title": "Greenland and Antarctica lose ice – level 1",
+          "link": "https://www.newsinlevels.com/products/greenland-and-antarctica-lose-ice-level-1/",
+          "pubDate": "Fri, 25 Sep 2026 06:00:00 +0000",
+          "summary": "25-09-2026 07:00 A big study says that Greenland and Antarctica lose a lot of ice since 1979. Warm water and warm air are melting the ice very fast. This lost ice makes the sea level 3.2 centimetres higher around the world. When the sea goes up, it brings big floods. It is dangerous for people who live near the ocean....",
+          "audio": "",
+          "duration": ""
+        },
+        {
+          "title": "Greenland and Antarctica lose ice – level 2",
+          "link": "https://www.newsinlevels.com/products/greenland-and-antarctica-lose-ice-level-2/",
+          "pubDate": "Fri, 25 Sep 2026 06:00:00 +0000",
+          "summary": "25-09-2026 07:00 A new study shows that Greenland and Antarctica lost 12.5 trillion tonnes of ice since 1979. This huge melting of ice caused world sea levels to rise by about 3.2 centimetres. Scientists used satellite data to track the changes over forty years. They discovered that the ice sheets were stable in the 1970s and 1980s, but melting became...",
+          "audio": "",
+          "duration": ""
+        },
+        {
+          "title": "Greenland and Antarctica lose ice – level 3",
+          "link": "https://www.newsinlevels.com/products/greenland-and-antarctica-lose-ice-level-3/",
+          "pubDate": "Fri, 25 Sep 2026 06:00:00 +0000",
+          "summary": "25-09-2026 07:00 A major scientific study reveals that Greenland and Antarctica have lost 12.5 trillion tonnes of ice since 1979. This massive loss has raised global sea levels by approximately 3.2 centimetres. Based on more than four decades of satellite observations, researchers found that while the ice sheets remained relatively stable through the 1970s and 1980s, melting accelerated signifi...",
+          "audio": "",
+          "duration": ""
+        },
+        {
+          "title": "‘Are You Dead’ app – level 1",
+          "link": "https://www.newsinlevels.com/products/are-you-dead-app-level-1/",
+          "pubDate": "Thu, 24 Sep 2026 14:00:00 +0000",
+          "summary": "24-09-2026 15:00 In China, many people use a phone app. The app helps them feel safe. The app asks one question each day. The question is: “Are you dead?” People tap the phone to say that they are okay. If they do not tap for two days, the app sends a message to family or friends. Many people in China...",
+          "audio": "",
+          "duration": ""
+        },
+        {
+          "title": "‘Are You Dead’ app – level 2",
+          "link": "https://www.newsinlevels.com/products/are-you-dead-app-level-2/",
+          "pubDate": "Thu, 24 Sep 2026 14:00:00 +0000",
+          "summary": "24-09-2026 15:00 In China, many people now pay for a phone app that asks one clear question each day: “Are you dead?” The app is for people who live alone and worry that no one will notice if something bad happens to them. Users tap once a day to show they are safe. If they don’t tap for two days,...",
+          "audio": "",
+          "duration": ""
+        },
+        {
+          "title": "‘Are You Dead’ app – level 3",
+          "link": "https://www.newsinlevels.com/products/are-you-dead-app-level-3/",
+          "pubDate": "Thu, 24 Sep 2026 14:00:00 +0000",
+          "summary": "24-09-2026 15:00 In China, millions of people now pay for an app that asks them one simple question each day: “Are you dead?” The app targets people who live alone and worry that no one will notice if something bad happens to them. Users tap once a day to show they are safe. If they don’t respond for two days,...",
+          "audio": "",
+          "duration": ""
+        },
+        {
+          "title": "Liberland – level 1",
+          "link": "https://www.newsinlevels.com/products/liberland-level-1/",
+          "pubDate": "Thu, 24 Sep 2026 06:00:43 +0000",
+          "summary": "24-09-2026 07:00 Liberland is a plan for a new country on a small piece of land in Europe. A Czech man named Vít Jedlička starts it in 2015. The man wants a place with no taxes and no big government rules. Some people buy passports. They want more freedom. But Liberland is not a real country today. No other country...",
+          "audio": "",
+          "duration": ""
+        },
+        {
+          "title": "Liberland – level 2",
+          "link": "https://www.newsinlevels.com/products/liberland-level-2/",
+          "pubDate": "Thu, 24 Sep 2026 06:00:43 +0000",
+          "summary": "24-09-2026 07:00 Liberland is a new project to start a country on a small piece of land near the Danube River between Serbia and Croatia. It was created in 2015 by a man from the Czech Republic named Vít Jedlička. He wants to build a state with no taxes and very few laws. People who give more money will have...",
+          "audio": "",
+          "duration": ""
+        }
+      ]
+    }
+  ]
 }
