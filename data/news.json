@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T12:18:02Z",
+  "generated_at": "2026-09-25T12:20:48Z",
   "source": "VOA Learning English, Breaking News English, News in Levels",
   "programs": [
     {
@@ -14,7 +14,7 @@
           "pubDate": "Mon, 31 Mar 2025 00:30:03 +0000",
           "summary": "Learning English uses a limited vocabulary and are read at a slower pace than VOA's other English broadcasts. Previously known as Special English.",
           "summary_vi": "Học tiếng Anh sử dụng vốn từ vựng hạn chế và được đọc với tốc độ chậm hơn so với các chương trình phát sóng tiếng Anh khác của VOA. Trước đây được gọi là Tiếng Anh Đặc biệt.",
-          "audio": "https://voa-audio.voanews.eu/vle/2025/03/31/20250331-003003-vle122-program_hq.mp3",
+          "audio": "data/audio/voa-news/20250331-003003-vle122-program_hq.mp3",
           "embed": "",
           "duration": "00:29:56"
         },
@@ -109,7 +109,7 @@
           "pubDate": "Wed, 12 Mar 2025 17:08:14 +0000",
           "summary": "",
           "summary_vi": "",
-          "audio": "https://voa-audio.voanews.eu/vle/2025/03/12/8c84c8e5-a3ba-4d8f-0d65-08dd5c8d307c_original.mp3",
+          "audio": "data/audio/everyday-grammar/8c84c8e5-a3ba-4d8f-0d65-08dd5c8d307c_original.mp3",
           "embed": "",
           "duration": "00:05:47"
         },
@@ -204,7 +204,7 @@
           "pubDate": "Thu, 13 Mar 2025 11:11:48 +0000",
           "summary": "",
           "summary_vi": "",
-          "audio": "https://voa-audio.voanews.eu/vle/2025/03/12/1ce9321a-3e1c-461d-073b-08dd5c8b1668_hq.mp3",
+          "audio": "data/audio/words-stories/1ce9321a-3e1c-461d-073b-08dd5c8b1668_hq.mp3",
           "embed": "",
           "duration": "00:03:23"
         },
@@ -299,7 +299,7 @@
           "pubDate": "Fri, 14 Mar 2025 13:19:43 +0000",
           "summary": "",
           "summary_vi": "",
-          "audio": "https://voa-audio.voanews.eu/vle/2025/03/14/2fdbd895-2bc9-4610-08d8-08dd5c8b1668_hq.mp3",
+          "audio": "data/audio/as-it-is/2fdbd895-2bc9-4610-08d8-08dd5c8b1668_hq.mp3",
           "embed": "",
           "duration": "00:03:39"
         },
