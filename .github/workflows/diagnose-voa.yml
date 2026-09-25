@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Probe children's story sources
-        run: python3 scripts/_diag11.py > diagnostic-output.txt 2>&1
+        run: python3 scripts/_diag12.py > diagnostic-output.txt 2>&1
       - name: Commit output
         if: always()
         run: |
