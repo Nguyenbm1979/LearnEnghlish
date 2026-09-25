@@ -1,0 +1,20 @@
+name: Diagnose VOA feed (temporary)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe VOA endpoints
+        run: |
+          UA="Mozilla/5.0 (compatible; LearnEnglishAppBot/1.0)"
+          echo "=== rssfeeds page (grep rss/xml links) ==="
+          curl -sS -A "$UA" "https://learningenglish.voanews.com/rssfeeds" | grep -oE 'href="[^"]*(rss|xml|format=RSS)[^"]*"' | sort -u | head -40
+          echo "=== z/1689 page head, look for link rel=alternate ==="
+          curl -sS -A "$UA" "https://learningenglish.voanews.com/z/1689" | grep -oE '<link[^>]*rss[^>]*>|<link[^>]*alternate[^>]*>' | head -20
+          echo "=== current format=RSS feed: last item date ==="
+          curl -sS -A "$UA" "https://learningenglish.voanews.com/podcast/?zoneId=1689&format=RSS" | grep -oE '<title>[^<]*</title>' | head -5
+          echo "=== itunes lookup feedUrl ==="
+          curl -sS "https://itunes.apple.com/lookup?id=109522474" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['results'][0].get('feedUrl') if d.get('resultCount') else 'no result')"
