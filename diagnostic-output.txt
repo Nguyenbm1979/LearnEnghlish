@@ -1,0 +1,22 @@
+=== breaking-news-english ===
+  enclosure: ['<enclosure url="https://breakingnewsenglish.com/2609/260924-toys-r-us.mp3" length="2000000" type="audio/mpeg"/>']
+
+=== news-in-levels ===
+
+=== voa-news ===
+  enclosure: ['<enclosure url="https://voa-audio.voanews.eu/vle/2025/03/31/20250331-003003-vle122-program_hq.mp3" type="audio/mpeg" length="29425664" />']
+  itunes:image: ['<itunes:image href="https://gdb.voanews.com/0684e143-ca54-4c31-bbc7-c26e19b2fb70_w3000_h3000_q85.jpg" />']
+
+### Candidate new sources ###
+=== bbc-learning-english (https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/rss.xml) ===
+  ERROR: HTTP Error 404: Not Found
+
+=== bbc-6min-english (https://podcasts.files.bbci.co.uk/p02pc9tn.rss) ===
+  OK, length: 837798
+  titles: ['6 Minute English', '6 Minute English', 'Why do we itch?', 'Is rejection good for us?']
+  enclosure: ['<enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pc618w.mp3" length="3056000" type="audio/mpeg"/>']
+  itunes:image: ['<itunes:image href="http://ichef.bbci.co.uk/images/ic/3000x3000/p0hxqkd0.jpg"/>']
+
+=== britishcouncil (https://learnenglish.britishcouncil.org/rss.xml) ===
+  ERROR: HTTP Error 404: Not Found
+
