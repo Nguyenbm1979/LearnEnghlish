@@ -1,35 +1,38 @@
-=== https://breakingnewsenglish.com/bne.xml ===
-HTTP:200
-<title>Breaking News English</title>
-<title>BreakingNewsEnglish</title>
+=== breakingnewsenglish raw (first item) ===
+<item>
 <title>Toys R Us to open 120 new stores in USA</title>
-<title>Sustainable Development Goals not on track, says UN</title>
+<link>https://breakingnewsenglish.com/2609/260924-toys-r-us.html</link>
 <pubDate>Thu, 24 Sep 2026 00:30:00 GMT</pubDate>
-<pubDate>Mon, 21 Sep 2026 00:30:00 GMT</pubDate>
+<enclosure url="https://breakingnewsenglish.com/2609/260924-toys-r-us.mp3" length="2000000" type="audio/mpeg" />
+<description>
+Sep 24, 2026. Toys R Us is planning to open 120 new stores in the USA in the near future. 
+</description>
+</item>
+    
+    
+=== newsinlevels raw (first item) ===
+<item xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://purl.org/rss/1.0/modules/content/">
+		<title>Greenland and Antarctica lose ice – level 1</title>
+		<link>https://www.newsinlevels.com/products/greenland-and-antarctica-lose-ice-level-1/</link>
+		
+		<dc:creator>Monika2</dc:creator>
+		<pubDate>Fri, 25 Sep 2026 06:00:00 +0000</pubDate>
+				<category>Nature</category>
+		<guid isPermaLink="false">https://www.newsinlevels.com/?post_type=products&amp;p=34225</guid>
 
-=== https://learningenglish.voanews.com/podcast/?format=RSS&zoneId=952 ===
-HTTP:200
-<title>Lessons of the Day - VOA Learning English</title>
-<title>Still and Unless - March 12, 2025</title>
-<title>The Empire State Building: Once the World’s Tallest - February 21, 2025</title>
-<title>A Shared Video Raises Concerns about AI and Politics - July 29, 2024</title>
-<pubDate>Wed, 12 Mar 2025 18:29:58 +0000</pubDate>
-<pubDate>Fri, 21 Feb 2025 19:11:57 +0000</pubDate>
-
-=== https://www.voanews.com/z/6750?format=RSS ===
-HTTP:200
-<title>VOA Learning English - Episodes - Voice of America (VOA News)</title>
-
-=== https://learningenglish.voanews.com/podcast/?format=RSS&zoneId=3620 ===
-HTTP:200
-<title>News Words - VOA Learning English</title>
-
-=== https://www.newsinlevels.com/feed/ ===
-HTTP:200
-<title>English news and easy articles for students of English</title>
-<title>English news and easy articles for students of English</title>
-<title>Greenland and Antarctica lose ice – level 1</title>
-<title>Greenland and Antarctica lose ice – level 2</title>
-<pubDate>Fri, 25 Sep 2026 06:00:00 +0000</pubDate>
-<pubDate>Fri, 25 Sep 2026 06:00:00 +0000</pubDate>
-
+					<description>&lt;p&gt;25-09-2026 07:00 A big study says that Greenland and Antarctica lose a lot of ice since 1979. Warm water and warm air are melting the ice very fast. This lost ice makes the sea level 3.2 centimetres higher around the world. When the sea goes up, it brings big floods. It is dangerous for people who live near the ocean....&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.newsinlevels.com/products/greenland-and-antarctica-lose-ice-level-1/"&gt;Greenland and Antarctica lose ice – level 1&lt;/a&gt; appeared first on &lt;a href="https://www.newsinlevels.com"&gt;English news and easy articles for students of English&lt;/a&gt;.&lt;/p&gt;
+</description>
+										<ns1:encoded>&lt;p&gt;25-09-2026 07:00&lt;/p&gt;
+&lt;p&gt;A big study says that Greenland and Antarctica lose a lot of ice since 1979. Warm water and warm air are &lt;strong&gt;melting&lt;/strong&gt; the ice very fast.&lt;/p&gt;
+&lt;p&gt;This lost ice makes the sea level 3.2 centimetres higher around the world. When the sea goes up, it brings big&lt;strong&gt; floods&lt;/strong&gt;. It is &lt;strong&gt;dangerous&lt;/strong&gt; for people who live near the ocean. Every centimetre of sea level rise can flood millions of homes.&lt;/p&gt;
+&lt;p&gt;Scientists look at satellite pictures for forty years. They say that the ice is safe in the past. But now it melts faster and faster every year. The water will keep going up if the planet stays warm.&lt;/p&gt;
+&lt;p&gt;Difficult words: &lt;a href="https://www.newsinlevels.com/?s=melt" target="_blank" rel="noopener"&gt;&lt;a href="https://www.newsinlevels.com/?s=melt" target="_blank"&gt;&lt;strong&gt;melt&lt;/strong&gt;&lt;/a&gt;&lt;/a&gt; (when ice turns into water), &lt;a href="https://www.newsinlevels.com/?s=flood" target="_blank" rel="noopener"&gt;&lt;a href="https://www.newsinlevels.com/?s=flood" target="_blank"&gt;&lt;strong&gt;flood&lt;/strong&gt;&lt;/a&gt;&lt;/a&gt; (when a lot of water covers land and homes), &lt;a href="https://www.newsinlevels.com/?s=dangerous" target="_blank" rel="noopener"&gt;&lt;a href="https://www.newsinlevels.com/?s=dangerous" target="_blank"&gt;&lt;strong&gt;dangerous&lt;/strong&gt;&lt;/a&gt;&lt;/a&gt; (not safe).&lt;/p&gt;
+&lt;p&gt;You can watch the original video in the Level 3 section.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://www.newsinlevels.com/products/greenland-and-antarctica-lose-ice-level-1/"&gt;Greenland and Antarctica lose ice – level 1&lt;/a&gt; appeared first on &lt;a href="https://www.newsinlevels.com"&gt;English news and easy articles for students of English&lt;/a&gt;.&lt;/p&gt;
+</ns1:encoded>
+					
+		
+		
+			</item>
+		
