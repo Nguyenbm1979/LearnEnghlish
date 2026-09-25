@@ -1,0 +1,11 @@
+=== dictionaryapi.dev: altogether ===
+ERROR: HTTP Error 522: <none>
+
+=== dictionaryapi.dev: pastries (plural, may miss) ===
+ERROR: HTTP Error 522: <none>
+
+=== google translate free endpoint: sentence EN->VI ===
+[[["Cho tôi một cốc latte vừa đá với sữa yến mạch được không?","Can I get a medium iced latte with oat milk, please?",null,null,3,null,null,[[]],[[["824257d7a249c58caeea06a2e64a25bd","en_vi_2023q1.md"]]]]],null,"en",null,null,null,null,[]]
+
+=== google translate free endpoint: single word EN->VI ===
+[[["toàn bộ","altogether",null,null,10]],null,"en",null,null,null,null,[]]
