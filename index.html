@@ -336,8 +336,23 @@ const READ_GOAL = 17*60; // giữa 15-20 phút
 
 function renderRead(){
   const el = document.getElementById("panel-read");
-  const vocabHtml = (currentDialogue.vocab||[]).map(v=>`
-    <div class="vocab-item"><b>${v.w}</b> — ${v.m}</div>`).join("");
+  const vocabHtml = (currentDialogue.vocab||[]).map((v,i)=>`
+    <div class="vocab-item">
+      <div class="row" style="gap:8px">
+        <button class="play-line" style="padding:2px 4px" onclick="playVocabAudio(${i})" title="Nghe phát âm">🔊</button>
+        <div><b>${v.w}</b> <span class="ipa muted" id="vocab-ipa-${i}"></span> — ${v.m}</div>
+      </div>
+    </div>`).join("");
+  const grammarHtml = (currentDialogue.grammar||[]).map(g=>`
+    <div class="vocab-item">
+      <div class="row" style="justify-content:space-between">
+        <b>${g.pattern}</b>
+        <button class="play-line" style="padding:2px 4px" onclick="speak(${JSON.stringify(g.example_en)})" title="Nghe câu ví dụ">🔊</button>
+      </div>
+      <div class="muted" style="margin:3px 0">${g.explain_vi}</div>
+      <div class="lines-en" style="font-size:.92rem">${g.example_en}</div>
+      <div class="lines-vi">${g.example_vi}</div>
+    </div>`).join("");
   el.innerHTML = `
     <div class="card">
       <h2>📖 Đọc: ${currentDialogue.title_en}</h2>
@@ -348,14 +363,65 @@ function renderRead(){
       <div class="progress-bar"><div id="readProgress" style="width:0%"></div></div>
       <div id="readGoalMsg" class="muted"></div>
       <div id="readLines" style="margin-top:10px"></div>
-      <details style="margin-top:14px">
-        <summary>📚 Từ vựng &amp; cụm từ trọng tâm (${(currentDialogue.vocab||[]).length})</summary>
+      <details open style="margin-top:14px">
+        <summary>📚 Từ vựng &amp; cụm từ trọng tâm (${(currentDialogue.vocab||[]).length}) — có phiên âm &amp; âm thanh</summary>
         <div style="margin-top:8px">${vocabHtml}</div>
+      </details>
+      <details style="margin-top:10px">
+        <summary>📐 Cấu trúc ngữ pháp thường dùng (${(currentDialogue.grammar||[]).length})</summary>
+        <div style="margin-top:8px">${grammarHtml || '<p class="muted">Chưa có dữ liệu.</p>'}</div>
       </details>
     </div>`;
   document.getElementById("showViChk").onchange = renderReadLines;
   renderReadLines();
   startReadTimer();
+  loadVocabPhonetics();
+}
+
+// ---------- VOCAB PHONETICS & AUDIO ----------
+const phoneticsCache = new Map();
+function isSingleWord(w){ return /^[A-Za-z][A-Za-z'-]*$/.test((w||"").trim()); }
+async function fetchPhonetics(word){
+  const key = word.toLowerCase();
+  if(phoneticsCache.has(key)) return phoneticsCache.get(key);
+  let result = null;
+  try{
+    const ctrl = new AbortController();
+    const timeout = setTimeout(()=>ctrl.abort(), 5000);
+    const resp = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(key)}`, {signal: ctrl.signal});
+    clearTimeout(timeout);
+    if(resp.ok){
+      const data = await resp.json();
+      const phonetics = data?.[0]?.phonetics || [];
+      const ipa = phonetics.find(p=>p.text)?.text || "";
+      const audio = phonetics.find(p=>p.audio)?.audio || "";
+      result = (ipa || audio) ? {ipa, audio} : null;
+    }
+  }catch(e){ /* mạng lỗi hoặc không tìm thấy — bỏ qua, sẽ dùng giọng đọc trình duyệt */ }
+  phoneticsCache.set(key, result);
+  return result;
+}
+async function loadVocabPhonetics(){
+  const vocab = currentDialogue.vocab || [];
+  for(let i=0;i<vocab.length;i++){
+    const w = vocab[i].w;
+    if(!isSingleWord(w)) continue;
+    const ph = await fetchPhonetics(w);
+    const span = document.getElementById(`vocab-ipa-${i}`);
+    if(span && ph?.ipa) span.textContent = ph.ipa;
+  }
+}
+async function playVocabAudio(i){
+  const v = currentDialogue.vocab[i];
+  if(!v) return;
+  if(isSingleWord(v.w)){
+    const ph = await fetchPhonetics(v.w);
+    if(ph?.audio){
+      new Audio(ph.audio).play().catch(()=>speak(v.w));
+      return;
+    }
+  }
+  speak(v.w);
 }
 function renderReadLines(){
   const showVi = document.getElementById("showViChk").checked;
@@ -393,6 +459,7 @@ function formatPubDate(str){
   if(isNaN(d)) return str;
   return d.toLocaleDateString("vi-VN", {day:"2-digit", month:"2-digit", year:"numeric"});
 }
+let showNewsVi = true;
 async function renderNews(){
   const el = document.getElementById("panel-news");
   if(!voaNewsData){
@@ -413,24 +480,33 @@ async function renderNews(){
     }
   }
   const generated = voaNewsData.generated_at ? formatPubDate(voaNewsData.generated_at) : "";
-  const programsHtml = (voaNewsData.programs||[]).map(prog=>{
-    if(!prog.items || !prog.items.length) return "";
-    const itemsHtml = prog.items.map(it=>`
-      <div class="news-item">
-        <h4><a href="${it.link}" target="_blank" rel="noopener">${it.title}</a></h4>
-        <div class="news-meta">${formatPubDate(it.pubDate)}${it.duration?` · ${it.duration}`:""}</div>
-        ${it.summary?`<div class="news-summary">${it.summary}</div>`:""}
-        ${it.audio?`<audio controls preload="none" src="${it.audio}"></audio>`:""}
-      </div>`).join("");
-    return `<div class="news-program"><h3>${prog.name}</h3>${itemsHtml}</div>`;
-  }).join("");
   el.innerHTML = `
     <div class="card">
       <h2>📰 Tin thật &amp; audio thật</h2>
       <p class="muted">Nội dung và audio gốc lấy trực tiếp từ VOA Learning English, Breaking News English và News in Levels — các nguồn tin uy tín dành riêng cho người học tiếng Anh.
       ${generated?`Cập nhật lần gần nhất: ${generated}.`:""}</p>
-      ${programsHtml || `<p class="muted">Chưa có dữ liệu.</p>`}
+      <label class="muted"><input type="checkbox" id="showNewsViChk" ${showNewsVi?"checked":""}> Hiện bản dịch tiếng Việt</label>
+      <div id="newsProgramsBox" style="margin-top:12px"></div>
     </div>`;
+  document.getElementById("showNewsViChk").onchange = e=>{ showNewsVi = e.target.checked; renderNewsList(); };
+  renderNewsList();
+}
+function renderNewsList(){
+  const box = document.getElementById("newsProgramsBox");
+  const programsHtml = (voaNewsData.programs||[]).map(prog=>{
+    if(!prog.items || !prog.items.length) return "";
+    const itemsHtml = prog.items.map(it=>`
+      <div class="news-item">
+        <h4><a href="${it.link}" target="_blank" rel="noopener">${it.title}</a></h4>
+        ${showNewsVi && it.title_vi ? `<div class="muted" style="margin-top:-2px">${it.title_vi}</div>` : ""}
+        <div class="news-meta">${formatPubDate(it.pubDate)}${it.duration?` · ${it.duration}`:""}</div>
+        ${it.summary?`<div class="news-summary">${it.summary}</div>`:""}
+        ${showNewsVi && it.summary_vi ? `<div class="news-summary" style="font-style:italic">${it.summary_vi}</div>` : ""}
+        ${it.audio?`<audio controls preload="none" src="${it.audio}"></audio>`:""}
+      </div>`).join("");
+    return `<div class="news-program"><h3>${prog.name}</h3>${itemsHtml}</div>`;
+  }).join("");
+  box.innerHTML = programsHtml || `<p class="muted">Chưa có dữ liệu.</p>`;
 }
 
 // ---------- PROGRESS ----------

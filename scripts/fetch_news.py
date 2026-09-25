@@ -7,12 +7,21 @@ the GitHub Actions runner.
 """
 import html
 import json
+import os
 import re
 import sys
+import time
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+
+# Server-side translation so every visitor sees Vietnamese without needing
+# their own API key. Uses the free, unofficial Google Translate endpoint
+# (no key required) — set SKIP_TRANSLATE=1 to skip during local testing.
+TRANSLATE_ENABLED = os.environ.get("SKIP_TRANSLATE") != "1"
+TRANSLATE_DELAY_SECONDS = 0.2
 
 # VOA Learning English's own "podcast" RSS feeds. Note: as of this writing
 # these haven't published a new episode since around March 2025 (VOA's
@@ -77,6 +86,24 @@ def fetch(url):
         return resp.read()
 
 
+def translate_to_vi(text):
+    if not TRANSLATE_ENABLED or not text:
+        return ""
+    try:
+        q = urllib.parse.quote(text)
+        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=vi&dt=t&q={q}"
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        segments = data[0] if data and data[0] else []
+        translated = "".join(seg[0] for seg in segments if seg and seg[0])
+        time.sleep(TRANSLATE_DELAY_SECONDS)
+        return translated
+    except Exception as e:
+        print(f"WARN: translate failed for {text[:60]!r}: {e}", file=sys.stderr)
+        return ""
+
+
 def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False):
     root = ET.fromstring(xml_bytes)
     channel = root.find("channel")
@@ -99,9 +126,11 @@ def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False):
             continue
         items.append({
             "title": title,
+            "title_vi": translate_to_vi(title),
             "link": link,
             "pubDate": pub_date,
             "summary": description,
+            "summary_vi": translate_to_vi(description),
             "audio": audio_url or "",
             "duration": duration.strip() if duration else "",
         })

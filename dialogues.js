@@ -1,5 +1,5 @@
 // Ngân hàng hội thoại tiếng Anh Mỹ thông dụng — xoay vòng theo ngày (offline, không cần Internet).
-// Mỗi phần tử: 1 hội thoại đời thường, có bản dịch tiếng Việt + từ vựng trọng tâm.
+// Mỗi phần tử: 1 hội thoại đời thường, có bản dịch tiếng Việt + từ vựng trọng tâm + cấu trúc ngữ pháp thường dùng.
 const DIALOGUE_BANK = [
   {
     title_en: "Ordering Coffee",
@@ -21,6 +21,10 @@ const DIALOGUE_BANK = [
       { w: "pastries", m: "bánh ngọt nói chung" },
       { w: "for here or to go", m: "dùng tại chỗ hay mang đi" },
       { w: "altogether", m: "tổng cộng" }
+    ],
+    grammar: [
+      { pattern: "Can I get...?", explain_vi: "Cách gọi món/đề nghị lịch sự, thường dùng khi order đồ ăn thức uống.", example_en: "Can I get a small coffee, please?", example_vi: "Cho mình xin một ly cà phê nhỏ được không?" },
+      { pattern: "Would you like...?", explain_vi: "Hỏi ý muốn của người khác một cách lịch sự, trang trọng hơn 'Do you want...?'.", example_en: "Would you like some sugar with that?", example_vi: "Bạn có muốn thêm đường không?" }
     ]
   },
   {
@@ -42,6 +46,10 @@ const DIALOGUE_BANK = [
       { w: "down to the wire", m: "sát nút, đến phút chót" },
       { w: "tell me about it", m: "đúng vậy đó (đồng tình mạnh)" },
       { w: "grab coffee", m: "đi uống cà phê" }
+    ],
+    grammar: [
+      { pattern: "How have you been? / I've been + V-ing", explain_vi: "Thì hiện tại hoàn thành (tiếp diễn) dùng để hỏi/kể về khoảng thời gian từ quá khứ đến hiện tại.", example_en: "I've been busy with work lately.", example_vi: "Dạo này mình bận công việc suốt." },
+      { pattern: "Let's + V (nguyên mẫu)", explain_vi: "Dùng để rủ ai đó cùng làm gì.", example_en: "Let's grab coffee sometime.", example_vi: "Khi nào rảnh mình đi uống cà phê nhé." }
     ]
   },
   {
@@ -61,6 +69,10 @@ const DIALOGUE_BANK = [
       { w: "block", m: "dãy nhà/khu phố (đơn vị khoảng cách trong thành phố)" },
       { w: "right across from", m: "ngay đối diện" },
       { w: "have a safe trip", m: "chúc đi đường bình an" }
+    ],
+    grammar: [
+      { pattern: "Could you tell me how to...?", explain_vi: "Cách hỏi đường/hỏi thông tin lịch sự, gián tiếp hơn so với hỏi thẳng 'How do I get to...?'.", example_en: "Could you tell me how to get to the museum?", example_vi: "Bạn có thể chỉ mình đường tới bảo tàng không?" },
+      { pattern: "Câu mệnh lệnh chỉ đường: Go / Turn / Take...", explain_vi: "Dùng động từ nguyên mẫu đầu câu để đưa chỉ dẫn (không cần chủ ngữ).", example_en: "Go straight, then turn left on Main Street.", example_vi: "Đi thẳng, rồi rẽ trái vào đường Main." }
     ]
   },
   {
@@ -82,6 +94,10 @@ const DIALOGUE_BANK = [
       { w: "available", m: "còn trống, có sẵn" },
       { w: "I'll do my best", m: "tôi sẽ cố hết sức" },
       { w: "under [name]", m: "đặt dưới tên..." }
+    ],
+    grammar: [
+      { pattern: "I'd like to + V (= I would like to)", explain_vi: "Cách nói mong muốn lịch sự, trang trọng hơn 'I want to'.", example_en: "I'd like to make a reservation for tonight.", example_vi: "Tôi muốn đặt bàn cho tối nay." },
+      { pattern: "Could we/I + V...?", explain_vi: "Dùng 'could' để đưa ra đề nghị/yêu cầu một cách lịch sự.", example_en: "Could we get a table by the window?", example_vi: "Cho tôi xin bàn gần cửa sổ được không?" }
     ]
   },
   {
@@ -103,6 +119,10 @@ const DIALOGUE_BANK = [
       { w: "deadline", m: "hạn chót" },
       { w: "a great fit", m: "sự phù hợp tốt" },
       { w: "typical day", m: "một ngày làm việc điển hình" }
+    ],
+    grammar: [
+      { pattern: "I've been + V-ing + for + khoảng thời gian", explain_vi: "Thì hiện tại hoàn thành tiếp diễn, nhấn mạnh hành động kéo dài liên tục đến hiện tại.", example_en: "I've been working in marketing for three years.", example_vi: "Tôi đã làm marketing được ba năm rồi." },
+      { pattern: "I'd say (that) + mệnh đề", explain_vi: "Cách đưa ra ý kiến cá nhân một cách nhẹ nhàng, khiêm tốn.", example_en: "I'd say I'm good at managing projects.", example_vi: "Tôi nghĩ mình giỏi quản lý dự án." }
     ]
   },
   {
@@ -124,6 +144,10 @@ const DIALOGUE_BANK = [
       { w: "symptom", m: "triệu chứng" },
       { w: "prescribe", m: "kê đơn thuốc" },
       { w: "get plenty of rest", m: "nghỉ ngơi đầy đủ" }
+    ],
+    grammar: [
+      { pattern: "I've had + noun + since/for...", explain_vi: "Thì hiện tại hoàn thành để mô tả triệu chứng/tình trạng kéo dài từ một thời điểm/khoảng thời gian.", example_en: "I've had a sore throat since yesterday.", example_vi: "Tôi bị đau họng từ hôm qua." },
+      { pattern: "Take + thuốc + tần suất + for + thời gian", explain_vi: "Cấu trúc thông dụng để hướng dẫn liều dùng thuốc.", example_en: "Take it twice a day for five days.", example_vi: "Uống 2 lần một ngày trong 5 ngày." }
     ]
   },
   {
@@ -144,6 +168,10 @@ const DIALOGUE_BANK = [
       { w: "pull that up", m: "tra cứu thông tin đó lên" },
       { w: "included", m: "được bao gồm" },
       { w: "key card sleeve", m: "vỏ đựng thẻ phòng" }
+    ],
+    grammar: [
+      { pattern: "Is/Are + noun + included?", explain_vi: "Câu hỏi Yes/No dùng để hỏi cái gì đó có nằm trong gói dịch vụ/giá hay không.", example_en: "Is breakfast included?", example_vi: "Có bao gồm bữa sáng không?" },
+      { pattern: "May I + V?", explain_vi: "Xin phép làm gì một cách rất lịch sự, trang trọng.", example_en: "May I see your ID, please?", example_vi: "Cho tôi xem giấy tờ tùy thân được không ạ?" }
     ]
   },
   {
@@ -163,6 +191,10 @@ const DIALOGUE_BANK = [
       { w: "receipt", m: "hóa đơn" },
       { w: "refund / exchange", m: "hoàn tiền / đổi hàng" },
       { w: "in stock", m: "còn hàng trong kho" }
+    ],
+    grammar: [
+      { pattern: "It doesn't fit (quite) right", explain_vi: "Cấu trúc mô tả đồ vật không vừa/không đúng ý, dùng 'fit' để nói về kích cỡ.", example_en: "These shoes don't fit quite right.", example_vi: "Đôi giày này không vừa lắm." },
+      { pattern: "within + khoảng thời gian/giới hạn", explain_vi: "Diễn tả một việc nằm trong phạm vi/thời hạn cho phép.", example_en: "That's within our thirty-day return window.", example_vi: "Cái đó vẫn nằm trong thời hạn trả hàng 30 ngày." }
     ]
   },
   {
@@ -182,6 +214,10 @@ const DIALOGUE_BANK = [
       { w: "head out", m: "xuất phát, lên đường" },
       { w: "beat the crowds", m: "tránh đám đông" },
       { w: "works for me", m: "hợp với mình, ổn với mình" }
+    ],
+    grammar: [
+      { pattern: "I was thinking (that) we could + V", explain_vi: "Đề xuất ý tưởng một cách nhẹ nhàng, không áp đặt.", example_en: "I was thinking we could go hiking.", example_vi: "Mình đang nghĩ tụi mình có thể đi leo núi." },
+      { pattern: "to + V (mệnh đề chỉ mục đích)", explain_vi: "Dùng 'to + động từ nguyên mẫu' để nói mục đích của hành động.", example_en: "Let's leave early to beat the crowds.", example_vi: "Xuất phát sớm để tránh đông người." }
     ]
   },
   {
@@ -202,6 +238,10 @@ const DIALOGUE_BANK = [
       { w: "restart", m: "khởi động lại" },
       { w: "out of date", m: "đã lỗi thời, chưa cập nhật" },
       { w: "the cause", m: "nguyên nhân" }
+    ],
+    grammar: [
+      { pattern: "keep(s) + V-ing", explain_vi: "Diễn tả một hành động lặp đi lặp lại, thường gây khó chịu.", example_en: "My laptop keeps freezing.", example_vi: "Laptop của tôi cứ bị đơ hoài." },
+      { pattern: "Have you tried + V-ing?", explain_vi: "Hỏi ai đó đã thử cách giải quyết nào chưa.", example_en: "Have you tried restarting the computer?", example_vi: "Bạn đã thử khởi động lại máy chưa?" }
     ]
   },
   {
@@ -222,6 +262,10 @@ const DIALOGUE_BANK = [
       { w: "weight limit", m: "giới hạn cân nặng" },
       { w: "boarding pass", m: "thẻ lên máy bay" },
       { w: "departure", m: "giờ khởi hành" }
+    ],
+    grammar: [
+      { pattern: "Please + V (yêu cầu lịch sự)", explain_vi: "Thêm 'please' vào câu mệnh lệnh để yêu cầu ai đó làm gì một cách lịch sự.", example_en: "Please place it on the scale.", example_vi: "Bạn vui lòng đặt nó lên cân." },
+      { pattern: "Thời gian + before + sự kiện", explain_vi: "Diễn tả một mốc thời gian xảy ra trước một sự kiện khác.", example_en: "Boarding starts an hour before departure.", example_vi: "Việc lên máy bay bắt đầu một tiếng trước giờ khởi hành." }
     ]
   },
   {
@@ -240,6 +284,10 @@ const DIALOGUE_BANK = [
       { w: "cool down", m: "mát hơn, hạ nhiệt" },
       { w: "a relief", m: "sự nhẹ nhõm" },
       { w: "humidity", m: "độ ẩm" }
+    ],
+    grammar: [
+      { pattern: "It's been + tính từ (hiện tại hoàn thành với 'it')", explain_vi: "Dùng để mô tả tình trạng thời tiết/hoàn cảnh kéo dài đến hiện tại.", example_en: "It's been really hot this week.", example_vi: "Tuần này trời nóng suốt." },
+      { pattern: "might + V", explain_vi: "Diễn tả khả năng có thể xảy ra (không chắc chắn).", example_en: "It might cool down over the weekend.", example_vi: "Cuối tuần có thể sẽ mát hơn." }
     ]
   },
   {
@@ -260,6 +308,10 @@ const DIALOGUE_BANK = [
       { w: "delivery", m: "giao hàng" },
       { w: "apartment", m: "căn hộ" },
       { w: "that'll be about...", m: "sẽ mất khoảng... (thời gian)" }
+    ],
+    grammar: [
+      { pattern: "I'd like + noun (gọi món)", explain_vi: "Cách gọi món ăn/đồ uống lịch sự, phổ biến khi đặt hàng.", example_en: "I'd like a large pepperoni pizza.", example_vi: "Tôi muốn một pizza pepperoni cỡ lớn." },
+      { pattern: "That'll be about + thời gian/số lượng", explain_vi: "Dùng để ước lượng thời gian, số tiền... một cách gần đúng.", example_en: "That'll be about thirty minutes.", example_vi: "Sẽ mất khoảng 30 phút." }
     ]
   },
   {
@@ -279,6 +331,10 @@ const DIALOGUE_BANK = [
       { w: "savings / checking account", m: "tài khoản tiết kiệm / tài khoản thanh toán" },
       { w: "proof of address", m: "giấy chứng minh địa chỉ" },
       { w: "minimum deposit", m: "số tiền gửi tối thiểu" }
+    ],
+    grammar: [
+      { pattern: "Do you already have...?", explain_vi: "Hỏi xem điều gì đó đã xảy ra/tồn tại từ trước hay chưa, dùng 'already' trong câu hỏi.", example_en: "Do you already have an account with us?", example_vi: "Bạn đã có tài khoản ở đây chưa?" },
+      { pattern: "This would be + noun (giả định lịch sự)", explain_vi: "Dùng 'would' để nói về một điều sắp/sẽ là như vậy, nghe nhẹ nhàng hơn 'is'.", example_en: "This would be my first account here.", example_vi: "Đây sẽ là tài khoản đầu tiên của tôi ở đây." }
     ]
   },
   {
@@ -298,6 +354,10 @@ const DIALOGUE_BANK = [
       { w: "welcome aboard", m: "chào mừng gia nhập (đội/công ty)" },
       { w: "so far", m: "cho đến giờ" },
       { w: "I appreciate that", m: "mình trân trọng/cảm kích điều đó" }
+    ],
+    grammar: [
+      { pattern: "must be + noun/tính từ (suy đoán chắc chắn)", explain_vi: "Dùng 'must be' để suy đoán một điều gì đó gần như chắc chắn đúng, dựa trên bằng chứng.", example_en: "You must be the new hire!", example_vi: "Chắc bạn là nhân viên mới nhỉ!" },
+      { pattern: "How's + noun + going (so far)?", explain_vi: "Hỏi thăm về tiến triển của việc gì đó tính đến hiện tại.", example_en: "How's your first week going so far?", example_vi: "Tuần đầu của bạn thế nào rồi?" }
     ]
   },
   {
@@ -318,6 +378,10 @@ const DIALOGUE_BANK = [
       { w: "rent", m: "tiền thuê nhà" },
       { w: "negotiable", m: "có thể thương lượng" },
       { w: "lease", m: "hợp đồng thuê nhà" }
+    ],
+    grammar: [
+      { pattern: "I'm calling about + noun", explain_vi: "Cách nêu lý do gọi điện ngay từ đầu cuộc gọi.", example_en: "I'm calling about the apartment listed online.", example_vi: "Tôi gọi để hỏi về căn hộ được đăng trên mạng." },
+      { pattern: "depending on + noun", explain_vi: "Cụm từ chỉ sự phụ thuộc vào một yếu tố nào đó.", example_en: "The price is negotiable, depending on the lease length.", example_vi: "Giá có thể thương lượng, tùy vào thời hạn hợp đồng." }
     ]
   },
   {
@@ -339,6 +403,10 @@ const DIALOGUE_BANK = [
       { w: "cave in", m: "chụm/lún vào trong" },
       { w: "in line with", m: "thẳng hàng với" },
       { w: "injury", m: "chấn thương" }
+    ],
+    grammar: [
+      { pattern: "could use + noun", explain_vi: "Cách nói nhẹ nhàng rằng mình cần thứ gì đó.", example_en: "I could use some tips on proper form.", example_vi: "Mình cần vài lời khuyên về tư thế đúng." },
+      { pattern: "Try to + V", explain_vi: "Đưa ra lời khuyên/yêu cầu ai đó cố gắng làm gì.", example_en: "Try to keep your knees in line with your toes.", example_vi: "Cố giữ đầu gối thẳng hàng với các ngón chân." }
     ]
   },
   {
@@ -360,6 +428,10 @@ const DIALOGUE_BANK = [
       { w: "frustrating", m: "gây khó chịu, bực bội" },
       { w: "escalate", m: "chuyển lên cấp cao hơn xử lý" },
       { w: "shipping fee", m: "phí vận chuyển" }
+    ],
+    grammar: [
+      { pattern: "was/were supposed to + V", explain_vi: "Diễn tả điều lẽ ra phải xảy ra nhưng thực tế lại không (hoặc chưa) xảy ra.", example_en: "My package was supposed to arrive three days ago.", example_vi: "Kiện hàng của tôi lẽ ra phải tới cách đây 3 ngày rồi." },
+      { pattern: "I'll + V (cam kết/đề xuất giải pháp)", explain_vi: "Dùng 'I'll' để đưa ra lời hứa hoặc hành động sẽ thực hiện ngay.", example_en: "I'll escalate this and offer you a refund.", example_vi: "Tôi sẽ chuyển vấn đề này lên cấp trên và hoàn tiền cho bạn." }
     ]
   },
   {
@@ -379,6 +451,10 @@ const DIALOGUE_BANK = [
       { w: "packed", m: "đông đúc, chật kín người" },
       { w: "book a table", m: "đặt bàn" },
       { w: "catch a movie", m: "đi xem phim" }
+    ],
+    grammar: [
+      { pattern: "What do you feel like + V-ing?", explain_vi: "Hỏi ai đó muốn/thích làm gì vào lúc này.", example_en: "What do you feel like doing this weekend?", example_vi: "Cuối tuần này bạn muốn làm gì?" },
+      { pattern: "How about + V-ing/noun?", explain_vi: "Đưa ra đề nghị/gợi ý một cách nhẹ nhàng.", example_en: "How about we try that new Italian place?", example_vi: "Hay tụi mình thử quán Ý mới đó nhé?" }
     ]
   }
 ];
