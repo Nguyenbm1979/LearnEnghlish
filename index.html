@@ -57,6 +57,13 @@
   .news-meta{font-size:.75rem;color:var(--muted);margin-bottom:6px;}
   .news-summary{font-size:.88rem;color:var(--muted);margin:6px 0;line-height:1.5;}
   .news-item audio{width:100%;margin-top:6px;height:34px;}
+  .search-box{width:100%;padding:10px 12px;font-size:.95rem;margin-bottom:14px;}
+  .lesson-item{border-bottom:1px solid var(--border);padding:12px 0;cursor:pointer;}
+  .lesson-item:last-child{border-bottom:none;}
+  .lesson-item:hover{background:rgba(77,163,255,.06);}
+  .lesson-item h4{margin:0 0 3px;font-size:.98rem;}
+  .lesson-item .muted{margin:0;}
+  .current-badge{display:inline-block;background:var(--accent2);color:#04121f;font-size:.7rem;font-weight:700;border-radius:20px;padding:2px 9px;margin-left:8px;}
   .calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-top:8px;}
   .cal-day{aspect-ratio:1;border-radius:6px;background:var(--card2);}
   .cal-day.done{background:var(--accent2);}
@@ -75,14 +82,16 @@
 
   <div class="tabs">
     <button class="tab active" data-tab="today">Hôm nay</button>
+    <button class="tab" data-tab="browse">🔍 Tìm bài học</button>
     <button class="tab" data-tab="listen">🎧 Nghe</button>
     <button class="tab" data-tab="read">📖 Đọc</button>
-    <button class="tab" data-tab="news">📰 Tin thật (VOA)</button>
+    <button class="tab" data-tab="news">📰 Tin thật</button>
     <button class="tab" data-tab="progress">📈 Tiến độ</button>
     <button class="tab" data-tab="settings">⚙️ Cài đặt</button>
   </div>
 
   <div id="panel-today" class="panel"></div>
+  <div id="panel-browse" class="panel" style="display:none"></div>
   <div id="panel-listen" class="panel" style="display:none"></div>
   <div id="panel-read" class="panel" style="display:none"></div>
   <div id="panel-news" class="panel" style="display:none"></div>
@@ -136,7 +145,9 @@ function updateStreak(){
 }
 
 let currentDialogue = null;
+let manualDialogueIdx = null;
 function pickTodayDialogue(){
+  if(manualDialogueIdx !== null) return DIALOGUE_BANK[manualDialogueIdx];
   const cacheRaw = localStorage.getItem(LS.aiCache);
   if(cacheRaw){
     try{
@@ -148,13 +159,63 @@ function pickTodayDialogue(){
   return DIALOGUE_BANK[idx];
 }
 
+// ---------- BROWSE / SEARCH LESSONS ----------
+function selectLesson(idx){
+  manualDialogueIdx = idx;
+  switchTab("today");
+}
+function clearManualLesson(){
+  manualDialogueIdx = null;
+  renderToday();
+}
+function renderBrowse(){
+  const el = document.getElementById("panel-browse");
+  el.innerHTML = `
+    <div class="card">
+      <h2>🔍 Tìm bài học theo chủ đề</h2>
+      <p class="muted">Gõ từ khóa tiếng Anh, tiếng Việt, hoặc trình độ (vd. "beginner", "nhà hàng", "công việc")
+      để tìm hội thoại phù hợp trong kho ${DIALOGUE_BANK.length} bài học có sẵn.</p>
+      <input type="text" id="lessonSearchInput" class="search-box" placeholder="Tìm theo chủ đề, từ khóa...">
+      <div id="lessonResults"></div>
+    </div>`;
+  const input = document.getElementById("lessonSearchInput");
+  input.oninput = ()=>renderLessonResults(input.value);
+  input.focus();
+  renderLessonResults("");
+}
+function renderLessonResults(query){
+  const q = query.trim().toLowerCase();
+  const results = DIALOGUE_BANK
+    .map((d,i)=>({d,i}))
+    .filter(({d})=>{
+      if(!q) return true;
+      const haystack = [d.title_en, d.title_vi, ...(d.tags||[])].join(" ").toLowerCase();
+      return haystack.includes(q);
+    });
+  const box = document.getElementById("lessonResults");
+  if(!results.length){
+    box.innerHTML = `<p class="muted">Không tìm thấy bài học nào khớp với "${query}".</p>`;
+    return;
+  }
+  box.innerHTML = results.map(({d,i})=>{
+    const tags = (d.tags||[]).map(t=>`<span>${t}</span>`).join("");
+    const isCurrent = manualDialogueIdx===i;
+    return `
+      <div class="lesson-item" onclick="selectLesson(${i})">
+        <h4>${d.title_en}${isCurrent?'<span class="current-badge">Đang học</span>':''}</h4>
+        <p class="muted">${d.title_vi}</p>
+        <div class="tags">${tags}</div>
+      </div>`;
+  }).join("");
+}
+
 function renderToday(){
   currentDialogue = pickTodayDialogue();
   const el = document.getElementById("panel-today");
   const tags = (currentDialogue.tags||[]).map(t=>`<span>${t}</span>`).join("");
   el.innerHTML = `
     <div class="card">
-      <div class="muted">Chủ đề hôm nay</div>
+      <div class="muted">${manualDialogueIdx!==null?"Bài học bạn đã chọn":"Chủ đề hôm nay"}</div>
       <h2>${currentDialogue.title_en}</h2>
       <div class="muted" style="margin-top:-8px">${currentDialogue.title_vi}</div>
       <div class="tags" style="margin:10px 0">${tags}</div>
@@ -162,7 +223,8 @@ function renderToday(){
       <div class="row">
         <button onclick="switchTab('listen')">🎧 Bắt đầu nghe</button>
         <button class="secondary" onclick="switchTab('read')">📖 Bắt đầu đọc</button>
-        <button class="ghost" onclick="regenerateWithAI()">✨ Tạo hội thoại mới bằng AI (tùy chọn)</button>
+        <button class="ghost" onclick="switchTab('browse')">🔍 Tìm bài học khác</button>
+        ${manualDialogueIdx!==null?'<button class="ghost" onclick="clearManualLesson()">↩ Quay lại bài hôm nay</button>':'<button class="ghost" onclick="regenerateWithAI()">✨ Tạo hội thoại mới bằng AI (tùy chọn)</button>'}
       </div>
       <div id="aiStatus" class="muted" style="margin-top:8px"></div>
     </div>`;
@@ -336,15 +398,16 @@ async function renderNews(){
   if(!voaNewsData){
     el.innerHTML = `<div class="card"><p class="muted">Đang tải tin tức thật từ VOA Learning English...</p></div>`;
     try{
-      const resp = await fetch("data/voa-news.json", {cache:"no-store"});
+      const resp = await fetch("data/news.json", {cache:"no-store"});
       if(!resp.ok) throw new Error("HTTP "+resp.status);
       voaNewsData = await resp.json();
     }catch(e){
       console.error(e);
       el.innerHTML = `<div class="card">
-        <h2>📰 Tin thật (VOA Learning English)</h2>
+        <h2>📰 Tin thật</h2>
         <p class="muted">Chưa tải được dữ liệu tin tức (có thể do dữ liệu chưa được tạo lần đầu, hoặc mất kết nối mạng).
-        Dữ liệu được cập nhật tự động mỗi ngày bằng GitHub Actions từ RSS của VOA Learning English — hãy quay lại sau.</p>
+        Dữ liệu được cập nhật tự động mỗi ngày bằng GitHub Actions từ RSS của VOA Learning English, Breaking News English
+        và News in Levels — hãy quay lại sau.</p>
       </div>`;
       return;
     }
@@ -363,8 +426,8 @@ async function renderNews(){
   }).join("");
   el.innerHTML = `
     <div class="card">
-      <h2>📰 Tin thật &amp; audio thật từ VOA Learning English</h2>
-      <p class="muted">Nội dung và file âm thanh gốc lấy trực tiếp từ VOA (giọng đọc chậm, rõ, dành cho người học tiếng Anh).
+      <h2>📰 Tin thật &amp; audio thật</h2>
+      <p class="muted">Nội dung và audio gốc lấy trực tiếp từ VOA Learning English, Breaking News English và News in Levels — các nguồn tin uy tín dành riêng cho người học tiếng Anh.
       ${generated?`Cập nhật lần gần nhất: ${generated}.`:""}</p>
       ${programsHtml || `<p class="muted">Chưa có dữ liệu.</p>`}
     </div>`;
@@ -461,6 +524,7 @@ function switchTab(name){
   document.querySelectorAll(".panel").forEach(p=>p.style.display="none");
   document.getElementById("panel-"+name).style.display="block";
   if(name==="today") renderToday();
+  if(name==="browse") renderBrowse();
   if(name==="listen") renderListen();
   if(name==="read") renderRead();
   if(name==="news") renderNews();

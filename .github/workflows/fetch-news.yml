@@ -1,4 +1,4 @@
-name: Fetch VOA Learning English news
+name: Fetch English news (VOA, Breaking News English, News in Levels)
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: fetch-voa-news
+  group: fetch-news
   cancel-in-progress: false
 
 jobs:
@@ -24,17 +24,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch VOA RSS feeds
-        run: python3 scripts/fetch_voa_news.py
+      - name: Fetch RSS feeds
+        run: python3 scripts/fetch_news.py
 
       - name: Commit and push if changed
         run: |
-          git config user.name "voa-news-bot"
+          git config user.name "news-bot"
           git config user.email "actions@users.noreply.github.com"
-          if git diff --quiet -- data/voa-news.json; then
-            echo "No changes to data/voa-news.json"
+          if git diff --quiet -- data/news.json; then
+            echo "No changes to data/news.json"
           else
-            git add data/voa-news.json
-            git commit -m "chore: update VOA Learning English news data"
+            git add data/news.json
+            git commit -m "chore: update English news data"
             git push
           fi
