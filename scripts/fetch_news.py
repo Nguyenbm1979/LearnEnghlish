@@ -36,6 +36,37 @@ VOA_PROGRAMS = [
 ]
 VOA_FEED_URL = "https://learningenglish.voanews.com/podcast/?zoneId={zone_id}&format=RSS"
 
+# VOA's own domains (learningenglish.voanews.com, voa-audio.voanews.eu) are
+# blocked on Vietnamese networks — confirmed with a real user there, whose
+# device/browser plays audio fine otherwise. GitHub Pages itself is not
+# blocked, so we mirror a small number of VOA mp3s into the repo and serve
+# them same-origin instead of linking to VOA's CDN directly. Kept to the
+# most recent item per program (VOA content has been frozen since ~March
+# 2025 anyway) to keep the repo small; already-mirrored files are skipped.
+AUDIO_MIRROR_DIR = "data/audio"
+AUDIO_MIRROR_COUNT = 1
+MIRROR_TIMEOUT = 90
+
+
+def mirror_audio(url, program_id):
+    out_dir = os.path.join(AUDIO_MIRROR_DIR, program_id)
+    os.makedirs(out_dir, exist_ok=True)
+    filename = url.rsplit("/", 1)[-1].split("?")[0]
+    local_path = os.path.join(out_dir, filename)
+    if os.path.exists(local_path):
+        return local_path
+    try:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=MIRROR_TIMEOUT) as resp:
+            data = resp.read()
+        with open(local_path, "wb") as f:
+            f.write(data)
+        print(f"Mirrored {url} -> {local_path} ({len(data)} bytes)")
+        return local_path
+    except Exception as e:
+        print(f"WARN: failed to mirror audio {url}: {e}", file=sys.stderr)
+        return None
+
 OTHER_FEEDS = [
     {
         "id": "breaking-news-english",
@@ -175,6 +206,11 @@ def main():
             items = []
         if items:
             any_success = True
+        for it in items[:AUDIO_MIRROR_COUNT]:
+            if it["audio"]:
+                local_path = mirror_audio(it["audio"], prog["id"])
+                if local_path:
+                    it["audio"] = local_path
         programs_out.append({
             "id": prog["id"],
             "name": prog["name"],
