@@ -1,0 +1,37 @@
+name: Diagnose VOA feed (temporary)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe candidate feeds
+        run: |
+          UA="Mozilla/5.0 (compatible; LearnEnglishAppBot/1.0)"
+          probe() {
+            echo "=== $1 ==="
+            curl -sS -A "$UA" --max-time 20 "$1" -o /tmp/f.xml -w "HTTP:%{http_code}\n"
+            grep -oE '<title>[^<]*</title>' /tmp/f.xml | head -4
+            grep -oE '<pubDate>[^<]*</pubDate>' /tmp/f.xml | head -2
+            echo ""
+          }
+          {
+            probe "https://breakingnewsenglish.com/bne.xml"
+            probe "https://learningenglish.voanews.com/podcast/?format=RSS&zoneId=952"
+            probe "https://www.voanews.com/z/6750?format=RSS"
+            probe "https://learningenglish.voanews.com/podcast/?format=RSS&zoneId=3620"
+            probe "https://www.newsinlevels.com/feed/"
+          } > diagnostic-output.txt 2>&1
+      - name: Commit output
+        run: |
+          git config user.name "voa-news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add diagnostic-output.txt
+          git commit -m "chore: diagnostic output" || echo "nothing to commit"
+          git push
