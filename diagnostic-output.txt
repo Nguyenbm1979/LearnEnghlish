@@ -1,13 +1,11 @@
-=== storynory retry ===
-ERROR: HTTP Error 500: Internal Server Error
-ERROR: HTTP Error 500: Internal Server Error
+=== Wikimedia Commons: check reachability + a classic fairy tale image category ===
+OK, length: 42736
+sample images: []
 
-=== British Council Kids short-stories: find story links ===
-story links found: []
-
-=== British Council: probe one story page ===
-ERROR: HTTP Error 404: Not Found
-
-=== Unite for Literacy: probe structure ===
-title: Unite for Literacy
-book link: //books-cloud.uniteforliteracy.com
+=== unite for literacy books-cloud probe ===
+--- https://books-cloud.uniteforliteracy.com/ ---
+ERROR: HTTP Error 403: Forbidden
+--- https://www.uniteforliteracy.com/api/books ---
+OK, length: 42176 snippet: <!DOCTYPE html>  <!-- HTML Version: 51397273t3  -->  <html lang="en-US" translate="no">  <head id="Head">     <!-- Google tag (gtag.js) -->    <script async src="https://www.googletagmanager.com/gtag/
+--- https://www.uniteforliteracy.com/books ---
+OK, length: 42176 snippet: <!DOCTYPE html>  <!-- HTML Version: 51397273t3  -->  <html lang="en-US" translate="no">  <head id="Head">     <!-- Google tag (gtag.js) -->    <script async src="https://www.googletagmanager.com/gtag/
