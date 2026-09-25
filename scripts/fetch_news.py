@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
-"""Fetch real English-news RSS feeds (VOA Learning English, Breaking News
-English, News in Levels) and write data/news.json.
+"""Fetch real English-news RSS feeds (Breaking News English, News in
+Levels) and write data/news.json.
 
 Standard-library only (urllib + xml.etree) so it needs no pip install on
 the GitHub Actions runner.
+
+Note: VOA Learning English and BBC Learning English were tried and
+dropped — both learningenglish.voanews.com and bbc.co.uk (including
+their audio CDNs) are blocked on Vietnamese networks, confirmed with a
+real user there. Keeping only sources whose website AND audio both
+work end-to-end from Vietnam.
 """
 import html
 import json
@@ -23,51 +29,7 @@ from datetime import datetime, timezone
 TRANSLATE_ENABLED = os.environ.get("SKIP_TRANSLATE") != "1"
 TRANSLATE_DELAY_SECONDS = 0.2
 
-# VOA Learning English's own "podcast" RSS feeds. Note: as of this writing
-# these haven't published a new episode since around March 2025 (VOA's
-# 2025 funding/staffing disruption) — kept here because the content and
-# audio are still real and the workflow will pick up new episodes the
-# moment VOA resumes publishing, with zero code changes needed.
-VOA_PROGRAMS = [
-    {"id": "voa-news", "name": "VOA: Tin tức & Chuyện đời sống Mỹ", "zone_id": 1689},
-    {"id": "everyday-grammar", "name": "VOA: Everyday Grammar (Ngữ pháp)", "zone_id": 4456},
-    {"id": "words-stories", "name": "VOA: Words and Their Stories (Thành ngữ)", "zone_id": 987},
-    {"id": "as-it-is", "name": "VOA: As It Is (Thời sự)", "zone_id": 3521},
-]
-VOA_FEED_URL = "https://learningenglish.voanews.com/podcast/?zoneId={zone_id}&format=RSS"
-
-# VOA's own domains (learningenglish.voanews.com, voa-audio.voanews.eu) are
-# blocked on Vietnamese networks — confirmed with a real user there, whose
-# device/browser plays audio fine otherwise. GitHub Pages itself is not
-# blocked, so we mirror a small number of VOA mp3s into the repo and serve
-# them same-origin instead of linking to VOA's CDN directly. Kept to the
-# most recent item per program (VOA content has been frozen since ~March
-# 2025 anyway) to keep the repo small; already-mirrored files are skipped.
-AUDIO_MIRROR_DIR = "data/audio"
-AUDIO_MIRROR_COUNT = 1
-MIRROR_TIMEOUT = 90
-
-
-def mirror_audio(url, program_id):
-    out_dir = os.path.join(AUDIO_MIRROR_DIR, program_id)
-    os.makedirs(out_dir, exist_ok=True)
-    filename = url.rsplit("/", 1)[-1].split("?")[0]
-    local_path = os.path.join(out_dir, filename)
-    if os.path.exists(local_path):
-        return local_path
-    try:
-        req = urllib.request.Request(url, headers=HEADERS)
-        with urllib.request.urlopen(req, timeout=MIRROR_TIMEOUT) as resp:
-            data = resp.read()
-        with open(local_path, "wb") as f:
-            f.write(data)
-        print(f"Mirrored {url} -> {local_path} ({len(data)} bytes)")
-        return local_path
-    except Exception as e:
-        print(f"WARN: failed to mirror audio {url}: {e}", file=sys.stderr)
-        return None
-
-OTHER_FEEDS = [
+FEEDS = [
     {
         "id": "breaking-news-english",
         "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
@@ -87,18 +49,6 @@ OTHER_FEEDS = [
         "fetch_soundcloud_embed": True,
         "fetch_og_image": True,
     },
-    {
-        "id": "bbc-6min-english",
-        "name": "BBC 6 Minute English (audio + ảnh thật)",
-        "url": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
-        "source_url": "https://www.bbc.co.uk/learningenglish/",
-        "require_audio": True,
-        "strip_wp_boilerplate": False,
-        # bbc.co.uk (and its audio redirect chain) is also blocked on
-        # Vietnamese networks — confirmed with the same user who found VOA
-        # blocked. Episodes are small (~3MB) so mirror several, not just 1.
-        "mirror_audio_count": 3,
-    },
 ]
 
 SOUNDCLOUD_IFRAME_RE = re.compile(r'<iframe[^>]*\bsrc="(https://w\.soundcloud\.com/player/\?[^"]+)"[^>]*>')
@@ -107,10 +57,7 @@ OG_IMAGE_RE = re.compile(r'<meta[^>]*property="og:image"[^>]*content="([^"]+)"',
 
 def extract_soundcloud_embed(article_url):
     """News in Levels articles embed real audio via a SoundCloud widget
-    (not exposed in their RSS enclosure) — scrape it from the article page.
-    Unlike VOA/Breaking News English's direct mp3 links, SoundCloud's own
-    CDN isn't blocked on Vietnamese networks, so this is the one audio
-    source that reliably plays there."""
+    (not exposed in their RSS enclosure) — scrape it from the article page."""
     try:
         page_html = fetch(article_url).decode("utf-8", "replace")
         m = SOUNDCLOUD_IFRAME_RE.search(page_html)
@@ -232,28 +179,7 @@ def main():
     programs_out = []
     any_success = False
 
-    for prog in VOA_PROGRAMS:
-        url = VOA_FEED_URL.format(zone_id=prog["zone_id"])
-        try:
-            items = fetch_program(url, require_audio=True)
-        except (urllib.error.URLError, ET.ParseError, TimeoutError, OSError) as e:
-            print(f"WARN: failed to fetch/parse {prog['id']} ({url}): {e}", file=sys.stderr)
-            items = []
-        if items:
-            any_success = True
-        for it in items[:AUDIO_MIRROR_COUNT]:
-            if it["audio"]:
-                local_path = mirror_audio(it["audio"], prog["id"])
-                if local_path:
-                    it["audio"] = local_path
-        programs_out.append({
-            "id": prog["id"],
-            "name": prog["name"],
-            "source_url": f"https://learningenglish.voanews.com/podcast/?zoneId={prog['zone_id']}",
-            "items": items,
-        })
-
-    for feed in OTHER_FEEDS:
+    for feed in FEEDS:
         try:
             items = fetch_program(
                 feed["url"],
@@ -267,12 +193,6 @@ def main():
             items = []
         if items:
             any_success = True
-        mirror_count = feed.get("mirror_audio_count", 0)
-        for it in items[:mirror_count]:
-            if it["audio"]:
-                local_path = mirror_audio(it["audio"], feed["id"])
-                if local_path:
-                    it["audio"] = local_path
         programs_out.append({
             "id": feed["id"],
             "name": feed["name"],
@@ -286,7 +206,7 @@ def main():
 
     out = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": "VOA Learning English, Breaking News English, News in Levels, BBC 6 Minute English",
+        "source": "Breaking News English, News in Levels",
         "programs": programs_out,
     }
 

@@ -471,7 +471,7 @@ function startReadTimer(){
   },1000);
 }
 
-// ---------- REAL VOA NEWS ----------
+// ---------- REAL NEWS ----------
 let voaNewsData = null;
 function formatPubDate(str){
   if(!str) return "";
@@ -483,7 +483,7 @@ let showNewsVi = true;
 async function renderNews(){
   const el = document.getElementById("panel-news");
   if(!voaNewsData){
-    el.innerHTML = `<div class="card"><p class="muted">Đang tải tin tức thật từ VOA Learning English...</p></div>`;
+    el.innerHTML = `<div class="card"><p class="muted">Đang tải tin tức thật...</p></div>`;
     try{
       const resp = await fetch("data/news.json", {cache:"no-store"});
       if(!resp.ok) throw new Error("HTTP "+resp.status);
@@ -493,8 +493,8 @@ async function renderNews(){
       el.innerHTML = `<div class="card">
         <h2>📰 Tin thật</h2>
         <p class="muted">Chưa tải được dữ liệu tin tức (có thể do dữ liệu chưa được tạo lần đầu, hoặc mất kết nối mạng).
-        Dữ liệu được cập nhật tự động mỗi ngày bằng GitHub Actions từ RSS của VOA Learning English, Breaking News English
-        và News in Levels — hãy quay lại sau.</p>
+        Dữ liệu được cập nhật tự động mỗi ngày bằng GitHub Actions từ RSS của Breaking News English và News in Levels
+        — hãy quay lại sau.</p>
       </div>`;
       return;
     }
@@ -503,7 +503,7 @@ async function renderNews(){
   el.innerHTML = `
     <div class="card">
       <h2>📰 Tin thật &amp; audio thật</h2>
-      <p class="muted">Nội dung và audio gốc lấy trực tiếp từ VOA Learning English, Breaking News English và News in Levels — các nguồn tin uy tín dành riêng cho người học tiếng Anh.
+      <p class="muted">Nội dung và audio gốc lấy trực tiếp từ Breaking News English và News in Levels — các nguồn tin uy tín dành riêng cho người học tiếng Anh, hoạt động ổn định từ Việt Nam.
       ${generated?`Cập nhật lần gần nhất: ${generated}.`:""}</p>
       <label class="muted"><input type="checkbox" id="showNewsViChk" ${showNewsVi?"checked":""}> Hiện bản dịch tiếng Việt</label>
       <div id="newsProgramsBox" style="margin-top:12px"></div>
