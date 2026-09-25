@@ -46,6 +46,17 @@
   .goal-done{color:var(--accent2);font-weight:700;}
   footer{color:var(--muted);font-size:.78rem;text-align:center;margin-top:28px;}
   details summary{cursor:pointer;color:var(--accent);font-size:.85rem;margin-top:4px;}
+  .news-program{margin-bottom:22px;}
+  .news-program:last-child{margin-bottom:0;}
+  .news-program h3{font-size:.98rem;margin:0 0 10px;color:var(--accent2);}
+  .news-item{border-bottom:1px solid var(--border);padding:12px 0;}
+  .news-item:last-child{border-bottom:none;padding-bottom:0;}
+  .news-item h4{margin:0 0 4px;font-size:.98rem;line-height:1.35;}
+  .news-item h4 a{color:var(--text);text-decoration:none;}
+  .news-item h4 a:hover{color:var(--accent);text-decoration:underline;}
+  .news-meta{font-size:.75rem;color:var(--muted);margin-bottom:6px;}
+  .news-summary{font-size:.88rem;color:var(--muted);margin:6px 0;line-height:1.5;}
+  .news-item audio{width:100%;margin-top:6px;height:34px;}
   .calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-top:8px;}
   .cal-day{aspect-ratio:1;border-radius:6px;background:var(--card2);}
   .cal-day.done{background:var(--accent2);}
@@ -66,6 +77,7 @@
     <button class="tab active" data-tab="today">Hôm nay</button>
     <button class="tab" data-tab="listen">🎧 Nghe</button>
     <button class="tab" data-tab="read">📖 Đọc</button>
+    <button class="tab" data-tab="news">📰 Tin thật (VOA)</button>
     <button class="tab" data-tab="progress">📈 Tiến độ</button>
     <button class="tab" data-tab="settings">⚙️ Cài đặt</button>
   </div>
@@ -73,6 +85,7 @@
   <div id="panel-today" class="panel"></div>
   <div id="panel-listen" class="panel" style="display:none"></div>
   <div id="panel-read" class="panel" style="display:none"></div>
+  <div id="panel-news" class="panel" style="display:none"></div>
   <div id="panel-progress" class="panel" style="display:none"></div>
   <div id="panel-settings" class="panel" style="display:none"></div>
 
@@ -310,6 +323,53 @@ function startReadTimer(){
   },1000);
 }
 
+// ---------- REAL VOA NEWS ----------
+let voaNewsData = null;
+function formatPubDate(str){
+  if(!str) return "";
+  const d = new Date(str);
+  if(isNaN(d)) return str;
+  return d.toLocaleDateString("vi-VN", {day:"2-digit", month:"2-digit", year:"numeric"});
+}
+async function renderNews(){
+  const el = document.getElementById("panel-news");
+  if(!voaNewsData){
+    el.innerHTML = `<div class="card"><p class="muted">Đang tải tin tức thật từ VOA Learning English...</p></div>`;
+    try{
+      const resp = await fetch("data/voa-news.json", {cache:"no-store"});
+      if(!resp.ok) throw new Error("HTTP "+resp.status);
+      voaNewsData = await resp.json();
+    }catch(e){
+      console.error(e);
+      el.innerHTML = `<div class="card">
+        <h2>📰 Tin thật (VOA Learning English)</h2>
+        <p class="muted">Chưa tải được dữ liệu tin tức (có thể do dữ liệu chưa được tạo lần đầu, hoặc mất kết nối mạng).
+        Dữ liệu được cập nhật tự động mỗi ngày bằng GitHub Actions từ RSS của VOA Learning English — hãy quay lại sau.</p>
+      </div>`;
+      return;
+    }
+  }
+  const generated = voaNewsData.generated_at ? formatPubDate(voaNewsData.generated_at) : "";
+  const programsHtml = (voaNewsData.programs||[]).map(prog=>{
+    if(!prog.items || !prog.items.length) return "";
+    const itemsHtml = prog.items.map(it=>`
+      <div class="news-item">
+        <h4><a href="${it.link}" target="_blank" rel="noopener">${it.title}</a></h4>
+        <div class="news-meta">${formatPubDate(it.pubDate)}${it.duration?` · ${it.duration}`:""}</div>
+        ${it.summary?`<div class="news-summary">${it.summary}</div>`:""}
+        ${it.audio?`<audio controls preload="none" src="${it.audio}"></audio>`:""}
+      </div>`).join("");
+    return `<div class="news-program"><h3>${prog.name}</h3>${itemsHtml}</div>`;
+  }).join("");
+  el.innerHTML = `
+    <div class="card">
+      <h2>📰 Tin thật &amp; audio thật từ VOA Learning English</h2>
+      <p class="muted">Nội dung và file âm thanh gốc lấy trực tiếp từ VOA (giọng đọc chậm, rõ, dành cho người học tiếng Anh).
+      ${generated?`Cập nhật lần gần nhất: ${generated}.`:""}</p>
+      ${programsHtml || `<p class="muted">Chưa có dữ liệu.</p>`}
+    </div>`;
+}
+
 // ---------- PROGRESS ----------
 function renderProgress(){
   const el = document.getElementById("panel-progress");
@@ -403,6 +463,7 @@ function switchTab(name){
   if(name==="today") renderToday();
   if(name==="listen") renderListen();
   if(name==="read") renderRead();
+  if(name==="news") renderNews();
   if(name==="progress") renderProgress();
   if(name==="settings") renderSettings();
 }
