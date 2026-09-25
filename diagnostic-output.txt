@@ -1,0 +1,35 @@
+=== https://breakingnewsenglish.com/bne.xml ===
+HTTP:200
+<title>Breaking News English</title>
+<title>BreakingNewsEnglish</title>
+<title>Toys R Us to open 120 new stores in USA</title>
+<title>Sustainable Development Goals not on track, says UN</title>
+<pubDate>Thu, 24 Sep 2026 00:30:00 GMT</pubDate>
+<pubDate>Mon, 21 Sep 2026 00:30:00 GMT</pubDate>
+
+=== https://learningenglish.voanews.com/podcast/?format=RSS&zoneId=952 ===
+HTTP:200
+<title>Lessons of the Day - VOA Learning English</title>
+<title>Still and Unless - March 12, 2025</title>
+<title>The Empire State Building: Once the World’s Tallest - February 21, 2025</title>
+<title>A Shared Video Raises Concerns about AI and Politics - July 29, 2024</title>
+<pubDate>Wed, 12 Mar 2025 18:29:58 +0000</pubDate>
+<pubDate>Fri, 21 Feb 2025 19:11:57 +0000</pubDate>
+
+=== https://www.voanews.com/z/6750?format=RSS ===
+HTTP:200
+<title>VOA Learning English - Episodes - Voice of America (VOA News)</title>
+
+=== https://learningenglish.voanews.com/podcast/?format=RSS&zoneId=3620 ===
+HTTP:200
+<title>News Words - VOA Learning English</title>
+
+=== https://www.newsinlevels.com/feed/ ===
+HTTP:200
+<title>English news and easy articles for students of English</title>
+<title>English news and easy articles for students of English</title>
+<title>Greenland and Antarctica lose ice – level 1</title>
+<title>Greenland and Antarctica lose ice – level 2</title>
+<pubDate>Fri, 25 Sep 2026 06:00:00 +0000</pubDate>
+<pubDate>Fri, 25 Sep 2026 06:00:00 +0000</pubDate>
+
