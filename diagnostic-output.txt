@@ -1,11 +1,30 @@
-=== Wikimedia Commons: check reachability + a classic fairy tale image category ===
-OK, length: 42736
-sample images: []
+=== Three Little Pigs illustration ===
+  File:Queerie Queers - Three Little Pigs 002.png -> https://upload.wikimedia.org/wikipedia/commons/e/e3/Queerie_Queers_-_Three_Little_Pigs_002.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  File:Queerie Queers - Three Little Pigs 005.png -> https://upload.wikimedia.org/wikipedia/commons/0/0c/Queerie_Queers_-_Three_Little_Pigs_005.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  File:Queerie Queers - Three Little Pigs 010.png -> https://upload.wikimedia.org/wikipedia/commons/b/be/Queerie_Queers_-_Three_Little_Pigs_010.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
 
-=== unite for literacy books-cloud probe ===
---- https://books-cloud.uniteforliteracy.com/ ---
-ERROR: HTTP Error 403: Forbidden
---- https://www.uniteforliteracy.com/api/books ---
-OK, length: 42176 snippet: <!DOCTYPE html>  <!-- HTML Version: 51397273t3  -->  <html lang="en-US" translate="no">  <head id="Head">     <!-- Google tag (gtag.js) -->    <script async src="https://www.googletagmanager.com/gtag/
---- https://www.uniteforliteracy.com/books ---
-OK, length: 42176 snippet: <!DOCTYPE html>  <!-- HTML Version: 51397273t3  -->  <html lang="en-US" translate="no">  <head id="Head">     <!-- Google tag (gtag.js) -->    <script async src="https://www.googletagmanager.com/gtag/
+=== Cinderella illustration ===
+  File:MU KPB 022 Cinderella - Arthur Rackham.pdf -> https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/MU_KPB_022_Cinderella_-_Arthur_Rackham.pdf/page1-960px-MU_KPB_022_Cinderella_-_Arthur_Rackham.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  File:MU KPB 022 Cinderella - Arthur Rackham 11.jpg -> https://upload.wikimedia.org/wikipedia/commons/7/79/MU_KPB_022_Cinderella_-_Arthur_Rackham_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  File:MU KPB 022 Cinderella - Arthur Rackham 15.jpg -> https://upload.wikimedia.org/wikipedia/commons/b/b4/MU_KPB_022_Cinderella_-_Arthur_Rackham_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+
+=== Tortoise and the Hare illustration ===
+  File:The Hare and the Tortoise, circa 1918 - Raphael Tuck and Sons (Francisco Sancha, artist) (4231525827).jpg -> https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/The_Hare_and_the_Tortoise%2C_circa_1918_-_Raphael_Tuck_and_Sons_%28Francisco_Sancha%2C_artist%29_%284231525827%29.jpg/960px-The_Hare_and_the_Tortoise%2C_circa_1918_-_Raphael_Tuck_and_Sons_%28Francisco_Sancha%2C_artist%29_%284231525827%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  File:The republican hare and the democratic tortoise - L.M. Glackens. LCCN2011647322.jpg -> https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/The_republican_hare_and_the_democratic_tortoise_-_L.M._Glackens._LCCN2011647322.jpg/960px-The_republican_hare_and_the_democratic_tortoise_-_L.M._Glackens._LCCN2011647322.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  File:Tortoise and hare rackham.jpg -> https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Tortoise_and_hare_rackham.jpg/960px-Tortoise_and_hare_rackham.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+
+=== Little Red Riding Hood illustration ===
+  File:Little Red Riding Hood - J. W. Smith.jpg -> https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Little_Red_Riding_Hood_-_J._W._Smith.jpg/960px-Little_Red_Riding_Hood_-_J._W._Smith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  File:Little Red Riding Hood Otto Kubel.jpg -> https://upload.wikimedia.org/wikipedia/commons/f/f1/Little_Red_Riding_Hood_Otto_Kubel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  File:Nystöm Little Red Riding Hood.jpg -> https://upload.wikimedia.org/wikipedia/commons/7/70/Nyst%C3%B6m_Little_Red_Riding_Hood.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+
+=== Ugly Duckling illustration ===
+  File:Final Infographic of the Ugly Duckling - Katie Coulter.svg -> https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Final_Infographic_of_the_Ugly_Duckling_-_Katie_Coulter.svg/960px-Final_Infographic_of_the_Ugly_Duckling_-_Katie_Coulter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  File:Infographic of The Ugly Duckling - Katie Coulter.svg -> https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Infographic_of_The_Ugly_Duckling_-_Katie_Coulter.svg/960px-Infographic_of_The_Ugly_Duckling_-_Katie_Coulter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  File:The Ugly Duckling Fairytale Infographic - Katie Coulter.svg -> https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/The_Ugly_Duckling_Fairytale_Infographic_-_Katie_Coulter.svg/960px-The_Ugly_Duckling_Fairytale_Infographic_-_Katie_Coulter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+
+=== Goldilocks illustration ===
+  File:Goldilocks and the three bears, (IA goldilocksthreeb00cumm).pdf -> https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Goldilocks_and_the_three_bears%2C_%28IA_goldilocksthreeb00cumm%29.pdf/page1-960px-Goldilocks_and_the_three_bears%2C_%28IA_goldilocksthreeb00cumm%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+  File:Jessie Willcox Smith - 'Goldilocks and the Three Bears', Swift's Premium Soap Products calendar illustration.jpg -> https://upload.wikimedia.org/wikipedia/commons/c/c5/Jessie_Willcox_Smith_-_%27Goldilocks_and_the_Three_Bears%27%2C_Swift%27s_Premium_Soap_Products_calendar_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
+  File:Pretty Goldilocks, and other stories from the fairy books; (IA prettygoldilocks00langiala).pdf -> https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Pretty_Goldilocks%2C_and_other_stories_from_the_fairy_books%3B_%28IA_prettygoldilocks00langiala%29.pdf/page1-500px-Pretty_Goldilocks%2C_and_other_stories_from_the_fairy_books%3B_%28IA_prettygoldilocks00langiala%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+
