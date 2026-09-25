@@ -11,25 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - name: Dump raw item structure
-        run: |
-          UA="Mozilla/5.0 (compatible; LearnEnglishAppBot/1.0)"
-          {
-            echo "=== breakingnewsenglish raw (first item) ==="
-            curl -sS -A "$UA" "https://breakingnewsenglish.com/bne.xml" | python3 -c "
-import sys,xml.etree.ElementTree as ET
-root = ET.fromstring(sys.stdin.read())
-item = root.find('./channel/item')
-print(ET.tostring(item, encoding='unicode'))
-"
-            echo "=== newsinlevels raw (first item) ==="
-            curl -sS -A "$UA" "https://www.newsinlevels.com/feed/" | python3 -c "
-import sys,xml.etree.ElementTree as ET
-root = ET.fromstring(sys.stdin.read())
-item = root.find('./channel/item')
-print(ET.tostring(item, encoding='unicode'))
-"
-          } > diagnostic-output.txt 2>&1
+        run: python3 scripts/_diag_dump_item.py > diagnostic-output.txt 2>&1
       - name: Commit output
         run: |
           git config user.name "voa-news-bot"
