@@ -1,22 +1,13 @@
-=== breaking-news-english ===
-  enclosure: ['<enclosure url="https://breakingnewsenglish.com/2609/260924-toys-r-us.mp3" length="2000000" type="audio/mpeg"/>']
+=== usahello.org homepage probe ===
+OK, length: 126466
+has 'Learn English' link: True
 
-=== news-in-levels ===
+=== usahello.org/feed/ ===
+OK, length: 126466
+titles: ['USAHello | A free website to help refugees and immigrants']
 
-=== voa-news ===
-  enclosure: ['<enclosure url="https://voa-audio.voanews.eu/vle/2025/03/31/20250331-003003-vle122-program_hq.mp3" type="audio/mpeg" length="29425664" />']
-  itunes:image: ['<itunes:image href="https://gdb.voanews.com/0684e143-ca54-4c31-bbc7-c26e19b2fb70_w3000_h3000_q85.jpg" />']
+=== News in Levels: re-check for image in content:encoded ===
+images found on article page: ['https://www.newsinlevels.com/wp-content/themes/newsin/img/logo-news-in-levels.png', 'https://www.newsinlevels.com/wp-content/uploads/2026/01/Depositphotos_312804908_L-200x100.jpg', 'https://www.newsinlevels.com/wp-content/uploads/images/Test.jpg', 'https://www.newsinlevels.com/wp-content/uploads/images/Reading.png', 'https://www.newsinlevels.com/wp-content/uploads/images/Listening.png']
 
-### Candidate new sources ###
-=== bbc-learning-english (https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/rss.xml) ===
-  ERROR: HTTP Error 404: Not Found
-
-=== bbc-6min-english (https://podcasts.files.bbci.co.uk/p02pc9tn.rss) ===
-  OK, length: 837798
-  titles: ['6 Minute English', '6 Minute English', 'Why do we itch?', 'Is rejection good for us?']
-  enclosure: ['<enclosure url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss-low/proto/http/vpid/p0pc618w.mp3" length="3056000" type="audio/mpeg"/>']
-  itunes:image: ['<itunes:image href="http://ichef.bbci.co.uk/images/ic/3000x3000/p0hxqkd0.jpg"/>']
-
-=== britishcouncil (https://learnenglish.britishcouncil.org/rss.xml) ===
-  ERROR: HTTP Error 404: Not Found
-
+=== BBC 6 Minute English: full first item dump ===
+<title>Is rejection good for us?</title><description><![CDATA[<p>How would you feel about going up to a stranger on the street and asking them for a cheeky favour? If the idea makes you nervous, then don't worry – you are not alone! But recently, some people have been filming themselves doing this, as part of a social media trend called 'rejection therapy'. It's not an officially recognised form of therapy, but some have found that it improves their confidence. Georgie and Neil discuss this and teach you some new vocabulary.</p><p>6 Minute English now has a VIDEO VERSION! 6 Minute English now comes with a video! It's the same programme that you know and love, but now you can see us! Watch this podcast here (and find a free worksheet): <a href="https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260917">https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-260917</a></p><p>Let us know what you think of the new version of 6 Minute English at <a href="mailto:learningenglish@bbc.co.uk">learningenglish@bbc.co.uk</a></p>]]></description><itunes:subtitle>How would you feel about going up to a stranger and asking them for a cheeky favour?</itunes:subtitle><itunes:summary><![CDATA[<p>How would you feel about going up to a stranger on the street and asking them for a cheeky favour? If the idea makes you nervous, then don't worry – you are not alone! But recently, some people have been filming themselves doing this, as part of a soci
