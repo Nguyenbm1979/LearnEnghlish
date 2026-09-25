@@ -75,6 +75,7 @@ OTHER_FEEDS = [
         "source_url": "https://breakingnewsenglish.com/",
         "require_audio": True,
         "strip_wp_boilerplate": False,
+        "fetch_og_image": True,
     },
     {
         "id": "news-in-levels",
@@ -84,10 +85,20 @@ OTHER_FEEDS = [
         "require_audio": False,
         "strip_wp_boilerplate": True,
         "fetch_soundcloud_embed": True,
+        "fetch_og_image": True,
+    },
+    {
+        "id": "bbc-6min-english",
+        "name": "BBC 6 Minute English (audio + ảnh thật)",
+        "url": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+        "source_url": "https://www.bbc.co.uk/learningenglish/",
+        "require_audio": True,
+        "strip_wp_boilerplate": False,
     },
 ]
 
 SOUNDCLOUD_IFRAME_RE = re.compile(r'<iframe[^>]*\bsrc="(https://w\.soundcloud\.com/player/\?[^"]+)"[^>]*>')
+OG_IMAGE_RE = re.compile(r'<meta[^>]*property="og:image"[^>]*content="([^"]+)"', re.IGNORECASE)
 
 
 def extract_soundcloud_embed(article_url):
@@ -102,6 +113,19 @@ def extract_soundcloud_embed(article_url):
         return html.unescape(m.group(1)) if m else ""
     except Exception as e:
         print(f"WARN: soundcloud embed lookup failed for {article_url}: {e}", file=sys.stderr)
+        return ""
+
+
+def extract_og_image(article_url):
+    """Feeds without a usable image tag (Breaking News English, News in
+    Levels) still have a real article photo via the standard og:image meta
+    tag on the article page itself."""
+    try:
+        page_html = fetch(article_url).decode("utf-8", "replace")
+        m = OG_IMAGE_RE.search(page_html)
+        return html.unescape(m.group(1)) if m else ""
+    except Exception as e:
+        print(f"WARN: og:image lookup failed for {article_url}: {e}", file=sys.stderr)
         return ""
 
 ITEMS_PER_PROGRAM = 8
@@ -153,12 +177,14 @@ def translate_to_vi(text):
         return ""
 
 
-def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False, fetch_soundcloud=False):
+def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False, fetch_soundcloud=False, fetch_og_image=False):
     root = ET.fromstring(xml_bytes)
     channel = root.find("channel")
     if channel is None:
         return []
     ns_itunes = "{http://www.itunes.com/dtds/podcast-1.0.dtd}"
+    channel_image_el = channel.find(f"{ns_itunes}image")
+    channel_image = channel_image_el.get("href") if channel_image_el is not None else ""
     items = []
     for item in channel.findall("item")[:ITEMS_PER_PROGRAM]:
         title = strip_html(item.findtext("title", ""))
@@ -174,6 +200,10 @@ def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False, fetch_sound
         if not title or (require_audio and not audio_url):
             continue
         embed_url = extract_soundcloud_embed(link) if (fetch_soundcloud and link) else ""
+        item_image_el = item.find(f"{ns_itunes}image")
+        image_url = item_image_el.get("href") if item_image_el is not None else channel_image
+        if not image_url and fetch_og_image and link:
+            image_url = extract_og_image(link)
         items.append({
             "title": title,
             "title_vi": translate_to_vi(title),
@@ -183,14 +213,15 @@ def parse_feed(xml_bytes, require_audio, strip_wp_boilerplate=False, fetch_sound
             "summary_vi": translate_to_vi(description),
             "audio": audio_url or "",
             "embed": embed_url,
+            "image": image_url or "",
             "duration": duration.strip() if duration else "",
         })
     return items
 
 
-def fetch_program(url, require_audio, strip_wp_boilerplate=False, fetch_soundcloud=False):
+def fetch_program(url, require_audio, strip_wp_boilerplate=False, fetch_soundcloud=False, fetch_og_image=False):
     xml_bytes = fetch(url)
-    return parse_feed(xml_bytes, require_audio, strip_wp_boilerplate, fetch_soundcloud)
+    return parse_feed(xml_bytes, require_audio, strip_wp_boilerplate, fetch_soundcloud, fetch_og_image)
 
 
 def main():
@@ -225,6 +256,7 @@ def main():
                 require_audio=feed["require_audio"],
                 strip_wp_boilerplate=feed["strip_wp_boilerplate"],
                 fetch_soundcloud=feed.get("fetch_soundcloud_embed", False),
+                fetch_og_image=feed.get("fetch_og_image", False),
             )
         except (urllib.error.URLError, ET.ParseError, TimeoutError, OSError) as e:
             print(f"WARN: failed to fetch/parse {feed['id']} ({feed['url']}): {e}", file=sys.stderr)
@@ -244,7 +276,7 @@ def main():
 
     out = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": "VOA Learning English, Breaking News English, News in Levels",
+        "source": "VOA Learning English, Breaking News English, News in Levels, BBC 6 Minute English",
         "programs": programs_out,
     }
 

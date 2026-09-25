@@ -49,7 +49,9 @@
   .news-program{margin-bottom:22px;}
   .news-program:last-child{margin-bottom:0;}
   .news-program h3{font-size:.98rem;margin:0 0 10px;color:var(--accent2);}
-  .news-item{border-bottom:1px solid var(--border);padding:12px 0;}
+  .news-item{border-bottom:1px solid var(--border);padding:12px 0;display:flex;gap:12px;}
+  .news-thumb{width:96px;height:96px;flex:none;border-radius:10px;object-fit:cover;background:var(--card2);}
+  .news-body{flex:1;min-width:0;}
   .news-item:last-child{border-bottom:none;padding-bottom:0;}
   .news-item h4{margin:0 0 4px;font-size:.98rem;line-height:1.35;}
   .news-item h4 a{color:var(--text);text-decoration:none;}
@@ -526,14 +528,18 @@ function renderNewsList(){
             <button class="ghost" style="padding:4px 10px;font-size:.78rem;margin-left:4px" onclick="speakNewsFallback(${pi},${ii})">🔊 Nghe bằng giọng đọc trình duyệt</button>
           </div>`;
       }
+      const thumb = it.image ? `<img class="news-thumb" src="${it.image}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">` : "";
       return `
       <div class="news-item">
-        <h4><a href="${it.link}" target="_blank" rel="noopener">${it.title}</a></h4>
-        ${showNewsVi && it.title_vi ? `<div class="muted" style="margin-top:-2px">${it.title_vi}</div>` : ""}
-        <div class="news-meta">${formatPubDate(it.pubDate)}${it.duration?` · ${it.duration}`:""}</div>
-        ${it.summary?`<div class="news-summary">${it.summary}</div>`:""}
-        ${showNewsVi && it.summary_vi ? `<div class="news-summary" style="font-style:italic">${it.summary_vi}</div>` : ""}
-        ${playerHtml}
+        ${thumb}
+        <div class="news-body">
+          <h4><a href="${it.link}" target="_blank" rel="noopener">${it.title}</a></h4>
+          ${showNewsVi && it.title_vi ? `<div class="muted" style="margin-top:-2px">${it.title_vi}</div>` : ""}
+          <div class="news-meta">${formatPubDate(it.pubDate)}${it.duration?` · ${it.duration}`:""}</div>
+          ${it.summary?`<div class="news-summary">${it.summary}</div>`:""}
+          ${showNewsVi && it.summary_vi ? `<div class="news-summary" style="font-style:italic">${it.summary_vi}</div>` : ""}
+          ${playerHtml}
+        </div>
       </div>`;
     }).join("");
     return `<div class="news-program"><h3>${prog.name}</h3>${itemsHtml}</div>`;
