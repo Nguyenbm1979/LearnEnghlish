@@ -94,6 +94,10 @@ OTHER_FEEDS = [
         "source_url": "https://www.bbc.co.uk/learningenglish/",
         "require_audio": True,
         "strip_wp_boilerplate": False,
+        # bbc.co.uk (and its audio redirect chain) is also blocked on
+        # Vietnamese networks — confirmed with the same user who found VOA
+        # blocked. Episodes are small (~3MB) so mirror several, not just 1.
+        "mirror_audio_count": 3,
     },
 ]
 
@@ -263,6 +267,12 @@ def main():
             items = []
         if items:
             any_success = True
+        mirror_count = feed.get("mirror_audio_count", 0)
+        for it in items[:mirror_count]:
+            if it["audio"]:
+                local_path = mirror_audio(it["audio"], feed["id"])
+                if local_path:
+                    it["audio"] = local_path
         programs_out.append({
             "id": feed["id"],
             "name": feed["name"],
