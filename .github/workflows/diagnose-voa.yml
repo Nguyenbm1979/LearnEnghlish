@@ -3,18 +3,33 @@ name: Diagnose VOA feed (temporary)
 on:
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Probe VOA endpoints
         run: |
           UA="Mozilla/5.0 (compatible; LearnEnglishAppBot/1.0)"
-          echo "=== rssfeeds page (grep rss/xml links) ==="
-          curl -sS -A "$UA" "https://learningenglish.voanews.com/rssfeeds" | grep -oE 'href="[^"]*(rss|xml|format=RSS)[^"]*"' | sort -u | head -40
-          echo "=== z/1689 page head, look for link rel=alternate ==="
-          curl -sS -A "$UA" "https://learningenglish.voanews.com/z/1689" | grep -oE '<link[^>]*rss[^>]*>|<link[^>]*alternate[^>]*>' | head -20
-          echo "=== current format=RSS feed: last item date ==="
-          curl -sS -A "$UA" "https://learningenglish.voanews.com/podcast/?zoneId=1689&format=RSS" | grep -oE '<title>[^<]*</title>' | head -5
-          echo "=== itunes lookup feedUrl ==="
-          curl -sS "https://itunes.apple.com/lookup?id=109522474" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['results'][0].get('feedUrl') if d.get('resultCount') else 'no result')"
+          {
+            echo "=== rssfeeds page (grep rss/xml links) ==="
+            curl -sS -A "$UA" "https://learningenglish.voanews.com/rssfeeds" | grep -oE 'href="[^"]*(rss|xml|format=RSS)[^"]*"' | sort -u | head -40
+            echo "=== z/1689 page head, look for link rel=alternate ==="
+            curl -sS -A "$UA" "https://learningenglish.voanews.com/z/1689" | grep -oE '<link[^>]*rss[^>]*>|<link[^>]*alternate[^>]*>' | head -20
+            echo "=== current format=RSS feed: first 5 item titles ==="
+            curl -sS -A "$UA" "https://learningenglish.voanews.com/podcast/?zoneId=1689&format=RSS" | grep -oE '<title>[^<]*</title>' | head -6
+            echo "=== itunes lookup feedUrl ==="
+            curl -sS "https://itunes.apple.com/lookup?id=109522474" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d['results'][0].get('feedUrl') if d.get('resultCount') else 'no result')"
+            echo "=== podcast page (no format param), grep rss autodiscovery + og tags ==="
+            curl -sS -A "$UA" "https://learningenglish.voanews.com/podcast/?zoneId=1689" | grep -oE '<link[^>]*(rss|alternate)[^>]*>' | head -10
+          } > diagnostic-output.txt
+      - name: Commit output
+        run: |
+          git config user.name "voa-news-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add diagnostic-output.txt
+          git commit -m "chore: diagnostic output" || echo "nothing to commit"
+          git push
