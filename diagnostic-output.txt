@@ -1,11 +1,13 @@
-=== storynory.com/feed/ ===
+=== storynory retry ===
+ERROR: HTTP Error 500: Internal Server Error
 ERROR: HTTP Error 500: Internal Server Error
 
-=== learnenglishkids.britishcouncil.org homepage ===
-OK, length: 106741
+=== British Council Kids short-stories: find story links ===
+story links found: []
 
-=== uniteforliteracy.com homepage ===
-OK, length: 42176
+=== British Council: probe one story page ===
+ERROR: HTTP Error 404: Not Found
 
-=== storyberries.com/feed/ ===
-ERROR: HTTP Error 403: Forbidden
+=== Unite for Literacy: probe structure ===
+title: Unite for Literacy
+book link: //books-cloud.uniteforliteracy.com
