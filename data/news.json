@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T00:22:37Z",
+  "generated_at": "2026-09-29T01:33:41Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "Bus passengers to be fined for playing loud music",
+          "title_vi": "Hành khách xe buýt bị phạt vì mở nhạc lớn",
+          "link": "https://breakingnewsenglish.com/2609/260928-loud-music-public-transport.html",
+          "pubDate": "Mon, 28 Sep 2026 00:30:00 GMT",
+          "summary": "Sep 28, 2026. Singapore has introduced new fines of up to $500 for blaring out music on buses that annoys other passengers.",
+          "summary_vi": "Ngày 28 tháng 9 năm 2026. Singapore ban hành mức phạt mới lên tới 500 USD đối với hành vi bật nhạc ầm ĩ trên xe buýt khiến hành khách khác khó chịu.",
+          "audio": "https://breakingnewsenglish.com/2609/260928-loud-music-public-transport.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2609/260928-loud-music-public-transport1.jpg",
+          "duration": ""
+        },
         {
           "title": "Toys R Us to open 120 new stores in USA",
           "title_vi": "Toys R Us mở 120 cửa hàng mới ở Mỹ",
@@ -57,7 +69,7 @@
         },
         {
           "title": "Traffic noise may be making birdsong less calming",
-          "title_vi": "Tiếng ồn giao thông có thể làm cho tiếng chim hót trở nên kém êm dịu hơn",
+          "title_vi": "Tiếng ồn giao thông có thể làm cho tiếng chim hót bớt êm dịu hơn",
           "link": "https://breakingnewsenglish.com/2609/260910-birdsong-and-traffic-noise.html",
           "pubDate": "Thu, 10 Aug 2026 00:30:00 GMT",
           "summary": "Aug 10, 2026. The noise from traffic may reduce the positive effects of birdsong on our mood.",
@@ -90,18 +102,6 @@
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2609/260903-manga-theme-park1.jpg",
           "duration": ""
-        },
-        {
-          "title": "Companies destroying books to train AI models",
-          "title_vi": "Các công ty hủy sách để đào tạo mô hình AI",
-          "link": "https://breakingnewsenglish.com/2608/260831-destroying-rare-books.html",
-          "pubDate": "Mon, 31 Aug 2026 00:30:00 GMT",
-          "summary": "Aug 31, 2026. AI companies are being investigated for allegedly using and then destroying rare books to train LLMs.",
-          "summary_vi": "Ngày 31 tháng 8 năm 2026. Các công ty AI đang bị điều tra vì bị cáo buộc sử dụng và sau đó tiêu hủy những cuốn sách quý hiếm để đào tạo LLM.",
-          "audio": "https://breakingnewsenglish.com/2608/260831-destroying-rare-books.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2608/260831-destroying-rare-books1.jpg",
-          "duration": ""
         }
       ]
     },
@@ -111,12 +111,84 @@
       "source_url": "https://www.newsinlevels.com/",
       "items": [
         {
+          "title": "Empty flats in London – level 1",
+          "title_vi": "Căn hộ trống ở London – tầng 1",
+          "link": "https://www.newsinlevels.com/products/empty-flats-in-london-level-1/",
+          "pubDate": "Mon, 28 Sep 2026 14:00:33 +0000",
+          "summary": "28-09-2026 15:00 Many people in London do not want to buy flats today. In the past, people wait in lines to buy them, but now many flats stay empty for months. Buying a flat is very expensive. It is expensive to build a flat. Also, banks want a lot more money. Many owners are sad. They cannot sell their homes....",
+          "summary_vi": "28-09-2026 15:00 Ngày nay nhiều người ở London không muốn mua căn hộ. Trước đây, người ta xếp hàng dài để mua nhưng giờ đây nhiều căn hộ bị bỏ trống trong nhiều tháng. Mua một căn hộ rất tốn kém. Xây một căn hộ thì tốn kém. Ngoài ra, các ngân hàng muốn có nhiều tiền hơn. Nhiều chủ sở hữu buồn. Họ không thể bán nhà của họ....",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406118005&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_624549598_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Empty flats in London – level 2",
+          "title_vi": "Căn hộ trống ở London – tầng 2",
+          "link": "https://www.newsinlevels.com/products/empty-flats-in-london-level-2/",
+          "pubDate": "Mon, 28 Sep 2026 14:00:33 +0000",
+          "summary": "28-09-2026 15:00 The flat market in London is facing big problems. A few years ago, many people waited in long lines to buy apartments. Today, half of the flats for sale cannot find a buyer. This happens because buying a home is now very expensive due to high interest rates, rising maintenance costs, and a growing need for bigger houses....",
+          "summary_vi": "28-09-2026 15:00 Thị trường căn hộ ở London đang gặp vấn đề lớn. Cách đây vài năm, nhiều người xếp hàng dài để mua căn hộ. Ngày nay, một nửa số căn hộ được rao bán không tìm được người mua. Điều này xảy ra vì việc mua nhà hiện nay rất tốn kém do lãi suất cao, chi phí bảo trì tăng và nhu cầu mua nhà lớn hơn ngày càng tăng....",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406119964&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_624549598_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Empty flats in London – level 3",
+          "title_vi": "Căn hộ trống ở London – tầng 3",
+          "link": "https://www.newsinlevels.com/products/empty-flats-in-london-level-3/",
+          "pubDate": "Mon, 28 Sep 2026 14:00:33 +0000",
+          "summary": "28-09-2026 15:00 London’s real estate market is facing a severe slump in flat sales, which is in sharp contrast with the high demand seen just a few years ago. Property data reveals a growing mismatch in the housing crisis: 88 percent of flats listed for sale in London last year failed to find a buyer within six months. High mortgage...",
+          "summary_vi": "28-09-2026 15:00 Thị trường bất động sản London đang phải đối mặt với sự sụt giảm nghiêm trọng về doanh số bán căn hộ, trái ngược hoàn toàn với nhu cầu cao chỉ vài năm trước. Dữ liệu bất động sản cho thấy sự chênh lệch ngày càng tăng trong cuộc khủng hoảng nhà ở: 88% căn hộ được rao bán ở London năm ngoái không tìm được người mua trong vòng sáu tháng. Thế chấp cao...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406126930&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_624549598_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Malaysia’s transport minister resigns – level 1",
+          "title_vi": "Bộ trưởng giao thông Malaysia từ chức – cấp độ 1",
+          "link": "https://www.newsinlevels.com/products/malaysias-transport-minister-resigns-level-1/",
+          "pubDate": "Mon, 28 Sep 2026 06:00:59 +0000",
+          "summary": "28-09-2026 07:00 An important politician in Malaysia, Anthony Loke, wants to quit his job as transport minister. He is unhappy because ex leader Najib Razak can leave prison to live at home under house arrest. Anthony Loke says that all people must follow the law. His political party is very big and strong. Other ministers in his party will stay...",
+          "summary_vi": "28-09-2026 07:00 Chính trị gia quan trọng ở Malaysia, Anthony Loke, muốn từ bỏ chức vụ bộ trưởng giao thông. Ông không hài lòng vì cựu lãnh đạo Najib Razak có thể rời nhà tù về sống tại nhà dưới sự quản thúc tại gia. Anthony Loke nói rằng tất cả mọi người phải tuân theo pháp luật. Đảng chính trị của ông rất lớn và mạnh. Các bộ trưởng khác trong đảng của ông sẽ ở lại...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406117630&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_707759816_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Malaysia’s transport minister resigns – level 2",
+          "title_vi": "Bộ trưởng giao thông Malaysia từ chức – cấp độ 2",
+          "link": "https://www.newsinlevels.com/products/malaysias-transport-minister-resigns-level-2/",
+          "pubDate": "Mon, 28 Sep 2026 06:00:59 +0000",
+          "summary": "28-09-2026 07:00 Malaysia’s Transport Minister offered to quit his government job. He is angry because the country’s king gave a special pardon to former Prime Minister Najib Razak. Under this new rule, Najib can leave prison and stay under house arrest if he pays a large fine. Loke said his party is strongly against corruption and believes that no one...",
+          "summary_vi": "28-09-2026 07:00 Bộ trưởng Giao thông vận tải Malaysia đề nghị từ bỏ chức vụ chính phủ Ông tức giận vì nhà vua nước này đã ân xá đặc biệt cho cựu Thủ tướng Najib Razak. Theo quy định mới này, Najib có thể rời khỏi nhà tù và bị quản thúc tại gia nếu nộp một khoản tiền phạt lớn. Loke cho biết đảng của ông cực lực chống tham nhũng và tin rằng không ai...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406122193&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_707759816_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Malaysia’s transport minister resigns – level 3",
+          "title_vi": "Bộ trưởng giao thông Malaysia từ chức – cấp độ 3",
+          "link": "https://www.newsinlevels.com/products/malaysias-transport-minister-resigns-level-3/",
+          "pubDate": "Mon, 28 Sep 2026 06:00:59 +0000",
+          "summary": "28-09-2026 07:00 Malaysia’s Transport Minister Anthony Loke offered to resign from the cabinet in protest against a conditional royal pardon granted to jailed former Prime Minister Najib Razak. The pardon allows Najib to serve the remainder of his sentence under house arrest if he meets specific conditions, including paying a fine of approximately 12 million dollars. Loke, who serves as...",
+          "summary_vi": "28-09-2026 07:00 Bộ trưởng Giao thông Vận tải Malaysia Anthony Loke đề nghị từ chức khỏi nội các để phản đối lệnh ân xá có điều kiện của hoàng gia dành cho cựu Thủ tướng Najib Razak đang bị bỏ tù. Lệnh ân xá cho phép Najib chấp hành phần còn lại của bản án dưới sự quản thúc tại gia nếu anh ta đáp ứng các điều kiện cụ thể, bao gồm cả việc nộp phạt khoảng 12 triệu đô la. Loke, người phục vụ như...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406129588&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_707759816_L.jpg",
+          "duration": ""
+        },
+        {
           "title": "This game is your elevator to English – level 1",
           "title_vi": "Trò chơi này là cầu thang giúp bạn nâng cao trình độ tiếng Anh – cấp độ 1",
           "link": "https://www.newsinlevels.com/products/this-game-is-your-elevator-to-english-level-1/",
           "pubDate": "Sat, 26 Sep 2026 11:00:23 +0000",
           "summary": "26-09-2026 12:00 What is LangoPlay? LangoPlay is like an elevator. It can take you up to an intermediate level of English. It helps you learn English step by step. LangoPlay takes you to a level where you know 2,500 English words. These words are very important. They are 90% of the words people use in everyday spoken English. With these...",
-          "summary_vi": "26-09-2026 12:00 LangoPlay là gì? LangoPlay giống như một chiếc thang máy. Nó có thể đưa bạn lên trình độ tiếng Anh trung cấp. Nó giúp bạn học tiếng Anh từng bước một. LangoPlay đưa bạn đến một trình độ mà bạn biết được 2.500 từ tiếng Anh. Những lời này rất quan trọng. Chúng là 90% từ mà mọi người sử dụng trong tiếng Anh nói hàng ngày. Với những...",
+          "summary_vi": "26-09-2026 12:00 LangoPlay là gì? LangoPlay giống như một chiếc thang máy. Nó có thể đưa bạn lên trình độ tiếng Anh trung cấp. Nó giúp bạn học tiếng Anh từng bước. LangoPlay đưa bạn đến một trình độ mà bạn biết 2.500 từ tiếng Anh. Những lời này rất quan trọng. Chúng là 90% từ mà mọi người sử dụng trong tiếng Anh nói hàng ngày. Với những...",
           "audio": "",
           "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2407444686&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
           "image": "https://www.newsinlevels.com/wp-content/uploads/2026/08/This-game-is-your-elevator-to-English.png",
@@ -124,7 +196,7 @@
         },
         {
           "title": "This game is your elevator to English – level 2",
-          "title_vi": "Trò chơi này là cầu thang giúp bạn nâng cao tiếng Anh – cấp độ 2",
+          "title_vi": "Trò chơi này là cầu thang giúp bạn nâng cao trình độ tiếng Anh – cấp độ 2",
           "link": "https://www.newsinlevels.com/products/this-game-is-your-elevator-to-english-level-2/",
           "pubDate": "Sat, 26 Sep 2026 11:00:23 +0000",
           "summary": "26-09-2026 12:00 What is LangoPlay? LangoPlay is like an elevator. It can take you up to an intermediate level of English. It helps you move from your current level to a level where you know about 2,500 words. These 2,500 words are very important. They are 90% of everyday spoken English. At this level, you will know enough words and...",
@@ -132,78 +204,6 @@
           "audio": "",
           "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2407445409&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
           "image": "https://www.newsinlevels.com/wp-content/uploads/2026/08/This-game-is-your-elevator-to-English.png",
-          "duration": ""
-        },
-        {
-          "title": "This game is your elevator to English – level 3",
-          "title_vi": "Trò chơi này là cầu thang giúp bạn nâng cao trình độ tiếng Anh – cấp độ 3",
-          "link": "https://www.newsinlevels.com/products/this-game-is-your-elevator-to-english-level-3/",
-          "pubDate": "Sat, 26 Sep 2026 11:00:23 +0000",
-          "summary": "26-09-2026 12:00 What is LangoPlay? LangoPlay is like an elevator that can take you up to an intermediate level of English. It helps you move from your current level to a point where you know around 2,500 words. These 2,500 words cover about 90% of everyday spoken English. At this level, you will have the vocabulary and basic grammar to...",
-          "summary_vi": "26-09-2026 12:00 LangoPlay là gì? LangoPlay giống như một chiếc thang máy đưa bạn lên trình độ tiếng Anh trung cấp. Nó giúp bạn chuyển từ trình độ hiện tại của mình lên mức bạn biết khoảng 2.500 từ. 2.500 từ này bao gồm khoảng 90% tiếng Anh nói hàng ngày. Ở cấp độ này, bạn sẽ có vốn từ vựng và ngữ pháp cơ bản để...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2407444890&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/08/This-game-is-your-elevator-to-English.png",
-          "duration": ""
-        },
-        {
-          "title": "The doorway effect – level 1",
-          "title_vi": "Hiệu ứng ô cửa – cấp độ 1",
-          "link": "https://www.newsinlevels.com/products/the-doorway-effect-level-1/",
-          "pubDate": "Fri, 25 Sep 2026 14:00:11 +0000",
-          "summary": "25-09-2026 15:00 The doorway effect is a common problem with your memory. You walk into a room and forget why you are there. This happens because your brain thinks that a new event is starting when you walk through a door. To get ready for new things, your brain clears your memory. Scientists test this in real and virtual rooms....",
-          "summary_vi": "25-09-2026 15:00 Hiệu ứng ô cửa là một vấn đề thường gặp với trí nhớ của bạn. Bạn bước vào một căn phòng và quên mất tại sao bạn lại ở đó. Điều này xảy ra vì não bạn nghĩ rằng một sự kiện mới đang bắt đầu khi bạn bước qua một cánh cửa. Để sẵn sàng cho những điều mới, bộ não của bạn sẽ dọn sạch trí nhớ của bạn. Các nhà khoa học thử nghiệm điều này trong phòng thực và ảo....",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406017103&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_30293439_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "The doorway effect – level 2",
-          "title_vi": "Hiệu ứng ô cửa – cấp độ 2",
-          "link": "https://www.newsinlevels.com/products/the-doorway-effect-level-2/",
-          "pubDate": "Fri, 25 Sep 2026 14:00:11 +0000",
-          "summary": "25-09-2026 15:00 The doorway effect happens when you walk into a new room and suddenly forget what you were going to do. Scientists explain that our brains divide our daily life into different events. When you go through a door, your brain thinks a new event is starting. It clears your short-term memory to make space for new information, which...",
-          "summary_vi": "25-09-2026 15:00 Hiệu ứng ô cửa xảy ra khi bạn bước vào một căn phòng mới và đột nhiên quên mất mình định làm gì. Các nhà khoa học giải thích rằng bộ não của chúng ta chia cuộc sống hàng ngày của chúng ta thành những sự kiện khác nhau. Khi bạn đi qua một cánh cửa, não bạn nghĩ rằng một sự kiện mới đang bắt đầu. Nó xóa bộ nhớ ngắn hạn của bạn để tạo không gian cho thông tin mới,...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406022785&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_30293439_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "The doorway effect – level 3",
-          "title_vi": "Hiệu ứng ô cửa – cấp độ 3",
-          "link": "https://www.newsinlevels.com/products/the-doorway-effect-level-3/",
-          "pubDate": "Fri, 25 Sep 2026 14:00:11 +0000",
-          "summary": "25-09-2026 15:00 The doorway effect, also known as the location updating effect, is a common memory lapse that occurs when walking into a new room makes you forget your original intention. Psychologists explain that our brains break continuous time into separate events. When moving through a doorway or entering a new space, the brain identifies an event boundary. It saves...",
-          "summary_vi": "25-09-2026 15:00 Hiệu ứng ô cửa hay còn gọi là hiệu ứng cập nhật vị trí là hiện tượng mất trí nhớ phổ biến xảy ra khi bước vào phòng mới khiến bạn quên mất ý định ban đầu. Các nhà tâm lý học giải thích rằng bộ não của chúng ta chia thời gian liên tục thành các sự kiện riêng biệt. Khi di chuyển qua một ô cửa hoặc bước vào một không gian mới, não sẽ xác định ranh giới sự kiện. Nó tiết kiệm...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406025134&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_30293439_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Greenland and Antarctica lose ice – level 1",
-          "title_vi": "Greenland và Nam Cực mất băng – cấp độ 1",
-          "link": "https://www.newsinlevels.com/products/greenland-and-antarctica-lose-ice-level-1/",
-          "pubDate": "Fri, 25 Sep 2026 06:00:00 +0000",
-          "summary": "25-09-2026 07:00 A big study says that Greenland and Antarctica lose a lot of ice since 1979. Warm water and warm air are melting the ice very fast. This lost ice makes the sea level 3.2 centimetres higher around the world. When the sea goes up, it brings big floods. It is dangerous for people who live near the ocean....",
-          "summary_vi": "25-09-2026 07:00 Một nghiên cứu lớn cho biết Greenland và Nam Cực mất rất nhiều băng kể từ năm 1979. Nước ấm và không khí ấm đang làm băng tan rất nhanh. Lớp băng bị mất này khiến mực nước biển trên khắp thế giới cao hơn 3,2 cm. Khi nước biển dâng cao sẽ gây ra lũ lụt lớn. Thật nguy hiểm cho những người sống gần biển....",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406015519&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_172377326_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Greenland and Antarctica lose ice – level 2",
-          "title_vi": "Greenland và Nam Cực mất băng – cấp độ 2",
-          "link": "https://www.newsinlevels.com/products/greenland-and-antarctica-lose-ice-level-2/",
-          "pubDate": "Fri, 25 Sep 2026 06:00:00 +0000",
-          "summary": "25-09-2026 07:00 A new study shows that Greenland and Antarctica lost 12.5 trillion tonnes of ice since 1979. This huge melting of ice caused world sea levels to rise by about 3.2 centimetres. Scientists used satellite data to track the changes over forty years. They discovered that the ice sheets were stable in the 1970s and 1980s, but melting became...",
-          "summary_vi": "25-09-2026 07:00 Một nghiên cứu mới cho thấy Greenland và Nam Cực đã mất 12,5 nghìn tỷ tấn băng kể từ năm 1979. Sự tan chảy băng khổng lồ này khiến mực nước biển thế giới tăng khoảng 3,2 cm. Các nhà khoa học đã sử dụng dữ liệu vệ tinh để theo dõi những thay đổi trong suốt 40 năm. Họ phát hiện ra rằng các tảng băng ổn định vào những năm 1970 và 1980, nhưng sự tan chảy trở nên...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2406021282&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_172377326_L.jpg",
           "duration": ""
         }
       ]
