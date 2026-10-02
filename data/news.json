@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:08:25Z",
+  "generated_at": "2026-10-02T01:22:36Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "European Union warns of energy price crisis",
+          "title_vi": "Liên minh châu Âu cảnh báo khủng hoảng giá năng lượng",
+          "link": "https://breakingnewsenglish.com/2610/261001-energy-price-crisis.html",
+          "pubDate": "Thu, 01 Oct 2026 00:30:00 GMT",
+          "summary": "Oct 01, 2026. The European Union is worried about rising energy prices.",
+          "summary_vi": "Ngày 01 tháng 10 năm 2026. Liên minh Châu Âu lo lắng về giá năng lượng tăng cao.",
+          "audio": "https://breakingnewsenglish.com/2610/261001-energy-price-crisis.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2610/261001-energy-price-crisis1.jpg",
+          "duration": ""
+        },
         {
           "title": "Bus passengers to be fined for playing loud music",
           "title_vi": "Hành khách xe buýt bị phạt vì mở nhạc lớn",
@@ -69,7 +81,7 @@
         },
         {
           "title": "Traffic noise may be making birdsong less calming",
-          "title_vi": "Tiếng ồn giao thông có thể làm cho tiếng chim hót trở nên kém êm dịu hơn",
+          "title_vi": "Tiếng ồn giao thông có thể làm cho tiếng chim hót bớt êm dịu hơn",
           "link": "https://breakingnewsenglish.com/2609/260910-birdsong-and-traffic-noise.html",
           "pubDate": "Thu, 10 Aug 2026 00:30:00 GMT",
           "summary": "Aug 10, 2026. The noise from traffic may reduce the positive effects of birdsong on our mood.",
@@ -90,18 +102,6 @@
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2609/260907-ban-on-ai-songs1.jpg",
           "duration": ""
-        },
-        {
-          "title": "France and Saudi Arabia agree to manga theme park",
-          "title_vi": "Pháp và Ả Rập Saudi đồng ý xây dựng công viên chủ đề truyện tranh",
-          "link": "https://breakingnewsenglish.com/2609/260903-manga-theme-park.html",
-          "pubDate": "Thu, 03 Sep 2026 00:30:00 GMT",
-          "summary": "Sep 03, 2026. Saudi Arabia and France are planning a new attraction based on the series Dragon Ball Z.",
-          "summary_vi": "Ngày 03 tháng 9 năm 2026. Ả Rập Saudi và Pháp đang lên kế hoạch cho một điểm tham quan mới dựa trên loạt phim Dragon Ball Z.",
-          "audio": "https://breakingnewsenglish.com/2609/260903-manga-theme-park.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2609/260903-manga-theme-park1.jpg",
-          "duration": ""
         }
       ]
     },
@@ -110,6 +110,78 @@
       "name": "News in Levels (tin hằng ngày, 3 cấp độ đọc)",
       "source_url": "https://www.newsinlevels.com/",
       "items": [
+        {
+          "title": "AI helps women in Kenya – level 1",
+          "title_vi": "AI giúp đỡ phụ nữ ở Kenya – cấp độ 1",
+          "link": "https://www.newsinlevels.com/products/ai-helps-women-in-kenya-level-1/",
+          "pubDate": "Thu, 01 Oct 2026 14:00:17 +0000",
+          "summary": "01-10-2026 15:00 Many pregnant women die. Some have problems during pregnancy. Some die when they give birth. In Africa, a pregnant woman dies every two minutes. It happens mainly in places like Kenya. Many people there live far from hospitals. They cannot get the right help. But now, there is a new device. It shows pictures of babies inside their...",
+          "summary_vi": "01-10-2026 15:00 Nhiều phụ nữ mang thai tử vong. Một số gặp vấn đề khi mang thai. Một số chết khi sinh con. Ở Châu Phi, cứ hai phút lại có một phụ nữ mang thai tử vong. Nó xảy ra chủ yếu ở những nơi như Kenya. Nhiều người ở đó sống xa bệnh viện. Họ không thể nhận được sự giúp đỡ phù hợp. Nhưng bây giờ, có một thiết bị mới. Nó cho thấy hình ảnh của các em bé bên trong...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2013715555&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2024/02/Depositphotos_337920146_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "AI helps women in Kenya – level 2",
+          "title_vi": "AI giúp đỡ phụ nữ ở Kenya – cấp độ 2",
+          "link": "https://www.newsinlevels.com/products/ai-helps-women-in-kenya-level-2/",
+          "pubDate": "Thu, 01 Oct 2026 14:00:17 +0000",
+          "summary": "01-10-2026 15:00 Every two minutes, a pregnant woman dies due to complications, mostly in places like Kenya. Many people in sub-Saharan Africa live far from hospitals. They don’t get good care and it is difficult to get to hospitals. But new technology, like portable ultrasound devices, may help. Groups like Jakaranda Health and Google create devices which non-experts can use....",
+          "summary_vi": "01-10-2026 15:00 Cứ hai phút lại có một phụ nữ mang thai tử vong do biến chứng, hầu hết ở những nơi như Kenya. Nhiều người ở châu Phi cận Sahara sống xa bệnh viện. Họ không được chăm sóc tốt và rất khó đến bệnh viện. Nhưng công nghệ mới, như thiết bị siêu âm cầm tay, có thể giúp ích. Các nhóm như Jakaranda Health và Google tạo ra các thiết bị mà những người không phải là chuyên gia có thể sử dụng....",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2013720707&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2024/02/Depositphotos_337920146_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "AI helps women in Kenya – level 3",
+          "title_vi": "AI giúp đỡ phụ nữ ở Kenya – cấp độ 3",
+          "link": "https://www.newsinlevels.com/products/ai-helps-women-in-kenya-level-3/",
+          "pubDate": "Thu, 01 Oct 2026 14:00:17 +0000",
+          "summary": "01-10-2026 15:00 Pregnancy-related complications claim a woman’s life every two minutes, with most deaths occurring in sub-Saharan Africa, notably Kenya. Limited access to healthcare facilities, especially in remote rural areas where 70% of the population resides, exacerbates the issue. Challenges include inadequate healthcare workers and transportation barriers to reach hospitals. However, inn...",
+          "summary_vi": "01-10-2026 15:00 Cứ hai phút lại có một phụ nữ tử vong do các biến chứng liên quan đến thai kỳ, với hầu hết các trường hợp tử vong xảy ra ở châu Phi cận Sahara, đặc biệt là Kenya. Khả năng tiếp cận các cơ sở chăm sóc sức khỏe bị hạn chế, đặc biệt là ở các vùng nông thôn hẻo lánh, nơi 70% dân số sinh sống, càng làm trầm trọng thêm vấn đề. Những thách thức bao gồm nhân viên y tế không đủ nhân lực và rào cản vận chuyển để đến bệnh viện. Tuy nhiên, quán trọ...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2013726747&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2024/02/Depositphotos_337920146_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Scotland has a big problem with drugs – level 1",
+          "title_vi": "Scotland gặp vấn đề lớn với ma túy – cấp độ 1",
+          "link": "https://www.newsinlevels.com/products/scotland-has-a-big-problem-with-drugs-level-1/",
+          "pubDate": "Thu, 01 Oct 2026 06:00:33 +0000",
+          "summary": "01-10-2026 07:00 Scotland has a big crisis. Over 11,000 people die from drugs in ten years. Last year, 1,133 people die because strong new drugs come to the country. The problem starts long ago when many people lose their jobs. They have no money. Political cuts to help centers also make things worse. Today, scientists test new drugs in a...",
+          "summary_vi": "01-10-2026 07:00 Scotland gặp khủng hoảng lớn. Hơn 11.000 người chết vì ma túy trong 10 năm Năm ngoái, 1.133 người chết vì các loại thuốc mới mạnh được đưa vào nước này. Vấn đề bắt đầu từ lâu khi nhiều người mất việc làm. Họ không có tiền. Việc cắt giảm chính trị để hỗ trợ các trung tâm cũng khiến mọi việc trở nên tồi tệ hơn. Ngày nay, các nhà khoa học thử nghiệm loại thuốc mới trong...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2409009801&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_34632375_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Scotland has a big problem with drugs – level 2",
+          "title_vi": "Scotland gặp vấn đề lớn với ma túy – cấp độ 2",
+          "link": "https://www.newsinlevels.com/products/scotland-has-a-big-problem-with-drugs-level-2/",
+          "pubDate": "Thu, 01 Oct 2026 06:00:33 +0000",
+          "summary": "01-10-2026 07:00 Scotland has a very big drug problem, with more than 11,000 drug deaths in ten years. Last year, 1,133 people died because new, dangerous synthetic drugs entered the market. This crisis started years ago when factories closed, and many people lost work, hope, or support. Past government decisions to cut funding for help services also made the crisis...",
+          "summary_vi": "01-10-2026 07:00 Scotland có vấn đề ma túy rất lớn, với hơn 11.000 ca tử vong do ma túy trong 10 năm. Năm ngoái, 1.133 người chết vì ma túy tổng hợp mới, nguy hiểm được đưa vào thị trường. Cuộc khủng hoảng này bắt đầu từ nhiều năm trước khi các nhà máy đóng cửa và nhiều người mất việc làm, hy vọng hoặc sự hỗ trợ. Các quyết định trước đây của chính phủ nhằm cắt giảm tài trợ cho các dịch vụ trợ giúp cũng khiến cuộc khủng hoảng...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2409010788&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_34632375_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Scotland has a big problem with drugs – level 3",
+          "title_vi": "Scotland gặp vấn đề lớn với ma túy – cấp độ 3",
+          "link": "https://www.newsinlevels.com/products/scotland-has-a-big-problem-with-drugs-level-3/",
+          "pubDate": "Thu, 01 Oct 2026 06:00:33 +0000",
+          "summary": "01-10-2026 07:00 Scotland faces a severe national crisis. It recorded over 11,000 drug-related deaths in the past decade, which made it the drug death capital of Europe. In 2025 alone, 1,133 people died, driven by an increasingly dangerous supply of synthetic opioids like nitazenes. The origins of this crisis trace back to 20th-century industrial decline, poverty, and intergenerational trauma....",
+          "summary_vi": "01-10-2026 07:00 Scotland đối mặt với cuộc khủng hoảng quốc gia nghiêm trọng. Nó đã ghi nhận hơn 11.000 ca tử vong liên quan đến ma túy trong thập kỷ qua, khiến nơi đây trở thành thủ đô tử vong do ma túy của châu Âu. Chỉ riêng năm 2025, 1.133 người đã chết do nguồn cung cấp thuốc phiện tổng hợp như nitazene ngày càng nguy hiểm. Nguồn gốc của cuộc khủng hoảng này bắt nguồn từ sự suy thoái công nghiệp, nghèo đói và chấn thương giữa các thế hệ trong thế kỷ 20....",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2409012645&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_34632375_L.jpg",
+          "duration": ""
+        },
         {
           "title": "Tokyo micro-apartments – level 1",
           "title_vi": "Căn hộ siêu nhỏ ở Tokyo – tầng 1",
@@ -132,78 +204,6 @@
           "audio": "",
           "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1473419515&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
           "image": "https://www.newsinlevels.com/wp-content/uploads/2023/03/Depositphotos_43437537_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Tokyo micro-apartments – level 3",
-          "title_vi": "Căn hộ siêu nhỏ ở Tokyo – tầng 3",
-          "link": "https://www.newsinlevels.com/products/tokyo-micro-apartments-level-3/",
-          "pubDate": "Wed, 30 Sep 2026 14:00:02 +0000",
-          "summary": "30-09-2026 15:00 Micro-apartments are places that are very small, have very few amenities, very little space, and not many of the home comforts that you’d associate with living in a bigger apartment and certainly in a house. However, they’re becoming increasingly popular in the Japanese capital, particularly among younger people who’re just starting in the workplace and can’t afford rents...",
-          "summary_vi": "30-09-2026 15:00 Căn hộ siêu nhỏ là những nơi rất nhỏ, có rất ít tiện nghi, rất ít không gian và không có nhiều tiện nghi như ở nhà mà bạn thường thấy khi sống trong một căn hộ lớn hơn và chắc chắn là trong một ngôi nhà. Tuy nhiên, chúng ngày càng trở nên phổ biến ở thủ đô Nhật Bản, đặc biệt là với những người trẻ tuổi mới bắt đầu đi làm và không đủ tiền thuê nhà...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1473427309&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2023/03/Depositphotos_43437537_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Does Duolingo teach you to speak? – level 1",
-          "title_vi": "Duolingo có dạy bạn nói không? – cấp độ 1",
-          "link": "https://www.newsinlevels.com/products/does-duolingo-teach-you-to-speak-level-1/",
-          "pubDate": "Wed, 30 Sep 2026 06:00:44 +0000",
-          "summary": "30-09-2026 07:00 A woman uses Duolingo for 2,061 days. She loses her daily streak. She can see that she still can not speak Spanish. Duolingo uses games, points, and notifications to make people use the app every day. The company also fires real teachers and uses AI computers to make quick lessons. But the lesson quality is bad. In 2026,...",
-          "summary_vi": "30-09-2026 07:00 Một phụ nữ sử dụng Duolingo được 2.061 ngày. Cô ấy mất đi kỷ lục hàng ngày của mình. Cô ấy có thể thấy rằng cô ấy vẫn không thể nói được tiếng Tây Ban Nha. Duolingo sử dụng trò chơi, điểm và thông báo để thu hút mọi người sử dụng ứng dụng hàng ngày. Công ty cũng sa thải những giáo viên thực thụ và sử dụng máy tính AI để giảng dạy nhanh chóng. Nhưng chất lượng bài học kém. Vào năm 2026,...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2409009306&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_719493240_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Does Duolingo teach you to speak? – level 2",
-          "title_vi": "Duolingo có dạy bạn nói không? – cấp độ 2",
-          "link": "https://www.newsinlevels.com/products/does-duolingo-teach-you-to-speak-level-2/",
-          "pubDate": "Wed, 30 Sep 2026 06:00:44 +0000",
-          "summary": "30-09-2026 07:00 A Duolingo user lost a 2,061-day streak and realized she still couldn’t speak Spanish fluently. This showed a big problem with the popular language app. Duolingo became very rich by using games, daily streaks, and notifications to keep people using the app every day. The company also replaced many human workers with cheap AI to build its courses,...",
-          "summary_vi": "30-09-2026 07:00 Một người dùng Duolingo đã đánh mất chuỗi 2.061 ngày sử dụng và nhận ra rằng cô ấy vẫn không thể nói tiếng Tây Ban Nha trôi chảy. Điều này cho thấy một vấn đề lớn với ứng dụng ngôn ngữ phổ biến. Duolingo trở nên rất giàu có nhờ sử dụng trò chơi, chuỗi ngày và thông báo để giữ chân mọi người sử dụng ứng dụng này hàng ngày. Công ty cũng thay thế nhiều nhân công bằng AI giá rẻ để xây dựng các khóa học của mình,...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2409010599&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_719493240_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Does Duolingo teach you to speak? – level 3",
-          "title_vi": "Duolingo có dạy bạn nói không? – cấp 3",
-          "link": "https://www.newsinlevels.com/products/does-duolingo-teach-you-to-speak-level-3/",
-          "pubDate": "Wed, 30 Sep 2026 06:00:44 +0000",
-          "summary": "30-09-2026 07:00 A viral post by a user who lost a 2,061-day Duolingo streak exposed a fundamental flaw in the language-learning platform: years of daily app use failed to deliver actual conversational fluency. Duolingo achieved massive financial success; it reached 1 billion dollars in revenue in 2025. How? By prioritizing gamification features like notifications, streak freezes, and leaderboa...",
-          "summary_vi": "30-09-2026 07:00 Một bài đăng lan truyền của một người dùng đã mất 2.061 ngày sử dụng Duolingo đã phơi bày một lỗ hổng cơ bản trong nền tảng học ngôn ngữ: nhiều năm sử dụng ứng dụng hàng ngày không mang lại khả năng đàm thoại thực sự trôi chảy. Duolingo đạt được thành công lớn về mặt tài chính; nó đạt doanh thu 1 tỷ đô la vào năm 2025. Bằng cách nào? Bằng cách ưu tiên các tính năng của gamification như thông báo, tạm dừng chuỗi và bảng xếp hạng...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2409012042&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_719493240_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Chinese president visits the US – level 1",
-          "title_vi": "Chủ tịch Trung Quốc thăm Mỹ – cấp độ 1",
-          "link": "https://www.newsinlevels.com/products/chinese-president-visits-the-us-level-1/",
-          "pubDate": "Tue, 29 Sep 2026 14:00:40 +0000",
-          "summary": "29-09-2026 15:00 President Xi Jinping from China visits President Donald Trump in the US. They have a big meal together and say friendly words. But they do not solve many big problems. The presidents have different ideas about money, AI, or Taiwan. They only agree to help trade for two short months. Another problem is with journalists. Some news companies...",
-          "summary_vi": "29-09-2026 15:00 Chủ tịch Trung Quốc Tập Cận Bình thăm Tổng thống Donald Trump tại Mỹ. Họ cùng nhau ăn một bữa thịnh soạn và nói những lời thân mật. Nhưng chúng không giải quyết được nhiều vấn đề lớn. Các tổng thống có quan điểm khác nhau về tiền bạc, AI hoặc Đài Loan. Họ chỉ đồng ý giúp buôn bán trong hai tháng ngắn ngủi. Một vấn đề khác là với các nhà báo. Một số hãng tin...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2408995047&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_159665796_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Chinese president visits the US – level 2",
-          "title_vi": "Chủ tịch Trung Quốc thăm Mỹ – cấp độ 2",
-          "link": "https://www.newsinlevels.com/products/chinese-president-visits-the-us-level-2/",
-          "pubDate": "Tue, 29 Sep 2026 14:00:40 +0000",
-          "summary": "29-09-2026 15:00 Chinese President Xi Jinping visited President Donald Trump in Washington. The two leaders had a big dinner and shared friendly words, but they didn’t solve their main problems. They only agreed to stop new trade tariffs for two months. China wants the US to stop selling weapons to Taiwan, while the US wants better rules on AI and...",
-          "summary_vi": "29-09-2026 15:00 Chủ tịch Trung Quốc Tập Cận Bình thăm Tổng thống Donald Trump tại Washington. Hai nhà lãnh đạo đã dùng bữa tối thịnh soạn và chia sẻ những lời lẽ thân thiện nhưng không giải quyết được vấn đề chính. Họ chỉ đồng ý dừng thuế quan thương mại mới trong hai tháng. Trung Quốc muốn Mỹ ngừng bán vũ khí cho Đài Loan, trong khi Mỹ muốn có quy định tốt hơn về AI và...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2408996181&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/09/Depositphotos_159665796_L.jpg",
           "duration": ""
         }
       ]
