@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:24:03Z",
+  "generated_at": "2026-10-05T00:31:22Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "Schools closed in France as students class with police",
+          "title_vi": "Trường học ở Pháp đóng cửa khi học sinh đối đầu với cảnh sát",
+          "link": "https://breakingnewsenglish.com/2610/261005-school-closures-student-protests.html",
+          "pubDate": "Mon, 05 Oct 2026 00:30:00 GMT",
+          "summary": "Oct 05, 2026. Thousands of students across France have taken to the streets to protest against the state of schools.",
+          "summary_vi": "Ngày 05 tháng 10 năm 2026. Hàng nghìn học sinh trên khắp nước Pháp đã xuống đường phản đối tình trạng trường học.",
+          "audio": "https://breakingnewsenglish.com/2610/261005-school-closures-student-protests.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2610/261005-school-closures-student-protests1.jpg",
+          "duration": ""
+        },
         {
           "title": "European Union warns of energy price crisis",
           "title_vi": "Liên minh châu Âu cảnh báo khủng hoảng giá năng lượng",
@@ -89,18 +101,6 @@
           "audio": "https://breakingnewsenglish.com/2609/260910-birdsong-and-traffic-noise.mp3",
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2609/260910-birdsong-and-traffic-noise1.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Australia bans AI songs from official music charts",
-          "title_vi": "Úc cấm các bài hát AI khỏi bảng xếp hạng âm nhạc chính thức",
-          "link": "https://breakingnewsenglish.com/2609/260907-ban-on-ai-songs.html",
-          "pubDate": "Mon, 07 Sep 2026 00:30:00 GMT",
-          "summary": "Sep 07, 2026. Australia has banned songs that have been \"wholly AI generated\" from entering the country's official music charts.",
-          "summary_vi": "Ngày 07 tháng 9 năm 2026. Úc đã cấm các bài hát \"hoàn toàn do AI tạo ra\" lọt vào bảng xếp hạng âm nhạc chính thức của đất nước.",
-          "audio": "https://breakingnewsenglish.com/2609/260907-ban-on-ai-songs.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2609/260907-ban-on-ai-songs1.jpg",
           "duration": ""
         }
       ]
