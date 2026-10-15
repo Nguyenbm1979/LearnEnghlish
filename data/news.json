@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T00:57:04Z",
+  "generated_at": "2026-10-15T00:20:13Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -8,8 +8,20 @@
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
         {
+          "title": "Scientists discover secret about a honey bee's stinger",
+          "title_vi": "Các nhà khoa học khám phá bí mật về ngòi ong mật",
+          "link": "https://breakingnewsenglish.com/2610/261015-honey-bee-stinger.html",
+          "pubDate": "Thu, 15 Oct 2026 00:30:00 GMT",
+          "summary": "Oct 15, 2026. Scientists found out why a bee's stinger keeps putting venom into a person's skin after it leaves the bee's body.",
+          "summary_vi": "Ngày 15 tháng 10 năm 2026. Các nhà khoa học đã tìm ra lý do tại sao vết đốt của ong vẫn tiếp tục đưa nọc độc vào da người sau khi rời khỏi cơ thể ong.",
+          "audio": "https://breakingnewsenglish.com/2610/261015-honey-bee-stinger.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2610/261015-honey-bee-stinger1.jpg",
+          "duration": ""
+        },
+        {
           "title": "China agrees to halve hybrid car exports to EU",
-          "title_vi": "Trung Quốc đồng ý giảm một nửa lượng xe hybrid xuất khẩu sang EU",
+          "title_vi": "Trung Quốc đồng ý giảm một nửa xuất khẩu xe hybrid sang EU",
           "link": "https://breakingnewsenglish.com/2610/261012-hybrid-car-exports.html",
           "pubDate": "Mon, 12 Oct 2026 00:30:00 GMT",
           "summary": "Oct 12, 2026. China has agreed to halve its exports of hybrid cars to the European Union.",
@@ -90,18 +102,6 @@
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2609/260921-sustainable-development-goals-sdgs1.jpg",
           "duration": ""
-        },
-        {
-          "title": "Sleeping with a light on could damage the heart",
-          "title_vi": "Ngủ với đèn sáng có thể gây hại cho tim",
-          "link": "https://breakingnewsenglish.com/2609/260917-sleeping-with-a-light-on.html",
-          "pubDate": "Thu, 17 Sep 2026 00:30:00 GMT",
-          "summary": "Sep 17, 2026. Researchers say sleeping with a light on could be bad for you.",
-          "summary_vi": "Ngày 17 tháng 9 năm 2026. Các nhà nghiên cứu cho biết để đèn khi ngủ có thể không tốt cho bạn.",
-          "audio": "https://breakingnewsenglish.com/2609/260917-sleeping-with-a-light-on.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2609/260917-sleeping-with-a-light-on1.jpg",
-          "duration": ""
         }
       ]
     },
@@ -110,6 +110,78 @@
       "name": "News in Levels (tin hằng ngày, 3 cấp độ đọc)",
       "source_url": "https://www.newsinlevels.com/",
       "items": [
+        {
+          "title": "A women’s village – level 1",
+          "title_vi": "Làng phụ nữ – cấp 1",
+          "link": "https://www.newsinlevels.com/products/a-womens-village-level-1/",
+          "pubDate": "Wed, 14 Oct 2026 14:00:05 +0000",
+          "summary": "14-10-2026 15:00 Jinwar is a village in northeast Syria. It is a safe place for women. Workers build the village in 2018. The village has 30 houses. Women and children live there together. There are 20 families. The village has a school, a training academy, and a bakery. Women grow crops in fields. No men can live in Jinwar, but...",
+          "summary_vi": "14-10-2026 15:00 Jinwar là một ngôi làng ở phía đông bắc Syria. Đó là nơi an toàn cho phụ nữ. Công nhân xây dựng làng vào năm 2018. Làng có 30 ngôi nhà. Phụ nữ và trẻ em sống ở đó cùng nhau. Có 20 gia đình. Làng có một trường học, một học viện đào tạo và một tiệm bánh. Phụ nữ trồng trọt trên cánh đồng. Không đàn ông nào có thể sống ở Jinwar, nhưng...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1494678229&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2023/04/Depositphotos_29090691_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "A women’s village – level 2",
+          "title_vi": "Làng phụ nữ – cấp 2",
+          "link": "https://www.newsinlevels.com/products/a-womens-village-level-2/",
+          "pubDate": "Wed, 14 Oct 2026 14:00:05 +0000",
+          "summary": "14-10-2026 15:00 Jinwar is a village situated in the Kurdish area of northeast Syria. Women moved here because of war and domestic violence. The name Jinwar means ‘women’s space’ in the Kurdish language. The village was built in 2018, and it consists of 30 houses. 20 families live in the village, but only women and children can live there. Men...",
+          "summary_vi": "14-10-2026 15:00 Jinwar là một ngôi làng nằm ở khu vực người Kurd ở phía đông bắc Syria. Phụ nữ chuyển đến đây vì chiến tranh và bạo lực gia đình. Cái tên Jinwar có nghĩa là “không gian của phụ nữ” trong tiếng Kurd. Ngôi làng được xây dựng vào năm 2018 và bao gồm 30 ngôi nhà. Có 20 gia đình sống trong làng nhưng chỉ có phụ nữ và trẻ em mới được sống ở đó. Đàn ông...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1494680986&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2023/04/Depositphotos_29090691_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "A women’s village – level 3",
+          "title_vi": "Làng phụ nữ – cấp 3",
+          "link": "https://www.newsinlevels.com/products/a-womens-village-level-3/",
+          "pubDate": "Wed, 14 Oct 2026 14:00:05 +0000",
+          "summary": "14-10-2026 15:00 Jinwar is a village in the Kurdish region in northeast Syria where a group of women displaced by war and domestic violence found a safe refuge and rebuilt their lives. Jinwar means ‘women’s space’ in the Kurdish language. The village was built in 2018, and it has 30 houses hosting 20 families of women and children. Jinwar has...",
+          "summary_vi": "14-10-2026 15:00 Jinwar là một ngôi làng ở vùng người Kurd ở phía đông bắc Syria, nơi một nhóm phụ nữ phải di dời vì chiến tranh và bạo lực gia đình đã tìm được nơi ẩn náu an toàn và xây dựng lại cuộc sống của họ. Jinwar có nghĩa là “không gian của phụ nữ” trong tiếng Kurd. Ngôi làng được xây dựng vào năm 2018 và có 30 ngôi nhà chứa 20 gia đình phụ nữ và trẻ em. Jinwar có...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2129311875&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2023/04/Depositphotos_29090691_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "A couple sells fake Taylor Swift tickets – level 1",
+          "title_vi": "Cặp đôi bán vé Taylor Swift giả – cấp 1",
+          "link": "https://www.newsinlevels.com/products/a-couple-sells-fake-taylor-swift-tickets-level-1/",
+          "pubDate": "Wed, 14 Oct 2026 06:00:21 +0000",
+          "summary": "14-10-2026 07:00 A woman and her husband in Canada steal money from more than 100 people. They sell fake tickets for a big Taylor Swift concert in Toronto. They take 265,000 dollars. Many parents buy the tickets for their children. People find out that the tickets are fake just before the concert. They are very sad. The couple says sorry....",
+          "summary_vi": "14-10-2026 07:00 Một cặp vợ chồng ở Canada trộm tiền của hơn 100 người. Họ bán vé giả cho buổi hòa nhạc lớn của Taylor Swift ở Toronto. Họ lấy 265.000 đô la. Nhiều phụ huynh mua vé cho con em mình. Mọi người phát hiện ra vé giả ngay trước buổi hòa nhạc. Họ rất buồn. Cặp đôi nói lời xin lỗi....",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2417829924&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_108833220_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "A couple sells fake Taylor Swift tickets – level 2",
+          "title_vi": "Cặp đôi bán vé Taylor Swift giả – cấp độ 2",
+          "link": "https://www.newsinlevels.com/products/a-couple-sells-fake-taylor-swift-tickets-level-2/",
+          "pubDate": "Wed, 14 Oct 2026 06:00:21 +0000",
+          "summary": "14-10-2026 07:00 A couple from Canada went to court after tricking more than 100 people in a big ticket scam. The woman sold fake tickets for a Taylor Swift concert in Toronto and stole 265 thousand dollars. Many parents bought these tickets as gifts for their children. Some fans found out the tickets were fake right before the show started...",
+          "summary_vi": "14-10-2026 07:00 Một cặp vợ chồng đến từ Canada ra tòa sau khi lừa hơn 100 người trong một vụ lừa đảo vé lớn. Người phụ nữ đã bán vé giả cho buổi hòa nhạc của Taylor Swift ở Toronto và lấy trộm 265 nghìn đô la. Nhiều bậc phụ huynh đã mua những tấm vé này về làm quà cho con mình. Một số người hâm mộ phát hiện ra vé giả ngay trước khi chương trình bắt đầu...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2417831472&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_108833220_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "A couple sells fake Taylor Swift tickets – level 3",
+          "title_vi": "Cặp đôi bán vé Taylor Swift giả – cấp độ 3",
+          "link": "https://www.newsinlevels.com/products/a-couple-sells-fake-taylor-swift-tickets-level-3/",
+          "pubDate": "Wed, 14 Oct 2026 06:00:21 +0000",
+          "summary": "14-10-2026 07:00 A couple from Canada, Denise Tisor and David Blake, went to court after scamming over 100 Taylor Swift fans out of 265 thousand dollars. Tisor sold non-existent tickets for the Eras Tour in Toronto. Many parents bought them as special gifts for their kids, including a sick girl who was seeking relief from medical struggles. Victims only found...",
+          "summary_vi": "14-10-2026 07:00 Cặp đôi đến từ Canada, Denise Tisor và David Blake, ra tòa sau khi lừa đảo hơn 100 fan của Taylor Swift trong số 265 nghìn đô la. Tisor đã bán vé không tồn tại cho Eras Tour ở Toronto. Nhiều bậc cha mẹ đã mua chúng làm quà tặng đặc biệt cho con mình, trong đó có một bé gái bị bệnh đang tìm kiếm sự giúp đỡ sau những khó khăn về y tế. Nạn nhân chỉ được tìm thấy...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2417833170&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_108833220_L.jpg",
+          "duration": ""
+        },
         {
           "title": "Malaysia’s durian is becoming popular – level 1",
           "title_vi": "Sầu riêng Malaysia đang trở nên phổ biến – cấp độ 1",
@@ -132,78 +204,6 @@
           "audio": "",
           "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2417805225&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
           "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_373588688_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Malaysia’s durian is becoming popular – level 3",
-          "title_vi": "Sầu riêng Malaysia đang trở nên phổ biến – cấp độ 3",
-          "link": "https://www.newsinlevels.com/products/malaysias-durian-is-becoming-popular-level-3/",
-          "pubDate": "Tue, 13 Oct 2026 14:00:25 +0000",
-          "summary": "13-10-2026 15:00 Malaysia is making a strong push to turn durian from a simple roadside snack into a luxury global product. The country is targeting China, the world’s biggest durian market. Companies in Kuala Lumpur are launching durian-themed items like cakes and ice cream, while a new 2-million-dollar experience centre introduces tourists to Malaysian durian culture. Unlike Thailand, which h...",
-          "summary_vi": "13-10-2026 15:00 Malaysia đang nỗ lực biến sầu riêng từ món ăn vặt ven đường đơn giản thành sản phẩm cao cấp toàn cầu. Nước này đang nhắm đến Trung Quốc, thị trường sầu riêng lớn nhất thế giới. Các công ty ở Kuala Lumpur đang tung ra các mặt hàng có chủ đề sầu riêng như bánh ngọt và kem, trong khi một trung tâm trải nghiệm mới trị giá 2 triệu đô la giới thiệu cho khách du lịch về văn hóa sầu riêng Malaysia. Không giống như Thái Lan, nơi...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2417807601&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_373588688_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Lithuania and nuclear weapons – level 1",
-          "title_vi": "Litva và vũ khí hạt nhân – cấp độ 1",
-          "link": "https://www.newsinlevels.com/products/lithuania-and-nuclear-weapons-level-1/",
-          "pubDate": "Tue, 13 Oct 2026 06:00:12 +0000",
-          "summary": "13-10-2026 07:00 Lithuania votes today to change its laws about nuclear weapons. Long ago, Lithuania says no to nuclear weapons in the country. Now, leaders want to change the law to make the country safer. Lithuania is near Russia and Belarus. Both countries have big weapons. US President Donald Trump says that the US may build a military base in...",
-          "summary_vi": "13-10-2026 07:00 Hôm nay Lithuania bỏ phiếu thay đổi luật về vũ khí hạt nhân. Từ lâu, Lithuania nói không với vũ khí hạt nhân trong nước. Giờ đây, các nhà lãnh đạo muốn thay đổi luật pháp để đất nước trở nên an toàn hơn. Litva nằm gần Nga và Belarus. Cả hai nước đều có vũ khí lớn. Tổng thống Mỹ Donald Trump nói rằng Mỹ có thể xây dựng căn cứ quân sự ở...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2417803479&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_128327420_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Lithuania and nuclear weapons – level 2",
-          "title_vi": "Litva và vũ khí hạt nhân – cấp độ 2",
-          "link": "https://www.newsinlevels.com/products/lithuania-and-nuclear-weapons-level-2/",
-          "pubDate": "Tue, 13 Oct 2026 06:00:12 +0000",
-          "summary": "13-10-2026 07:00 The parliament of Lithuania voted to start changing its constitution so it can allow nuclear weapons on its land in the future. Lithuania made a law against nuclear weapons years ago when the Soviet Union ended. But today, leaders feel unsafe because Lithuania shares borders with Belarus and Kaliningrad, where Russia keeps nuclear weapons. US President Donald Trump...",
-          "summary_vi": "13-10-2026 07:00 Quốc hội Litva đã bỏ phiếu bắt đầu thay đổi hiến pháp để có thể cho phép vũ khí hạt nhân trên đất nước mình trong tương lai. Lithuania đã đưa ra luật chống vũ khí hạt nhân từ nhiều năm trước khi Liên Xô kết thúc. Nhưng ngày nay, các nhà lãnh đạo cảm thấy không an toàn vì Lithuania có chung đường biên giới với Belarus và Kaliningrad, nơi Nga cất giữ vũ khí hạt nhân. Tổng thống Mỹ Donald Trump...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2417804685&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_128327420_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Lithuania and nuclear weapons – level 3",
-          "title_vi": "Litva và vũ khí hạt nhân – cấp 3",
-          "link": "https://www.newsinlevels.com/products/lithuania-and-nuclear-weapons-level-3/",
-          "pubDate": "Tue, 13 Oct 2026 06:00:12 +0000",
-          "summary": "13-10-2026 07:00 Lithuania’s parliament has taken a historic step to change its constitution, which aims to remove a long-standing ban on hosting foreign nuclear weapons on its soil. Originally introduced after the fall of the Soviet Union to speed up the departure of Russian troops, the constitutional ban is now seen as outdated given current security threats. Bordered by Russia’s...",
-          "summary_vi": "13-10-2026 07:00 Quốc hội Lithuania đã thực hiện một bước đi lịch sử khi thay đổi hiến pháp, nhằm mục đích xóa bỏ lệnh cấm lâu dài về việc lưu trữ vũ khí hạt nhân nước ngoài trên lãnh thổ của mình. Ban đầu được đưa ra sau khi Liên Xô sụp đổ nhằm đẩy nhanh quá trình rút quân của quân đội Nga, lệnh cấm theo hiến pháp hiện được coi là lỗi thời trước các mối đe dọa an ninh hiện tại. Giáp biên giới với Nga...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2417806935&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_128327420_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Indonesia’s Vice President has problems with school papers – level 1",
-          "title_vi": "Phó Tổng thống Indonesia vướng vấn đề giấy tờ ở trường – cấp độ 1",
-          "link": "https://www.newsinlevels.com/products/indonesias-vice-president-has-problems-with-school-papers-level-1/",
-          "pubDate": "Mon, 12 Oct 2026 14:00:52 +0000",
-          "summary": "12-10-2026 15:00 A top court in Indonesia decides about the vice president, Gibran. Some people want him to leave his job. They say that he does not have the right school paper from a foreign school. In Indonesia, top leaders must finish high school. All judges on the court stop the case. They say that the people who start the...",
-          "summary_vi": "12-10-2026 15:00 Tòa án cấp cao ở Indonesia xét xử phó tổng thống Gibran. Một số người muốn anh ấy rời bỏ công việc của mình. Họ nói rằng anh ấy không có giấy tờ phù hợp của trường nước ngoài. Ở Indonesia, lãnh đạo cấp cao phải học hết trung học. Tất cả các thẩm phán trên tòa đều dừng vụ án. Người ta nói rằng những người bắt đầu...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2415561996&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_757048712_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Indonesia’s Vice President has problems with school papers – level 2",
-          "title_vi": "Phó Tổng thống Indonesia vướng vấn đề giấy tờ ở trường – cấp độ 2",
-          "link": "https://www.newsinlevels.com/products/indonesias-vice-president-has-problems-with-school-papers-level-2/",
-          "pubDate": "Mon, 12 Oct 2026 14:00:52 +0000",
-          "summary": "12-10-2026 15:00 The top court in Indonesia dismissed a legal case against Vice President Gibran Rakabuming Raka. Some people tried to remove him from office and said his school diploma from another country was not high enough for a vice president. Under Indonesian law, leaders must finish high school or a school equal to it. All nine judges on the...",
-          "summary_vi": "12-10-2026 15:00 Tòa án tối cao Indonesia bác đơn kiện chống lại Phó Tổng thống Gibran Rakabuming Raka. Một số người cố gắng phế truất ông khỏi chức vụ và cho rằng bằng tốt nghiệp của ông ở nước khác không đủ cao để trở thành phó tổng thống. Theo luật pháp Indonesia, các nhà lãnh đạo phải học hết cấp ba hoặc bằng cấp tương đương. Tất cả chín giám khảo của...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2415564567&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/Depositphotos_757048712_L.jpg",
           "duration": ""
         }
       ]
