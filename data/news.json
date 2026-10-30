@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T01:38:06Z",
+  "generated_at": "2026-10-30T01:40:10Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "World-famous London shopping street pedestrianized",
+          "title_vi": "Phố mua sắm nổi tiếng thế giới ở London dành cho người đi bộ",
+          "link": "https://breakingnewsenglish.com/2610/261029-oxford-street-pedestrianized.html",
+          "pubDate": "Thu, 29 Oct 2026 00:30:00 GMT",
+          "summary": "Oct 29, 2026. London's most famous shopping streets has been pedestrianized.",
+          "summary_vi": "Ngày 29 tháng 10 năm 2026. Những con phố mua sắm nổi tiếng nhất ở London đã dành cho người đi bộ.",
+          "audio": "https://breakingnewsenglish.com/2610/261029-oxford-street-pedestrianized.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2610/261029-oxford-street-pedestrianized1.jpg",
+          "duration": ""
+        },
         {
           "title": "Mummy removed from exhibition over 'lack of consent'",
           "title_vi": "Xác ướp bị loại khỏi triển lãm vì 'thiếu sự đồng ý'",
@@ -90,18 +102,6 @@
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2610/261005-school-closures-student-protests1.jpg",
           "duration": ""
-        },
-        {
-          "title": "European Union warns of energy price crisis",
-          "title_vi": "Liên minh châu Âu cảnh báo khủng hoảng giá năng lượng",
-          "link": "https://breakingnewsenglish.com/2610/261001-energy-price-crisis.html",
-          "pubDate": "Thu, 01 Oct 2026 00:30:00 GMT",
-          "summary": "Oct 01, 2026. The European Union is worried about rising energy prices.",
-          "summary_vi": "Ngày 01 tháng 10 năm 2026. Liên minh Châu Âu lo lắng về giá năng lượng tăng cao.",
-          "audio": "https://breakingnewsenglish.com/2610/261001-energy-price-crisis.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2610/261001-energy-price-crisis1.jpg",
-          "duration": ""
         }
       ]
     },
@@ -110,6 +110,78 @@
       "name": "News in Levels (tin hằng ngày, 3 cấp độ đọc)",
       "source_url": "https://www.newsinlevels.com/",
       "items": [
+        {
+          "title": "Salmon farming and tech – level 1",
+          "title_vi": "Kỹ thuật và nuôi cá hồi – cấp độ 1",
+          "link": "https://www.newsinlevels.com/products/salmon-farming-and-tech-level-1/",
+          "pubDate": "Thu, 29 Oct 2026 14:00:20 +0000",
+          "summary": "29-10-2026 15:00 Salmon farming is a big business. But it has some problems. Norway and Chile are the biggest salmon producers. The fish often get sick or die. Small parasites attack the fish and make them weak. It is not easy to stop the parasites. Some farms, like Norlock in Norway, use chemicals, fresh water, and even lasers to kill...",
+          "summary_vi": "29-10-2026 15:00 Nuôi cá hồi là một ngành kinh doanh lớn. Nhưng nó có một số vấn đề. Na Uy và Chile là những nước sản xuất cá hồi lớn nhất. Cá thường bị bệnh hoặc chết. Ký sinh trùng nhỏ tấn công cá và làm chúng yếu đi. Nó không phải là dễ dàng để ngăn chặn các ký sinh trùng. Một số trang trại, như Norlock ở Na Uy, sử dụng hóa chất, nước ngọt và thậm chí cả tia laser để tiêu diệt...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2137895445&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2024/10/Novy-projekt-21.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Salmon farming and tech – level 2",
+          "title_vi": "Kỹ thuật và nuôi cá hồi – cấp độ 2",
+          "link": "https://www.newsinlevels.com/products/salmon-farming-and-tech-level-2/",
+          "pubDate": "Thu, 29 Oct 2026 14:00:20 +0000",
+          "summary": "29-10-2026 15:00 Salmon farming is a big business and Norway and Chile are the leading producers of farmed salmon. The industry makes billions of dollars, but issues like diseases, fish deaths, and parasites are becoming hard to control. In Norway, farms like Norlock are trying to reduce the number of sick fish. They use chemicals, freshwater baths, and even lasers...",
+          "summary_vi": "29-10-2026 15:00 Nuôi cá hồi là một ngành kinh doanh lớn và Na Uy và Chile là những nước sản xuất cá hồi nuôi hàng đầu. Ngành công nghiệp này kiếm được hàng tỷ đô la, nhưng các vấn đề như bệnh tật, cá chết và ký sinh trùng đang trở nên khó kiểm soát. Ở Na Uy, các trang trại như Norlock đang cố gắng giảm số lượng cá bị bệnh. Họ sử dụng hóa chất, tắm nước ngọt và thậm chí cả tia laser...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2137899189&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2024/10/Novy-projekt-21.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Salmon farming and tech – level 3",
+          "title_vi": "Kỹ thuật và nuôi cá hồi – cấp 3",
+          "link": "https://www.newsinlevels.com/products/salmon-farming-and-tech-level-3/",
+          "pubDate": "Thu, 29 Oct 2026 14:00:20 +0000",
+          "summary": "29-10-2026 15:00 Salmon farming is a growing, multi-billion-dollar industry. The biggest producers, Norway and Chile, have seen booming profits; however, the industry is facing problems such as mass salmon die-offs, infectious diseases, and environmental damage. Fish farming relies heavily on chemicals and antibiotics to treat parasites that can weaken or kill the fish. A large farm in Norway,...",
+          "summary_vi": "29-10-2026 15:00 Nuôi cá hồi là một ngành công nghiệp trị giá hàng tỷ đô la đang phát triển. Các nhà sản xuất lớn nhất là Na Uy và Chile đã đạt được lợi nhuận bùng nổ; tuy nhiên, ngành này đang phải đối mặt với các vấn đề như cá hồi chết hàng loạt, bệnh truyền nhiễm và thiệt hại về môi trường. Nuôi cá phụ thuộc nhiều vào hóa chất và kháng sinh để xử lý ký sinh trùng có thể làm cá yếu đi hoặc chết. Một trang trại lớn ở Na Uy,...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2137902948&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2024/10/Novy-projekt-21.jpg",
+          "duration": ""
+        },
+        {
+          "title": "The UK says yes to drilling in the North Sea – level 1",
+          "title_vi": "Anh đồng ý khoan dầu ở Biển Bắc – cấp độ 1",
+          "link": "https://www.newsinlevels.com/products/the-uk-says-yes-to-drilling-in-the-north-sea-level-1/",
+          "pubDate": "Thu, 29 Oct 2026 06:00:56 +0000",
+          "summary": "29-10-2026 07:00 The UK government says yes to getting new gas from under the sea. There is a plan to drill in the North Sea. Leaders say that this gas will help keep the country safe when energy prices are high. The prime minister says that the country still needs gas, but it also wants clean energy in the future....",
+          "summary_vi": "29-10-2026 07:00 Chính phủ Anh đồng ý tiếp nhận khí đốt mới từ dưới biển. Có kế hoạch khoan ở Biển Bắc. Các nhà lãnh đạo cho rằng nguồn khí này sẽ giúp đất nước được an toàn khi giá năng lượng tăng cao. Thủ tướng nói rằng đất nước vẫn cần khí đốt, nhưng cũng muốn có năng lượng sạch trong tương lai....",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2426454354&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/deep-sea-drill-ship-on-Depositphotos_190003932_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "The UK says yes to drilling in the North Sea – level 2",
+          "title_vi": "Anh đồng ý khoan dầu ở Biển Bắc – cấp độ 2",
+          "link": "https://www.newsinlevels.com/products/the-uk-says-yes-to-drilling-in-the-north-sea-level-2/",
+          "pubDate": "Thu, 29 Oct 2026 06:00:56 +0000",
+          "summary": "29-10-2026 07:00 The UK government approved a new project to drill for gas in the North Sea. Energy companies say this project will help produce more gas for the country. Leaders argue that using local gas makes the country safer as global conflict causes energy prices to rise. The prime minister explained that the country still needs gas while moving...",
+          "summary_vi": "29-10-2026 07:00 Chính phủ Anh phê duyệt dự án mới khoan khí đốt ở Biển Bắc. Các công ty năng lượng cho biết dự án này sẽ giúp sản xuất thêm khí đốt cho đất nước. Các nhà lãnh đạo cho rằng việc sử dụng khí đốt địa phương giúp đất nước an toàn hơn khi xung đột toàn cầu khiến giá năng lượng tăng cao. Thủ tướng giải thích đất nước vẫn cần xăng khi di chuyển...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2426455857&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/deep-sea-drill-ship-on-Depositphotos_190003932_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "The UK says yes to drilling in the North Sea – level 3",
+          "title_vi": "Anh đồng ý khoan dầu ở Biển Bắc – cấp độ 3",
+          "link": "https://www.newsinlevels.com/products/the-uk-says-yes-to-drilling-in-the-north-sea-level-3/",
+          "pubDate": "Thu, 29 Oct 2026 06:00:56 +0000",
+          "summary": "29-10-2026 07:00 The British government has approved drilling at a controversial North Sea gas field, despite strong opposition from environmental groups. Energy companies welcomed the decision and predicted the project could supply over six percent of the nation’s gas at peak production. Officials argue that developing domestic resources is necessary to boost national energy security while glo...",
+          "summary_vi": "29-10-2026 07:00 Chính phủ Anh đã phê duyệt việc khoan tại mỏ khí đốt gây tranh cãi ở Biển Bắc, bất chấp sự phản đối mạnh mẽ của các nhóm môi trường. Các công ty năng lượng hoan nghênh quyết định này và dự đoán dự án có thể cung cấp hơn 6% lượng khí đốt của quốc gia vào thời điểm sản xuất cao điểm. Các quan chức cho rằng việc phát triển nguồn lực trong nước là cần thiết để tăng cường an ninh năng lượng quốc gia trong khi toàn cầu...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2426462658&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/deep-sea-drill-ship-on-Depositphotos_190003932_L.jpg",
+          "duration": ""
+        },
         {
           "title": "AI drones help farmers and the planet – level 1",
           "title_vi": "Máy bay không người lái AI giúp đỡ nông dân và hành tinh – cấp độ 1",
@@ -128,82 +200,10 @@
           "link": "https://www.newsinlevels.com/products/ai-drones-help-farmers-and-the-planet-level-2/",
           "pubDate": "Wed, 28 Oct 2026 14:00:05 +0000",
           "summary": "28-10-2026 15:00 Farmers need to deal with weeds in a more environmentally friendly way. Global warming makes weeds grow faster which means that farmers must use more chemicals. The surprising fact is that 95% of these chemicals go into the soil or they end up on plants. Spraying fields is expensive and very inefficient. Startups like Precision AI are introducing...",
-          "summary_vi": "28-10-2026 15:00 Nông dân cần xử lý cỏ dại theo cách thân thiện với môi trường hơn. Sự nóng lên toàn cầu khiến cỏ dại phát triển nhanh hơn đồng nghĩa với việc nông dân phải sử dụng nhiều hóa chất hơn. Một thực tế đáng ngạc nhiên là 95% các hóa chất này đi vào đất hoặc bám vào thực vật. Việc phun thuốc trên các cánh đồng rất tốn kém và rất kém hiệu quả. Các công ty khởi nghiệp như Precision AI đang giới thiệu...",
+          "summary_vi": "28-10-2026 15:00 Nông dân cần xử lý cỏ dại theo cách thân thiện với môi trường hơn. Sự nóng lên toàn cầu khiến cỏ dại phát triển nhanh hơn đồng nghĩa với việc nông dân phải sử dụng nhiều hóa chất hơn. Một thực tế đáng ngạc nhiên là 95% các hóa chất này đi vào đất hoặc xâm nhập vào thực vật. Việc phun thuốc trên các cánh đồng rất tốn kém và rất kém hiệu quả. Các công ty khởi nghiệp như Precision AI đang giới thiệu...",
           "audio": "",
           "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2136256071&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
           "image": "https://www.newsinlevels.com/wp-content/uploads/2023/09/Depositphotos_245920682_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "AI drones help farmers and the planet – level 3",
-          "title_vi": "Máy bay không người lái AI giúp đỡ nông dân và hành tinh – cấp độ 3",
-          "link": "https://www.newsinlevels.com/products/ai-drones-help-farmers-and-the-planet-level-3/",
-          "pubDate": "Wed, 28 Oct 2026 14:00:05 +0000",
-          "summary": "28-10-2026 15:00 The urgent need to combat weeds sustainably has been heightened by global warming, which accelerates their growth, posing a threat to crops and food security. Traditional methods involve excessive chemical spraying, resulting in environmental harm. Startups like Precision AI are introducing innovative solutions, such as AI-enabled crop-spraying drones, which reduce chemical usa...",
-          "summary_vi": "28-10-2026 15:00 Nhu cầu cấp thiết để chống lại cỏ dại một cách bền vững đã tăng lên do sự nóng lên toàn cầu, khiến chúng tăng tốc độ phát triển, gây ra mối đe dọa cho cây trồng và an ninh lương thực. Các phương pháp truyền thống liên quan đến việc phun hóa chất quá mức, gây hại cho môi trường. Các công ty khởi nghiệp như Precision AI đang giới thiệu các giải pháp sáng tạo, chẳng hạn như máy bay không người lái phun thuốc cho cây trồng được hỗ trợ bởi AI, giúp giảm việc sử dụng hóa chất...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2136257523&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2023/09/Depositphotos_245920682_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Sydney must close its beaches – level 1",
-          "title_vi": "Sydney phải đóng cửa các bãi biển – cấp độ 1",
-          "link": "https://www.newsinlevels.com/products/sydney-must-close-its-beaches-level-1/",
-          "pubDate": "Wed, 28 Oct 2026 06:00:42 +0000",
-          "summary": "28-10-2026 07:00 A dead whale washes up on the rocks near Sydney, Australia. Local leaders close nearby beaches to keep people safe. They are worried that the big dead animal will bring hungry sharks near the shore. Workers cannot easily move the whale. The water is dangerous, and the rocks are sharp. Also, the body is already breaking down into...",
-          "summary_vi": "28-10-2026 07:00 Một con cá voi chết dạt vào bãi đá gần Sydney, Australia. Lãnh đạo địa phương đóng cửa các bãi biển gần đó để đảm bảo an toàn cho người dân. Họ lo lắng con vật to lớn chết sẽ mang theo những con cá mập đói đến gần bờ. Công nhân không thể dễ dàng di chuyển con cá voi. Nước rất nguy hiểm và đá thì sắc nhọn. Ngoài ra, cơ thể đã phân hủy thành...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2426454054&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/bronte-bay-sydney-beach-Depositphotos_2331944_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Sydney must close its beaches – level 2",
-          "title_vi": "Sydney phải đóng cửa các bãi biển – cấp độ 2",
-          "link": "https://www.newsinlevels.com/products/sydney-must-close-its-beaches-level-2/",
-          "pubDate": "Wed, 28 Oct 2026 06:00:42 +0000",
-          "summary": "28-10-2026 07:00 Officials closed famous Australian beaches after a dead young whale washed up on rocky shores near Sydney. Lifeguards shut the beaches to keep swimmers safe because the whale carcass can attract dangerous sharks. Local teams are trying to figure out how to handle the situation, but removing the heavy animal is extremely difficult. The ocean is rough, and...",
-          "summary_vi": "28-10-2026 07:00 Các quan chức đã đóng cửa các bãi biển nổi tiếng của Úc sau khi một con cá voi con chết dạt vào bờ đá gần Sydney. Nhân viên cứu hộ đóng cửa các bãi biển để giữ an toàn cho người bơi vì xác cá voi có thể thu hút những con cá mập nguy hiểm. Các lực lượng địa phương đang cố gắng tìm cách xử lý tình huống nhưng việc đưa con vật nặng nề ra ngoài là điều vô cùng khó khăn. Đại dương rất dữ dội và...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2426455305&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/bronte-bay-sydney-beach-Depositphotos_2331944_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Sydney must close its beaches – level 3",
-          "title_vi": "Sydney phải đóng cửa các bãi biển – cấp độ 3",
-          "link": "https://www.newsinlevels.com/products/sydney-must-close-its-beaches-level-3/",
-          "pubDate": "Wed, 28 Oct 2026 06:00:42 +0000",
-          "summary": "28-10-2026 07:00 Popular beaches in eastern Sydney were closed to the public after a dead young humpback whale washed ashore in a rocky bay. Local authorities shut down swimming and surfing spots as a safety precaution and warned that the whale carcass is likely to attract sharks to the coastline. Emergency teams and local rangers face significant challenges trying to...",
-          "summary_vi": "28-10-2026 07:00 Các bãi biển nổi tiếng ở phía đông Sydney đã bị đóng cửa sau khi một con cá voi lưng gù non chết dạt vào bờ trong một vịnh đá. Chính quyền địa phương đóng cửa các điểm bơi lội và lướt sóng như một biện pháp phòng ngừa an toàn, đồng thời cảnh báo xác cá voi có khả năng thu hút cá mập đến bờ biển. Các đội cấp cứu và kiểm lâm địa phương phải đối mặt với những thách thức đáng kể khi cố gắng...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2426461092&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/bronte-bay-sydney-beach-Depositphotos_2331944_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "No more horses in the streets of New York – level 1",
-          "title_vi": "Không còn ngựa trên đường phố New York – cấp 1",
-          "link": "https://www.newsinlevels.com/products/no-more-horses-in-the-streets-of-new-york-level-1/",
-          "pubDate": "Tue, 27 Oct 2026 14:00:40 +0000",
-          "summary": "27-10-2026 15:00 New York City wants to stop horse carriages in Central Park by 2028. Many people say that working in the city is bad and dangerous for horses. A bad accident with a horse happens some time ago. A tourist dies. Now, city leaders want to ban the rides. Drivers and workers are sad and angry. They will lose...",
-          "summary_vi": "27-10-2026 15:00 Thành phố New York muốn dừng xe ngựa ở Công viên Trung tâm vào năm 2028. Nhiều người cho rằng làm việc ở thành phố không tốt và nguy hiểm cho ngựa. Một tai nạn tồi tệ với một con ngựa xảy ra cách đây một thời gian. Một du khách chết. Bây giờ, lãnh đạo thành phố muốn cấm việc cưỡi ngựa. Tài xế và công nhân vừa buồn vừa giận. Họ sẽ thua...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2425761051&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/horse-carriages-walking-cart-streets-Depositphotos_482344726_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "No more horses in the streets of New York – level 2",
-          "title_vi": "Không còn ngựa trên đường phố New York – cấp độ 2",
-          "link": "https://www.newsinlevels.com/products/no-more-horses-in-the-streets-of-new-york-level-2/",
-          "pubDate": "Tue, 27 Oct 2026 14:00:40 +0000",
-          "summary": "27-10-2026 15:00 New York City is planning to ban horse-drawn carriages in Central Park by June 2028. Animal rights groups criticized the carriages for years and said the horses work in unsafe conditions alongside cars. Support for the ban grew stronger after a tourist died in an accident involving a carriage. While the city mayor supports the new law, drivers...",
-          "summary_vi": "27-10-2026 15:00 Thành phố New York đang lên kế hoạch cấm xe ngựa ở Công viên Trung tâm vào tháng 6 năm 2028. Các nhóm bảo vệ quyền động vật đã chỉ trích xe ngựa trong nhiều năm và cho biết ngựa làm việc trong điều kiện không an toàn bên cạnh ô tô. Sự ủng hộ cho lệnh cấm ngày càng mạnh mẽ sau khi một du khách chết trong một vụ tai nạn liên quan đến xe ngựa. Trong khi thị trưởng thành phố ủng hộ luật mới, các tài xế...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2425762089&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/10/horse-carriages-walking-cart-streets-Depositphotos_482344726_L.jpg",
           "duration": ""
         }
       ]
