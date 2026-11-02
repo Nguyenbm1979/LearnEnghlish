@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T00:46:55Z",
+  "generated_at": "2026-11-02T01:19:56Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "Study finds majority of pilots nod off mid-flight",
+          "title_vi": "Nghiên cứu cho thấy phần lớn phi công ngủ gật giữa chuyến bay",
+          "link": "https://breakingnewsenglish.com/2611/261102-pilot-fatigue.html",
+          "pubDate": "Mon, 02 Nov 2026 00:30:00 GMT",
+          "summary": "Nov 02, 2026. A new report has raised serious concerns about pilot fatigue.",
+          "summary_vi": "Ngày 02 tháng 11 năm 2026. Một báo cáo mới đã nêu lên mối lo ngại nghiêm trọng về sự mệt mỏi của phi công.",
+          "audio": "https://breakingnewsenglish.com/2611/261102-pilot-fatigue.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2611/261102-pilot-fatigue1.jpg",
+          "duration": ""
+        },
         {
           "title": "World-famous London shopping street pedestrianized",
           "title_vi": "Phố mua sắm nổi tiếng thế giới ở London dành cho người đi bộ",
@@ -89,18 +101,6 @@
           "audio": "https://breakingnewsenglish.com/2610/261008-suspected-pneumonic-plague.mp3",
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2610/261008-suspected-pneumonic-plague1.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Schools closed in France as students clash with police",
-          "title_vi": "Trường học ở Pháp đóng cửa vì học sinh đụng độ với cảnh sát",
-          "link": "https://breakingnewsenglish.com/2610/261005-school-closures-student-protests.html",
-          "pubDate": "Mon, 05 Oct 2026 00:30:00 GMT",
-          "summary": "Oct 05, 2026. Thousands of students across France have taken to the streets to protest against the state of schools.",
-          "summary_vi": "Ngày 05 tháng 10 năm 2026. Hàng nghìn học sinh trên khắp nước Pháp đã xuống đường phản đối tình trạng trường học.",
-          "audio": "https://breakingnewsenglish.com/2610/261005-school-closures-student-protests.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2610/261005-school-closures-student-protests1.jpg",
           "duration": ""
         }
       ]
