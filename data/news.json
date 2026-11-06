@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T02:02:37Z",
+  "generated_at": "2026-11-06T02:02:49Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "Man completes 28-year walk around the world",
+          "title_vi": "Người đàn ông hoàn thành 28 năm đi bộ vòng quanh thế giới",
+          "link": "https://breakingnewsenglish.com/2611/261105-walking-around-the-world.html",
+          "pubDate": "Thu, 05 Nov 2026 00:30:00 GMT",
+          "summary": "Nov 05, 2026. A British man has completed an amazing 28-year walk around the world.",
+          "summary_vi": "Ngày 05 tháng 11 năm 2026. Một người đàn ông Anh đã hoàn thành chuyến đi bộ vòng quanh thế giới kéo dài 28 năm đáng kinh ngạc.",
+          "audio": "https://breakingnewsenglish.com/2611/261105-walking-around-the-world.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2611/261105-walking-around-the-world1.jpg",
+          "duration": ""
+        },
         {
           "title": "Study finds majority of pilots nod off mid-flight",
           "title_vi": "Nghiên cứu cho thấy phần lớn phi công ngủ gật giữa chuyến bay",
@@ -81,7 +93,7 @@
         },
         {
           "title": "China agrees to halve hybrid car exports to EU",
-          "title_vi": "Trung Quốc đồng ý giảm một nửa lượng xe hybrid xuất khẩu sang EU",
+          "title_vi": "Trung Quốc đồng ý giảm một nửa xuất khẩu xe hybrid sang EU",
           "link": "https://breakingnewsenglish.com/2610/261012-hybrid-car-exports.html",
           "pubDate": "Mon, 12 Oct 2026 00:30:00 GMT",
           "summary": "Oct 12, 2026. China has agreed to halve its exports of hybrid cars to the European Union.",
@@ -89,18 +101,6 @@
           "audio": "https://breakingnewsenglish.com/2610/261012-hybrid-car-exports.mp3",
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2610/261012-hybrid-car-exports1.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Death of worker at plague lab raises concerns",
-          "title_vi": "Cái chết của công nhân tại phòng thí nghiệm bệnh dịch hạch gây lo ngại",
-          "link": "https://breakingnewsenglish.com/2610/261008-suspected-pneumonic-plague.html",
-          "pubDate": "Thu, 08 Oct 2026 00:30:00 GMT",
-          "summary": "Oct 08, 2026. The USA has raised concerns after a worker at a plague research laboratory in Siberia died.",
-          "summary_vi": "Ngày 08 tháng 10 năm 2026. Hoa Kỳ gây lo ngại sau khi một công nhân tại phòng thí nghiệm nghiên cứu bệnh dịch hạch ở Siberia qua đời.",
-          "audio": "https://breakingnewsenglish.com/2610/261008-suspected-pneumonic-plague.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2610/261008-suspected-pneumonic-plague1.jpg",
           "duration": ""
         }
       ]
@@ -110,6 +110,78 @@
       "name": "News in Levels (tin hằng ngày, 3 cấp độ đọc)",
       "source_url": "https://www.newsinlevels.com/",
       "items": [
+        {
+          "title": "A bull in a car – level 1",
+          "title_vi": "Con bò đực trong ô tô – cấp độ 1",
+          "link": "https://www.newsinlevels.com/products/a-bull-in-a-car-level-1/",
+          "pubDate": "Thu, 05 Nov 2026 14:00:57 +0000",
+          "summary": "05-11-2026 15:00 Something crazy happens in Norfolk, the United States. People see a big bull in the back of a car. The driver’s name is Lee Meyer. He makes some changes to his car. The bull fits in the car thanks to the changes. People, who see the car, call the police. The police stop the car. The bull is...",
+          "summary_vi": "05-11-2026 15:00 Điều gì đó điên rồ đang xảy ra ở Norfolk, Hoa Kỳ. Mọi người nhìn thấy một con bò đực lớn ở phía sau ô tô. Tên người lái xe là Lee Meyer. Anh ấy thực hiện một số thay đổi cho chiếc xe của mình. Con bò vừa vặn với chiếc xe nhờ những thay đổi. Người dân nhìn thấy chiếc xe sẽ gọi cảnh sát. Cảnh sát dừng xe. Con bò là...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2139445914&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2023/09/Depositphotos_177188826_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "A bull in a car – level 2",
+          "title_vi": "Con bò trong ô tô – cấp độ 2",
+          "link": "https://www.newsinlevels.com/products/a-bull-in-a-car-level-2/",
+          "pubDate": "Thu, 05 Nov 2026 14:00:57 +0000",
+          "summary": "05-11-2026 15:00 In Norfolk, the United States, the police responded to reports of a man driving with a cow in his car. When they stopped the car, they were surprised to find a massive Watusi bull as the passenger. The police issued the driver a warning due to the unusual situation, which could possibly cause an accident. The bull’s name...",
+          "summary_vi": "05-11-2026 15:00 Tại Norfolk, Hoa Kỳ, cảnh sát đã phản ứng với báo cáo về một người đàn ông lái xe chở một con bò trong xe. Khi dừng xe, họ ngạc nhiên khi thấy một con bò đực Watusi to lớn đang hành khách. Cảnh sát đã đưa ra cảnh báo cho tài xế do tình huống bất thường có thể gây ra tai nạn. Tên của con bò...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2139447366&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2023/09/Depositphotos_177188826_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "A bull in a car – level 3",
+          "title_vi": "Một con bò trong ô tô – cấp 3",
+          "link": "https://www.newsinlevels.com/products/a-bull-in-a-car-level-3/",
+          "pubDate": "Thu, 05 Nov 2026 14:00:57 +0000",
+          "summary": "05-11-2026 15:00 In Norfolk, the United States, police were surprised when they received reports of a man driving with a cow in his car, only to discover a massive Watusi bull as the passenger. This breed of African cattle is known for its gigantic horns. The driver, Lee Meyer, was stopped by the police, who issued him a warning due...",
+          "summary_vi": "05-11-2026 15:00 Tại Norfolk, Hoa Kỳ, cảnh sát đã rất ngạc nhiên khi nhận được trình báo về một người đàn ông đang lái xe chở một con bò trong xe của mình và phát hiện ra một con bò đực Watusi khổng lồ làm hành khách. Giống bò châu Phi này được biết đến với cặp sừng khổng lồ. Người lái xe, Lee Meyer, đã bị cảnh sát chặn lại và đưa ra lời cảnh báo do...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1607899371&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2023/09/Depositphotos_177188826_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Patrick Stewart dies – level 1",
+          "title_vi": "Patrick Stewart chết – cấp độ 1",
+          "link": "https://www.newsinlevels.com/products/patrick-stewart-dies-level-1/",
+          "pubDate": "Thu, 05 Nov 2026 06:00:36 +0000",
+          "summary": "05-11-2026 07:00 Famous actor Sir Patrick Stewart dies at age 86. Many people around the world are sad today. Stewart is famous for his big roles in Star Trek and X-Men movies. He also loves acting on stage in big theater shows. His close friends say that he is a kind man. He loves his work very much. People love...",
+          "summary_vi": "05-11-2026 07:00 Nam diễn viên nổi tiếng Sir Patrick Stewart qua đời ở tuổi 86. Ngày nay nhiều người trên thế giới đau buồn. Stewart nổi tiếng với những vai diễn lớn trong phim Star Trek và X-Men. Anh ấy cũng thích diễn xuất trên sân khấu trong các chương trình sân khấu lớn. Những người bạn thân của anh đều nói rằng anh là một người đàn ông tốt bụng. Anh ấy rất yêu thích công việc của mình. Người ta yêu...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2430726519&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/11/british-actor-patrick-stewart-attends-Depositphotos_235760884_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Patrick Stewart dies – level 2",
+          "title_vi": "Patrick Stewart qua đời – cấp độ 2",
+          "link": "https://www.newsinlevels.com/products/patrick-stewart-dies-level-2/",
+          "pubDate": "Thu, 05 Nov 2026 06:00:36 +0000",
+          "summary": "05-11-2026 07:00 Famous British actor Sir Patrick Stewart passed away at the age of 86. Many friends and fans are sharing kind words about his life and work. Actor Ian McKellen called him a deeply loved and respected friend. Stewart became famous around the world for his main roles in Star Trek and the X-Men movies, but he also loved...",
+          "summary_vi": "05-11-2026 07:00 Nam diễn viên nổi tiếng người Anh Sir Patrick Stewart qua đời ở tuổi 86. Rất nhiều bạn bè, người hâm mộ đang chia sẻ những lời lẽ tử tế về cuộc đời cũng như sự nghiệp của ông. Nam diễn viên Ian McKellen gọi anh là người bạn vô cùng yêu quý và kính trọng. Stewart trở nên nổi tiếng khắp thế giới nhờ vai chính trong các bộ phim Star Trek và X-Men, nhưng anh cũng yêu thích...",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2430727395&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/11/british-actor-patrick-stewart-attends-Depositphotos_235760884_L.jpg",
+          "duration": ""
+        },
+        {
+          "title": "Patrick Stewart dies – level 3",
+          "title_vi": "Patrick Stewart qua đời – cấp độ 3",
+          "link": "https://www.newsinlevels.com/products/patrick-stewart-dies-level-3/",
+          "pubDate": "Thu, 05 Nov 2026 06:00:36 +0000",
+          "summary": "05-11-2026 07:00 Tributes have poured in from around the world following the death of renowned British actor Sir Patrick Stewart at the age of 86. His close friend and co-star Sir Ian McKellen praised him as one of the most respected actors of his generation. Stewart built a legendary career that seamlessly bridged classical Shakespearean theater and massive Hollywood blockbusters....",
+          "summary_vi": "05-11-2026 07:00 Những lời tưởng nhớ đã đổ về từ khắp nơi trên thế giới sau cái chết của nam diễn viên nổi tiếng người Anh Sir Patrick Stewart ở tuổi 86. Người bạn thân và bạn diễn Sir Ian McKellen của ông ca ngợi ông là một trong những diễn viên được kính trọng nhất trong thế hệ của ông. Stewart đã xây dựng một sự nghiệp huyền thoại, kết nối liền mạch giữa nhà hát Shakespearean cổ điển và các bộ phim bom tấn đình đám của Hollywood....",
+          "audio": "",
+          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2430734148&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/11/british-actor-patrick-stewart-attends-Depositphotos_235760884_L.jpg",
+          "duration": ""
+        },
         {
           "title": "Chinese baby companies have problems – level 1",
           "title_vi": "Các công ty trẻ em Trung Quốc gặp vấn đề – cấp độ 1",
@@ -128,82 +200,10 @@
           "link": "https://www.newsinlevels.com/products/chinese-baby-companies-have-problems-level-2/",
           "pubDate": "Wed, 04 Nov 2026 14:00:11 +0000",
           "summary": "04-11-2026 15:00 Chinese companies that make products for children are expanding their product lines to include adult and pet clothing. The country’s falling birth rate is a result of the one-child policy that lasted from 1980 to 2015. The government raised the limit to three children in 2021, but couples are still not having babies. Yan Zhang, CEO of Shanghai...",
-          "summary_vi": "04-11-2026 15:00 Các công ty Trung Quốc sản xuất sản phẩm dành cho trẻ em đang mở rộng dòng sản phẩm của mình sang quần áo người lớn và thú cưng. Tỷ lệ sinh giảm ở nước này là kết quả của chính sách một con kéo dài từ năm 1980 đến năm 2015. Chính phủ đã nâng giới hạn lên ba con vào năm 2021, nhưng các cặp vợ chồng vẫn không sinh con. Yan Zhang, Giám đốc điều hành Thượng Hải...",
+          "summary_vi": "04-11-2026 15:00 Các công ty Trung Quốc sản xuất sản phẩm dành cho trẻ em đang mở rộng dòng sản phẩm của mình sang quần áo người lớn và thú cưng. Tỷ lệ sinh giảm ở nước này là kết quả của chính sách một con kéo dài từ năm 1980 đến năm 2015. Chính phủ đã nâng giới hạn sinh ba con vào năm 2021, nhưng các cặp vợ chồng vẫn không sinh con. Yan Zhang, Giám đốc điều hành Thượng Hải...",
           "audio": "",
           "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2137948263&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
           "image": "https://www.newsinlevels.com/wp-content/uploads/2023/05/Depositphotos_644507906_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Chinese baby companies have problems – level 3",
-          "title_vi": "Các công ty trẻ em Trung Quốc gặp vấn đề – cấp độ 3",
-          "link": "https://www.newsinlevels.com/products/chinese-baby-companies-have-problems-level-3/",
-          "pubDate": "Wed, 04 Nov 2026 14:00:11 +0000",
-          "summary": "04-11-2026 15:00 Chinese companies that produce children’s products are diversifying their offerings to include adult and pet clothing, as the country faces a record-low birth rate that is expected to continue declining. The demographic decline can be traced back to China’s one-child policy, which lasted from 1980 to 2015. While the limit has been raised to three children in 2021,...",
-          "summary_vi": "04-11-2026 15:00 Các công ty Trung Quốc sản xuất sản phẩm dành cho trẻ em đang đa dạng hóa sản phẩm của họ bao gồm quần áo người lớn và thú cưng, vì nước này phải đối mặt với tỷ lệ sinh thấp kỷ lục và dự kiến ​​sẽ tiếp tục giảm. Sự suy giảm nhân khẩu học có thể bắt nguồn từ chính sách một con của Trung Quốc, kéo dài từ năm 1980 đến năm 2015. Trong khi giới hạn này đã được nâng lên thành ba con vào năm 2021,...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2137951260&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2023/05/Depositphotos_644507906_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "New EU deforestation law – level 1",
-          "title_vi": "Luật phá rừng mới của EU – cấp 1",
-          "link": "https://www.newsinlevels.com/products/new-eu-deforestation-law-level-1/",
-          "pubDate": "Wed, 04 Nov 2026 06:00:32 +0000",
-          "summary": "04-11-2026 07:00 The EU has a new rule to save forests. The rule is starting on 30 December 2026. Companies which sell things like coffee, palm oil, and chocolate must prove that they do not cut down trees. But some big companies are still buying palm oil from places in Indonesia. People cut down forests illegally there. Some countries want...",
-          "summary_vi": "04-11-2026 07:00 EU có quy định mới về cứu rừng. Quy tắc này bắt đầu có hiệu lực từ ngày 30 tháng 12 năm 2026. Các công ty bán những thứ như cà phê, dầu cọ và sô cô la phải chứng minh rằng họ không chặt cây. Nhưng một số công ty lớn vẫn mua dầu cọ từ nhiều nơi ở Indonesia. Người ta chặt phá rừng trái phép ở đó. Một số quốc gia muốn...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2430724119&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/11/mountains-Depositphotos_6808768_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "New EU deforestation law – level 2",
-          "title_vi": "Luật phá rừng mới của EU – cấp 2",
-          "link": "https://www.newsinlevels.com/products/new-eu-deforestation-law-level-2/",
-          "pubDate": "Wed, 04 Nov 2026 06:00:32 +0000",
-          "summary": "04-11-2026 07:00 The EU will start using new anti-deforestation rules on 30 December 2026. Companies which sell products like palm oil, coffee, and chocolate must prove they don’t cut down trees to make them. But environmental groups in Indonesia found that big international brands may be breaking these rules. Well-known companies like PepsiCo and Unilever recently bought palm oil from...",
-          "summary_vi": "04-11-2026 07:00 EU sẽ bắt đầu sử dụng các quy định mới chống phá rừng vào ngày 30 tháng 12 năm 2026. Các công ty bán các sản phẩm như dầu cọ, cà phê và sô cô la phải chứng minh rằng họ không chặt cây để làm ra chúng. Nhưng các nhóm môi trường ở Indonesia phát hiện ra rằng các thương hiệu quốc tế lớn có thể đang vi phạm những quy tắc này. Các công ty nổi tiếng như PepsiCo và Unilever gần đây đã mua dầu cọ từ...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2430726834&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/11/mountains-Depositphotos_6808768_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "New EU deforestation law – level 3",
-          "title_vi": "Luật phá rừng mới của EU – cấp 3",
-          "link": "https://www.newsinlevels.com/products/new-eu-deforestation-law-level-3/",
-          "pubDate": "Wed, 04 Nov 2026 06:00:32 +0000",
-          "summary": "04-11-2026 07:00 The EU’s anti-deforestation law faces an enforcement test ahead of its launch on 30 December 2026. Under the new rules, companies selling goods such as palm oil, coffee, and cocoa must prove their products are not linked to land cleared after 2020. However, recent investigations by Indonesian environmental organizations reveal that major international consumer brands risk breac...",
-          "summary_vi": "04-11-2026 07:00 Luật chống phá rừng của EU phải đối mặt với thử thách thực thi trước khi ra mắt vào ngày 30 tháng 12 năm 2026. Theo quy định mới, các công ty bán hàng hóa như dầu cọ, cà phê và ca cao phải chứng minh sản phẩm của họ không liên quan đến đất đai bị chặt phá sau năm 2020. Tuy nhiên, các cuộc điều tra gần đây của các tổ chức môi trường Indonesia cho thấy các thương hiệu tiêu dùng quốc tế lớn có nguy cơ vi phạm...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2430731484&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/11/mountains-Depositphotos_6808768_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Influencers in Mexico work for drug groups – level 1",
-          "title_vi": "Những người có ảnh hưởng ở Mexico làm việc cho các nhóm ma túy – cấp 1",
-          "link": "https://www.newsinlevels.com/products/influencers-in-mexico-work-for-drug-groups-level-1/",
-          "pubDate": "Tue, 03 Nov 2026 14:00:48 +0000",
-          "summary": "03-11-2026 07:00 Drug gangs in Mexico are using social media. They want to show off and fight each other. Back in 2024, a big gang breaks into two groups. Now, they are fighting for control. They use young online stars to make videos and bring in new people. But this is very dangerous. At least 19 creators die. Some creators...",
-          "summary_vi": "03-11-2026 07:00 Các băng đảng ma túy ở Mexico đang sử dụng mạng xã hội. Họ muốn thể hiện và chiến đấu với nhau. Trở lại năm 2024, một băng đảng lớn chia thành hai nhóm. Bây giờ họ đang đấu tranh để giành quyền kiểm soát. Họ sử dụng các ngôi sao trẻ trên mạng để tạo video và thu hút những người mới. Nhưng điều này rất nguy hiểm. Ít nhất 19 người sáng tạo chết. Một số người sáng tạo...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2430717156&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/11/packs-of-powder-drugs-stuff-Depositphotos_313692538_L.jpg",
-          "duration": ""
-        },
-        {
-          "title": "Influencers in Mexico work for drug groups – level 2",
-          "title_vi": "Những người có ảnh hưởng ở Mexico làm việc cho các nhóm ma túy – cấp độ 2",
-          "link": "https://www.newsinlevels.com/products/influencers-in-mexico-work-for-drug-groups-level-2/",
-          "pubDate": "Tue, 03 Nov 2026 14:00:48 +0000",
-          "summary": "03-11-2026 07:00 In Mexico, social media is a dangerous battleground for drug cartels. Since a big cartel split into fighting groups in 2024, criminal gangs use popular influencers for propaganda, showing off power, and attracting young members. At least 19 internet stars died after being linked to criminal organizations. Some influencers make videos about drug culture for clicks, while others...",
-          "summary_vi": "03-11-2026 07:00 Tại Mexico, mạng xã hội là chiến trường nguy hiểm của các băng đảng ma túy. Kể từ khi một băng đảng lớn chia thành các nhóm chiến đấu vào năm 2024, các băng nhóm tội phạm sử dụng những người có ảnh hưởng nổi tiếng để tuyên truyền, phô trương quyền lực và thu hút các thành viên trẻ tuổi. Ít nhất 19 ngôi sao mạng thiệt mạng sau khi dính líu tới các tổ chức tội phạm Một số người có ảnh hưởng tạo video về văn hóa ma túy để thu hút lượt nhấp chuột, trong khi những người khác...",
-          "audio": "",
-          "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2430719160&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-          "image": "https://www.newsinlevels.com/wp-content/uploads/2026/11/packs-of-powder-drugs-stuff-Depositphotos_313692538_L.jpg",
           "duration": ""
         }
       ]
