@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T01:10:46Z",
+  "generated_at": "2026-11-09T01:30:16Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "Chef fired for refusing to put pineapple on pizza",
+          "title_vi": "Đầu bếp bị sa thải vì từ chối cho dứa vào pizza",
+          "link": "https://breakingnewsenglish.com/2611/261109-pineapple-on-pizza.html",
+          "pubDate": "Mon, 09 Nov 2026 00:30:00 GMT",
+          "summary": "Nov 09, 2026. An Italian chef in Australia has been fired for refusing to put pineapple on pizzas.",
+          "summary_vi": "Ngày 09 tháng 11 năm 2026. Một đầu bếp người Ý ở Úc đã bị sa thải vì từ chối cho dứa vào pizza.",
+          "audio": "https://breakingnewsenglish.com/2611/261109-pineapple-on-pizza.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2611/261109-pineapple-on-pizza1.jpg",
+          "duration": ""
+        },
         {
           "title": "Man completes 28-year walk around the world",
           "title_vi": "Người đàn ông hoàn thành 28 năm đi bộ vòng quanh thế giới",
@@ -89,18 +101,6 @@
           "audio": "https://breakingnewsenglish.com/2610/261015-honey-bee-stinger.mp3",
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2610/261015-honey-bee-stinger1.jpg",
-          "duration": ""
-        },
-        {
-          "title": "China agrees to halve hybrid car exports to EU",
-          "title_vi": "Trung Quốc đồng ý giảm một nửa xuất khẩu xe hybrid sang EU",
-          "link": "https://breakingnewsenglish.com/2610/261012-hybrid-car-exports.html",
-          "pubDate": "Mon, 12 Oct 2026 00:30:00 GMT",
-          "summary": "Oct 12, 2026. China has agreed to halve its exports of hybrid cars to the European Union.",
-          "summary_vi": "Ngày 12 tháng 10 năm 2026. Trung Quốc đã đồng ý giảm một nửa lượng xuất khẩu ô tô hybrid sang Liên minh Châu Âu.",
-          "audio": "https://breakingnewsenglish.com/2610/261012-hybrid-car-exports.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2610/261012-hybrid-car-exports1.jpg",
           "duration": ""
         }
       ]
