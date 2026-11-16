@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T01:32:49Z",
+  "generated_at": "2026-11-16T01:37:18Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "Wire upgrade at fault for grounding all US flights",
+          "title_vi": "",
+          "link": "https://breakingnewsenglish.com/2611/261116-ground-stop-at-us-airports.html",
+          "pubDate": "Mon, 16 Nov 2026 00:30:00 GMT",
+          "summary": "Nov 16, 2026. Thousands of flights across the USA were grounded on Friday the 13th following a communications failure.",
+          "summary_vi": "",
+          "audio": "https://breakingnewsenglish.com/2611/261116-ground-stop-at-us-airports.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2611/261116-ground-stop-at-us-airports1.jpg",
+          "duration": ""
+        },
         {
           "title": "France blames Iran for cyberattack on freezers",
           "title_vi": "",
@@ -89,18 +101,6 @@
           "audio": "https://breakingnewsenglish.com/2610/261022-ai-partner.mp3",
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2610/261022-ai-partner1.jpg",
-          "duration": ""
-        },
-        {
-          "title": "One billion meals thrown away every day",
-          "title_vi": "",
-          "link": "https://breakingnewsenglish.com/2610/261019-food-waste.html",
-          "pubDate": "Mon, 19 Oct 2026 00:30:00 GMT",
-          "summary": "Oct 19, 2026. More than one billion meals are thrown away worldwide every day.",
-          "summary_vi": "",
-          "audio": "https://breakingnewsenglish.com/2610/261019-food-waste.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2610/261019-food-waste1.jpg",
           "duration": ""
         }
       ]
