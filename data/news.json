@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T02:21:20Z",
+  "generated_at": "2026-11-24T05:46:42Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "U.S. brings an end to production of one-cent coin",
+          "title_vi": "",
+          "link": "https://breakingnewsenglish.com/2611/261123-penny-coin.html",
+          "pubDate": "Mon, 23 Nov 2026 00:30:00 GMT",
+          "summary": "Nov 23, 2026. The United States has officially brought an end to the production of its one-cent coin.",
+          "summary_vi": "",
+          "audio": "https://breakingnewsenglish.com/2611/261123-penny-coin.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2611/261123-penny-coin1.jpg",
+          "duration": ""
+        },
         {
           "title": "Grand Theft Auto 6 is released worldwide",
           "title_vi": "",
@@ -90,18 +102,6 @@
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2610/261029-oxford-street-pedestrianized1.jpg",
           "duration": ""
-        },
-        {
-          "title": "Mummy removed from exhibition over 'lack of consent'",
-          "title_vi": "",
-          "link": "https://breakingnewsenglish.com/2610/261026-mummies-wokeness-consent.html",
-          "pubDate": "Mon, 26 Oct 2026 00:30:00 GMT",
-          "summary": "Oct 26, 2026. A museum removed the remains of an ancient Egyptian mummy from a display due to a lack of consent.",
-          "summary_vi": "",
-          "audio": "https://breakingnewsenglish.com/2610/261026-mummies-wokeness-consent.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2610/261026-mummies-wokeness-consent1.jpg",
-          "duration": ""
         }
       ]
     },
@@ -110,6 +110,78 @@
       "name": "News in Levels (tin hằng ngày, 3 cấp độ đọc)",
       "source_url": "https://www.newsinlevels.com/",
       "items": [
+        {
+          "title": "Nails on roads – level 1",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/nails-on-roads-level-1/",
+          "pubDate": "Mon, 23 Nov 2026 14:00:04 +0000",
+          "summary": "23-11-2026 15:00 Police in a town in Canada are looking into a big problem on local roads and highways. Someone is throwing sharp nails onto the streets. Police say that these nails are very dangerous. They can break car tires and cause bad accidents. Repairing or buying new tires also costs a lot of money for drivers. Officers want to...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "Nails on roads – level 2",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/nails-on-roads-level-2/",
+          "pubDate": "Mon, 23 Nov 2026 14:00:04 +0000",
+          "summary": "23-11-2026 15:00 Police in a town in Canada are investigating reports that someone is purposely throwing roofing nails onto local roads and highways. Officers warn drivers that these sharp nails are a major safety danger because they can cause sudden flat tires and make drivers lose control of their cars. Also, damaged tires cost drivers a lot of money to...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "Nails on roads – level 3",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/nails-on-roads-level-3/",
+          "pubDate": "Mon, 23 Nov 2026 14:00:04 +0000",
+          "summary": "23-11-2026 15:00 Ontario police officers in West Nipissing, Canada, are currently investigating multiple reports of roofing nails being deliberately dumped onto local roads and highways. Authorities warn that these scattered nails pose a serious safety hazard to drivers, as they can trigger sudden tire blowouts and cause motorists to lose control of their vehicles at high speeds. Beyond the imm...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "Good news of November – level 1",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/good-news-of-november-level-1/",
+          "pubDate": "Mon, 23 Nov 2026 06:00:51 +0000",
+          "summary": "23-11-2026 07:00 There is a lot of good news about our planet and science today. Solar energy is growing very fast. It now produces clean power for millions of people. Animals are also getting help. White rhinos are back in Mozambique to keep nature safe. Endangered orangutans and anteaters are growing in number. Scientists report that cutting down forests is...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "Good news of November – level 2",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/good-news-of-november-level-2/",
+          "pubDate": "Mon, 23 Nov 2026 06:00:51 +0000",
+          "summary": "23-11-2026 07:00 A new report shares wonderful news about the environment, technology, and health from around the world. Solar power is growing rapidly and is providing clean electricity for millions of people. In nature conservation, white rhinos returned to Mozambique to help clear tall grass and protect against wildfires, while rescued orangutans and giant anteaters are successfully breeding...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "Good news of November – level 3",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/good-news-of-november-level-3/",
+          "pubDate": "Mon, 23 Nov 2026 06:00:51 +0000",
+          "summary": "23-11-2026 07:00 A recent global review highlights significant positive environmental and technological developments around the world. Renewable energy reached a major milestone as global solar capacity hit three terawatts, and supplied about nine percent of worldwide electricity demand. In conservation, white rhinos have been successfully reintroduced to Mozambique to help control vegetation a...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
         {
           "title": "Learn English with Funny Jokes – level 2",
           "title_vi": "",
@@ -128,78 +200,6 @@
           "link": "https://www.newsinlevels.com/products/learn-english-with-funny-jokes-level-3/",
           "pubDate": "Sat, 21 Nov 2026 11:00:32 +0000",
           "summary": "21-11-2026 12:00 Do you like jokes? Then try Jokes in Levels. You can learn English and laugh at the same time. There are more than 180 short, funny jokes in three levels, so you can always find jokes for your level. Every joke has an audio recording. Press Play, listen and read at the same time. The website shows you...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Learn English with Funny Jokes – level 1",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/learn-english-with-funny-jokes-level-1/",
-          "pubDate": "Sat, 21 Nov 2026 11:00:23 +0000",
-          "summary": "21-11-2026 12:00 Do you like jokes? Then try Jokes in Levels. You can learn English and laugh at the same time. There are more than 180 short, funny jokes in three levels, so you can always find jokes for your level. Every joke has an audio recording. Press Play, listen and read at the same time. The website shows you...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Strict rules for students in South Korea – level 1",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/strict-rules-for-students-in-south-korea-level-1/",
-          "pubDate": "Fri, 20 Nov 2026 14:00:45 +0000",
-          "summary": "20-11-2026 15:00 More than 500,000 students in South Korea are taking a very big test to enter university. The test is very important for their future jobs and lives. Recently, someone cheats on another big exam. The man uses a small hidden camera and AI to get answers. Now, the government wants to stop cheating with smart glasses. Special workers...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Strict rules for students in South Korea – level 2",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/strict-rules-for-students-in-south-korea-level-2/",
-          "pubDate": "Fri, 20 Nov 2026 14:00:45 +0000",
-          "summary": "20-11-2026 15:00 South Korea is adding strict new rules to stop cheating during its national college entrance exam. More than 500,000 students take this important test, which decides their future universities and jobs. Recently, a major scandal happened when the top student in a national tax exam admitted to using a hidden camera and AI to find the right answers....",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Strict rules for students in South Korea – level 3",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/strict-rules-for-students-in-south-korea-level-3/",
-          "pubDate": "Fri, 20 Nov 2026 14:00:45 +0000",
-          "summary": "20-11-2026 15:00 South Korea is introducing strict anti-cheating measures ahead of its national college entrance exam, where over 500,000 students compete for scores that shape their future universities, careers, and social standing. The government’s crackdown follows a major scandal in which the top scorer of a national tax accountant exam confessed to using a hidden camera, a smartphone, and...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Czechs protest to keep free TV and radio – level 1",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/czechs-protest-to-keep-free-tv-and-radio-level-1/",
-          "pubDate": "Fri, 20 Nov 2026 06:00:07 +0000",
-          "summary": "20-11-2026 07:00 Hundreds of thousands of people meet in a big park in Prague, the Czech Republic, on Sunday. They are angry about a new government plan for Czech TV and Czech Radio. The government wants to stop license fees and pay for TV and radio from state money. At the same time, they will get less money. Many people...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Czechs protest to keep free TV and radio – level 2",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/czechs-protest-to-keep-free-tv-and-radio-level-2/",
-          "pubDate": "Fri, 20 Nov 2026 06:00:07 +0000",
-          "summary": "20-11-2026 07:00 Hundreds of thousands of people gathered in Prague, Czech Republic, to protest government plans to change how public media are paid for. Organizers said up to 400,000 citizens joined the protest, which was the biggest since 1989. Prime Minister’s government wants to end viewer license fees and pay for Czech Television and Czech Radio directly from the state...",
           "summary_vi": "",
           "audio": "",
           "embed": "",
