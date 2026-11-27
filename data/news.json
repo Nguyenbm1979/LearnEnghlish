@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:59:24Z",
+  "generated_at": "2026-11-27T03:58:11Z",
   "source": "Breaking News English, News in Levels",
   "programs": [
     {
@@ -7,6 +7,18 @@
       "name": "Breaking News English (tin thật, audio thật, đa cấp độ)",
       "source_url": "https://breakingnewsenglish.com/",
       "items": [
+        {
+          "title": "Governments asking people to prep for emergencies",
+          "title_vi": "",
+          "link": "https://breakingnewsenglish.com/2611/261126-prepping.html",
+          "pubDate": "Thu, 26 Nov 2026 00:30:00 GMT",
+          "summary": "Nov 26, 2026. European governments are asking people to prepare for emergencies.",
+          "summary_vi": "",
+          "audio": "https://breakingnewsenglish.com/2611/261126-prepping.mp3",
+          "embed": "",
+          "image": "http://www.breakingnewsenglish.com/2611/261126-prepping1.jpg",
+          "duration": ""
+        },
         {
           "title": "U.S. brings an end to production of one-cent coin",
           "title_vi": "",
@@ -90,18 +102,6 @@
           "embed": "",
           "image": "http://www.breakingnewsenglish.com/2611/261102-pilot-fatigue1.jpg",
           "duration": ""
-        },
-        {
-          "title": "World-famous London shopping street pedestrianized",
-          "title_vi": "",
-          "link": "https://breakingnewsenglish.com/2610/261029-oxford-street-pedestrianized.html",
-          "pubDate": "Thu, 29 Oct 2026 00:30:00 GMT",
-          "summary": "Oct 29, 2026. London's most famous shopping streets has been pedestrianized.",
-          "summary_vi": "",
-          "audio": "https://breakingnewsenglish.com/2610/261029-oxford-street-pedestrianized.mp3",
-          "embed": "",
-          "image": "http://www.breakingnewsenglish.com/2610/261029-oxford-street-pedestrianized1.jpg",
-          "duration": ""
         }
       ]
     },
@@ -110,6 +110,78 @@
       "name": "News in Levels (tin hằng ngày, 3 cấp độ đọc)",
       "source_url": "https://www.newsinlevels.com/",
       "items": [
+        {
+          "title": "Cuddlers help babies – level 1",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/cuddlers-help-babies-level-1/",
+          "pubDate": "Thu, 26 Nov 2026 14:00:07 +0000",
+          "summary": "26-11-2026 15:00 A neonatal intensive care unit is a place in the hospital. Very young babies are there. The staff must look after them all the time. Parents stay with the children, too. They cannot be there all the time. They feel bad about it. The staff get an idea at a medical center in Chicago, USA. They start a...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "Cuddlers help babies – level 2",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/cuddlers-help-babies-level-2/",
+          "pubDate": "Thu, 26 Nov 2026 14:00:07 +0000",
+          "summary": "26-11-2026 15:00 More than 35 years ago, workers at a medical center in Chicago, USA, thought about how they could help babies. Parents were sad at the hospital’s neonatal intensive care unit. They couldn’t be with their babies all the time. The hospital staff knew that babies needed someone’s care when their parents weren’t there. The children felt better and...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "Cuddlers help babies – level 3",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/cuddlers-help-babies-level-3/",
+          "pubDate": "Thu, 26 Nov 2026 14:00:07 +0000",
+          "summary": "26-11-2026 15:00 For over 35 years, Rush University Medical Center in Chicago, USA, has been helping infant patients and their families through a volunteer cuddler program. When families are away from the hospital’s neonatal intensive care unit (NICU), volunteers comfort infants with cuddles. Families can’t be in the hospital all the time, but the babies had needs after they left....",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "COP31 brings no deal – level 1",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/cop31-brings-no-deal-level-1/",
+          "pubDate": "Thu, 26 Nov 2026 06:00:48 +0000",
+          "summary": "26-11-2026 07:00 There is a big United Nations meeting about climate change in Turkey. It is called COP31. It ends with no deal. Leaders from many countries talk for many days. But they can not agree. European countries and small island nations say no to the final plan. It does not talk about stopping oil, gas, and coal, which make...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "COP31 brings no deal – level 2",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/cop31-brings-no-deal-level-2/",
+          "pubDate": "Thu, 26 Nov 2026 06:00:48 +0000",
+          "summary": "26-11-2026 07:00 COP31, the United Nations climate conference in Turkey, ended without a new agreement because countries couldn’t agree on fossil fuels and money. The meeting lasted longer than any previous climate conference as leaders tried to find a solution. The EU, the UK, and small island nations refused to accept the final plan because it didn’t mention stopping the...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
+        {
+          "title": "COP31 brings no deal – level 3",
+          "title_vi": "",
+          "link": "https://www.newsinlevels.com/products/cop31-brings-no-deal-level-3/",
+          "pubDate": "Thu, 26 Nov 2026 06:00:48 +0000",
+          "summary": "26-11-2026 07:00 The United Nations COP31 climate talks in Turkey failed to reach a major new agreement to tackle global warming. Although negotiations were extended late into Sunday, which made it the longest UN climate conference in history, deep divisions over fossil fuels and financial aid prevented a deal. The EU, the UK, and vulnerable Pacific island nations rejected the...",
+          "summary_vi": "",
+          "audio": "",
+          "embed": "",
+          "image": "",
+          "duration": ""
+        },
         {
           "title": "Runners and cyclists make art – level 1",
           "title_vi": "",
@@ -128,78 +200,6 @@
           "link": "https://www.newsinlevels.com/products/runners-and-cyclists-make-art-level-2/",
           "pubDate": "Wed, 25 Nov 2026 14:00:13 +0000",
           "summary": "25-11-2026 15:00 During the coronavirus pandemic, there were fewer cars on the roads, and people had more free time, too. Some runners and cyclists started to create new and unusual art. Strava is a GPS cycling and running app, and some people started to use it as a paintbrush to create art. They entered some points in the app, and...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Runners and cyclists make art – level 3",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/runners-and-cyclists-make-art-level-3/",
-          "pubDate": "Wed, 25 Nov 2026 14:00:13 +0000",
-          "summary": "25-11-2026 15:00 Fitness fanatics are creating art while tracking their runs and bike rides on their phones, turning their exercise into a masterpiece. When you create art with your GPS as a paintbrush, you follow points on a map to make a single line across an area to create the art. You enter the points into a fitness tracking app...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Trump calls Putin his friend – level 1",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/trump-calls-putin-his-friend-level-1/",
-          "pubDate": "Wed, 25 Nov 2026 06:00:37 +0000",
-          "summary": "25-11-2026 07:00 US President Donald Trump meets with Russian President Vladimir Putin and Chinese President Xi Jinping in China. The big meeting does not bring many real results. It makes America’s friends in Europe feel worried. On Friday, Trump calls Putin his friend. He says that their good relationship can help end the war in Ukraine. But Trump does not...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Trump calls Putin his friend – level 2",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/trump-calls-putin-his-friend-level-2/",
-          "pubDate": "Wed, 25 Nov 2026 06:00:37 +0000",
-          "summary": "25-11-2026 07:00 US President Donald Trump is defending his recent meeting with Russian President Vladimir Putin and Chinese President Xi Jinping in China. Although the meeting brought together the world’s three biggest powers, it achieved very few real results and worried America’s European allies. At a news conference on Friday, Trump called Putin his friend and said their good relationship...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Trump calls Putin his friend – level 3",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/trump-calls-putin-his-friend-level-3/",
-          "pubDate": "Wed, 25 Nov 2026 06:00:37 +0000",
-          "summary": "25-11-2026 07:00 US President Donald Trump is defending his recent trilateral summit in China with Russian President Vladimir Putin and Chinese President Xi Jinping, even though the high-profile meeting produced few concrete results and left American allies unsettled. At a news conference on Friday, Trump described Putin as his friend and insisted that their personal relationship could help end...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Oil pollution in the sea – level 1",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/oil-pollution-in-the-sea-level-1/",
-          "pubDate": "Tue, 24 Nov 2026 14:00:42 +0000",
-          "summary": "24-11-2026 15:00 Damaged ships from the war near Iran are leaking a lot of oil into the sea. Space photos show more than 500 areas of oil on the water. Because this part of the sea is not very deep, the dirty oil stays there for a long time. Oil is already on beaches in Iran, Oman, and the United...",
-          "summary_vi": "",
-          "audio": "",
-          "embed": "",
-          "image": "",
-          "duration": ""
-        },
-        {
-          "title": "Oil pollution in the sea – level 2",
-          "title_vi": "",
-          "link": "https://www.newsinlevels.com/products/oil-pollution-in-the-sea-level-2/",
-          "pubDate": "Tue, 24 Nov 2026 14:00:42 +0000",
-          "summary": "24-11-2026 15:00 Oil leaking from damaged ships during the war with Iran is causing serious damage in the Persian Gulf and the Strait of Hormuz. International officials confirmed 136 ship incidents in the area, and Greenpeace found more than 500 oil spills using satellite photos. One huge oil spill covers about 300 square kilometers of water. Experts explain that because...",
           "summary_vi": "",
           "audio": "",
           "embed": "",
